@@ -265,7 +265,7 @@ if($fromEmailName=="")
 			</tr>
 			<tr>
 				<?php display_color_picker('reflectiveFeedbacktextColour'); ?>
-				<input type="text" value="#bada55" class="my-color-field" data-default-color="#effeff" />
+				<!--<input type="text" value="#bada55" class="my-color-field" data-default-color="#effeff" /> -->
 			</tr>
 		</table>
 
