@@ -205,8 +205,8 @@ if($fromEmailName=="")
 		</tr>
 	</tbody>
 </table>
-	<h2><?php _e('Email Settings', 'qtl') ?></h2>
-	<span> <?php  echo '&nbsp;'.'('. __( 'optional', 'qtl') . ')'?></span>
+	<h2><?php _e('Email Settings', 'qtl') ?>
+	<span> <?php  echo '&nbsp;'.'('. __( 'optional', 'qtl') . ')'?></span></h2>
 
 <table class="form-table">
 	<tbody>
@@ -264,7 +264,7 @@ if($fromEmailName=="")
 				<?php display_color_picker('reflectiveFeedbackBoxColour'); ?>
 			</tr>
 			<tr>
-				<?php //display_color_picker('reflectiveFeedbacktextColour'); ?>
+				<?php display_color_picker('reflectiveFeedbacktextColour'); ?>
 				<input type="text" value="#bada55" class="my-color-field" data-default-color="#effeff" />
 			</tr>
 		</table>
