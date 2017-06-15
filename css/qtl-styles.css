@@ -1,0 +1,435 @@
+#qtl_content h1
+{
+	margin-right:180px;
+	line-height:30px;
+}	
+
+/*
+#wpbody, #TB_window
+{
+	font-size:1.2em !important;
+	line-height:20px !important;
+}
+*/
+
+#theExam td
+{
+	padding:2px 0px 2px 0px !important;
+}
+
+#theExam hr
+{
+	border:dashed 1px #ccc;
+	margin: 0px 0px 5px 0px;
+}
+
+theExam #questionDiv
+{
+	padding: 5px 5px 20px 5px;
+	margin:5px;
+	border:2px solid #f1f1f1;
+}
+
+#theExam #question
+{
+	padding:5px;	
+}
+
+#responseOptionsDiv td
+{
+	padding:30px;
+}
+
+#quiztable table
+{
+	padding:5px ;
+	margin:0px ;
+	width: 100%;
+}
+
+#quiztable th
+{
+	background:#ccc;
+	padding:6px;
+	text-align:left;
+}
+
+#quiztable tr:nth-child(even) {
+	background-color: rgba(128, 128, 128, 0.1);
+}
+
+#quiztable tr:nth-child(odd) {
+	background-color: rgba(128, 128, 128, 0);
+}
+
+#quiztable td
+{
+	padding: 0 0 0 .2rem ;
+	border-bottom:1px solid #ccc ;
+	margin:0px ;
+	line-height:2rem;
+}
+
+.wp-editor-area {
+    height:200px !important;
+}
+
+#textEditor
+{
+	margin-right:100px;
+}
+
+#textEditor table
+{
+	padding:0px !important;
+}
+
+#textEditor td
+{
+	border-bottom:0px !important;
+}
+
+/* End of override styles for editor */
+
+#textEditor label{
+	color:#666;
+	font-size:1.3em;
+}
+
+#TB_ajaxContent h2
+
+{
+	line-height:30px !important;
+}
+
+.failText
+{
+	color:#990000;
+}
+
+.successText
+{
+	color:#009900;
+}
+
+.greyText
+{
+	color:#888;
+}
+
+.smallText
+{
+	font-size:10px;
+}
+
+a
+{
+	text-decoration:none;	
+}
+
+/* Forms */
+#TB_window label
+{
+	display: block;
+	font-weight:bold;
+	padding:20px 0px 10px 0px;
+}
+
+/* List Items */
+#wpbody ul
+{
+	list-style:disc !important;
+	padding:0px 0px 0px 15px;
+}
+
+
+#feedback
+{
+	margin:10px 10px 10px 0px;
+	padding:5px 0px 5px 5px;
+	border:solid 2px #090;
+	background:#F2FFF2;
+	font-style:bold;
+}
+
+
+/* The Test interface */
+
+.quizStart
+{
+	font-weight:bold;
+	font-size:18px;
+	padding:30px 30px 30px 70px;
+	display:block;
+}
+
+.correct
+{
+	color:#009900;
+	font-weight:bold;
+	background:left no-repeat url(../images/icons/tick.png);
+/*	padding:30px 30px 30px 50px; */
+	display:block;
+}
+
+.incorrect
+{
+	color:#990000;
+	font-weight:bold;
+	background:left no-repeat url(../images/icons/cross.png);
+	display:block;
+}
+
+.correctFeedbackDiv
+{
+	border:solid 1px #009900;
+	background:#EBFEE9;
+	padding: .5rem;
+}
+
+.incorrectFeedbackDiv
+{
+	border:solid 1px #990000;
+	background:#FEEDED;
+	padding: .5rem;
+}
+
+.reflectionFeedbackDiv
+{
+	border:solid 1px #ccc;
+	background:#EBF2FE;
+	padding: .5rem;
+}
+
+.incorrectFeedbackDiv p, .correctFeedbackDiv p, .reflectionFeedbackDiv p {
+	margin: 0;
+}
+
+.qtl_hidden
+{
+	display:none;	
+}
+
+.correctRowHighlight
+{
+	background:#E9FEE7;	
+}
+
+#qtl_content
+{
+	background:url(../images/qtl_logo.png) no-repeat right top;
+	margin-top:5px;
+}
+
+.codeExample
+{
+	background:#f3f3f7;
+	padding:11px;
+	border:1px solid #dedee3;
+	font-family: Consolas, Monaco, "Courier New", Courier, monospace;
+}
+
+.questionPotAdminDiv
+{}
+
+.greyLink a:link, .greyLink a:active, .greyLink a:visited {
+	color:#999999 !important;
+	text-decoration:none;
+	font-weight:normal;
+	
+}
+.greyLink a:hover {
+	color:#333333;
+	text-decoration:underline;
+}
+
+/* This is for the drag drop orering stuff */
+#responseOptionsEditList ul
+{
+	margin-right:20px;	
+}
+
+#wpbody ul {
+list-style: none !important;
+}  
+
+#responseOptionsEditList li:hover {
+    cursor: move;
+}
+  
+.ui-state-default
+{
+	padding:5px;
+}
+
+#quiztable .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited
+{
+	color:#0074a2;
+}
+
+.smallGreyText
+{
+	color:#777; font-size:11px	
+}
+
+#countdownDiv
+{
+	border:solid 1px #000;
+	background-color:#C61A1E;
+	color:#fff;
+	padding:5px;
+	width:400px;
+	height:55px;
+	text-align: center;
+	margin-left: auto;
+	position: fixed;
+	left: 70%;
+	top: 80%;
+	z-index: 200;
+
+}
+#countdownDiv span
+{
+	font-size:20px;
+}
+
+/*
+.ui-widget-content a
+{
+	color:#0074a2 !important;
+}
+*/
+
+/* data tables */
+table.dataTable thead{text-align:left ;}
+/* .DataTables_sort_icon  {display:none;} */
+
+table.dataTable td {border-bottom:1px solid #ccc ;}
+
+.ui-buttonset .ui-button
+{
+	padding:5px;
+}
+.ui-widget-header{
+	padding-left:10px;
+}
+
+
+div .updated, div .error
+{
+	padding:10px;
+	margin-left:0px;
+	margin-bottom:20px;	
+}
+
+/* Tooltips */
+a.tooltip {outline:none; }
+a.tooltip strong {line-height:30px;}
+a.tooltip:hover {text-decoration:none;} 
+a.tooltip span {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:60px; margin-left:2px;
+    width:300px; line-height:16px;
+}
+a.tooltip:hover span{
+    display:inline; position:absolute; color:#111;
+    border:1px solid #ccc; background:#f1f1f1;}
+.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+    
+/*CSS3 extras*/
+a.tooltip span
+{
+    border-radius:4px;
+    box-shadow: 5px 5px 8px #CCC;
+}
+
+/* quiz tool lite */
+#question label {
+    padding: .4rem;
+}
+
+#question input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="file"]):not([type="image"]), textarea {
+	width: auto;
+	padding: 0 0.2rem;
+	margin: .2rem;
+}
+
+#question ol {
+	margin: .2rem 0 .2rem 1.5rem;
+}
+
+#question .correct, #question .incorrect {
+	padding: 1rem;
+}
+
+#theExam td {border: none; padding: 0 .2rem;}
+
+#theExam [type="text"] { max-width: 100%; width: auto;}
+
+td.col1 {width: 70%;}
+
+td > select{ min-width: 3rem;}
+
+a{ cursor: pointer; }
+
+
+/* admin UI icons */
+
+.copyIcon
+{
+	background:url(../images/icons/page_copy.png) left no-repeat;
+	padding-left:20px; padding-top:3px;	padding-bottom:3px;	margin:2px;
+}
+
+.tickIcon:before
+{
+	content: "\f147";
+	font: normal 1.2rem/1 'dashicons';
+	vertical-align: -20%;
+	color: green;
+}
+
+.backIcon:before
+{
+	content: '⬅︎';
+	font: normal 1.2rem/1 'dashicons';
+	padding-right: .5rem;
+	vertical-align: -0.15rem;
+}
+
+.dataIcon:before {
+	content: "\f238";
+	font: normal 1.2rem/1 'dashicons';
+	vertical-align: -20%;
+}
+
+.boundaryIcon:before {
+	content: "\f313";
+	font: normal 1.2rem/1 'dashicons';
+	vertical-align: -20%;
+	color: blue;
+}
+
+.deleteIcon:before
+{
+	content: "\f182";
+	font: normal 1.2rem/1 'dashicons';
+	vertical-align: -20%;
+	color: crimson;
+}
+
+.editIcon:before
+{
+	content: "\f464";
+	font: normal 1.2rem/1 'dashicons';
+	vertical-align: -20%;
+	color: blue;
+}
+
+.addIcon:before
+{
+	content: "\f502";
+	font: normal 1.2rem/1 'dashicons';
+	vertical-align: -20%;
+	color: green;
+}
