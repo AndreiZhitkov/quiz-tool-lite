@@ -1,9 +1,9 @@
 === Quiz Tool Lite ===
 Contributors: alexfurr, lcw102, simon.ward
 Tags: academic, assessment, formative, quiz, questions
-Requires at least: 3.0.1
-Tested up to: 4.7.2
-Stable tag: 2.3.10
+Requires at least: 4.0.0
+Tested up to: 4.8
+Stable tag: 2.4.0
 
 A light weight quiz tool aimed at academics wanting to create interactive learning content. Insert a single question or deploy an entire quiz.
 
@@ -11,7 +11,6 @@ A light weight quiz tool aimed at academics wanting to create interactive learni
 
 This plugin allows you to display an individual question on a page, along with feedback for formative assessment using no form or page submission. 
 It also handles summative assessment if you wish to deploy an entire quiz.
-
 
 **Question Types**
 
@@ -21,7 +20,6 @@ It also handles summative assessment if you wish to deploy an entire quiz.
 - Fill in the blanks (multiple text boxes)
 - Reflective question types (click to reveal)
 
-<br>
 **Features**
 
 - Embed a single question on a post or page for formative assessment (no form posting)
@@ -32,7 +30,6 @@ It also handles summative assessment if you wish to deploy an entire quiz.
 - Can display participants responses to previously submitted reflective questions on different pages
 - Display scoreboards of quizzes on a page using a shortcode
 
-<br>
 **Quiz Options**
 
 - Date window for availability
@@ -45,11 +42,8 @@ It also handles summative assessment if you wish to deploy an entire quiz.
 - Security measures so participants cannot use the browser back button to correct and resubmit
 - Grade Boundaries to present different feedback to users depending on their grade.
 
-<div>
-  <a href="https://www.efolio.soton.ac.uk/blog/alexfurr/quiz-tool-lite-demo/">Click here to view some example of the embedded formative questions</a>
-</div>
-
-
+View some example of the embedded formative questions:
+https://www.efolio.soton.ac.uk/blog/alexfurr/quiz-tool-lite-demo/
 
 == Installation ==
 
@@ -118,7 +112,6 @@ Yes, but results won't be stored in the database
 * New option for changing Email notificatinos addresses and from names
 * Bug fix for allowing test with apostrophes to be shown as correct
 
-
 = 2.3.6 =* Critical Bug Fix
 * Bug fix for showing time limit in quiz edit page
 * Bug fix for wrong char sets resulting in no users being shown on results page
@@ -127,7 +120,6 @@ Yes, but results won't be stored in the database
 * Removed all error messages if in debug mode
 * Bug fix for allowing shortcodes in grade boundaries
 
-
 = 2.3.3 =
 * Bug fix for option ordering when manually assigning question IDs to quiz
 * Bug fix for allowing shortcodes in grade boundaries
@@ -135,30 +127,24 @@ Yes, but results won't be stored in the database
 = 2.3.2 =
 * Bug fix for HREF tags rendering in Boundary Feedback
 
-
 = 2.3.1 =
 * Bug fix for fill in the blanks if additional 'blanks' were added to the question text
 * Fill in the blanks single question now does not show feedback box unless there is actual feedback text
 
-
 = 2.3 =
 * Bug fix for rendering greek and other non A-Z characters.
 * New question type 'Fill in the blanks'
-
 
 = 2.2.3 =
 * Bug fix for allowing "0" (zero) as a response option
 * New shortcode option for showing a students all their scores for a quiz
 * Fix so that a radio button answer for a student can be shown to them (in addition to reflective submissions)
 
-
 = 2.2.2 =
 * Essential Bug fix for QUestion and Quiz Edit on the backend
 
-
 = 2.2.1 =
 * Improved Shortcode handling for stricter servers. Thanks to sakra00 for pointing out the original limitations.
-
 
 = 2.2 =
 * Added Grade Boundaries functionality so you can display feedback to users based on their score
@@ -167,13 +153,11 @@ Yes, but results won't be stored in the database
 * New shortcode parameters for tick cross options and feedback messages
 * BUG FIX - single question embed now works with bootstrap based themes. Thanks to Gregor (humanbodylab) and brenthays for the help with this
 
-
 = 2.1.2 =
 * Fix to remove redundant date picker code that broke some jquery functions
 
 = 2.1.1 =
 * Fix to remove debug text for buttons
-
 
 = 2.1 =
 * Added new shortcodes to view leaderboards and dispay the score of a quiz to the current logged in user
