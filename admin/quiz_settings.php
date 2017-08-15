@@ -94,22 +94,47 @@ function initialise_color_options()
 //Create javascript to insert a color picker for each colour
 function make_javascript()
 {
-	$JS =  '<script type="text/javascript">
+
+	$JS =
+    /*
+      '<script type="text/javascript">
 		jQuery(document).ready(function($){';
-		
+
 	$cols = color_names();
 	foreach ($cols as $col)
 	{
-		//$JS .= "jQuery('#color_picker_" . $col . "').farbtastic('#" . $col . "');"; 
+		//$JS .= "jQuery('#color_picker_" . $col . "').farbtastic('#" . $col . "');";
 		$JS .= "jQuery('#" . $col . "').spectrum({ ";
 		$JS .= 'clickoutFiresChange: true ';
 		$JS .= '}); ';
-		
+
 	}
 	$JS .= '});
 	</script>';
+*/
+        '<script type="text/javascript">
+		jQuery(document).ready(function($){';
+
+    $cols = color_names();
+    foreach ($cols as $col)
+    {
+        //$JS .= "jQuery('#color_picker_" . $col . "').farbtastic('#" . $col . "');";
+        $JS .= "jQuery('#" . $col . "').wpColorPicker();";
+
+    }
+
+    /*
+    jQuery(function() {
+        jQuery('#initial_letter_plugin_color_picker').wpColorPicker();
+    });
+    */
+
+
+    $JS .= '});
+	</script>';
 
 	return $JS;
+
 }
 
 function display_color_picker($col)

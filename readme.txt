@@ -3,7 +3,7 @@ Contributors: alexfurr, lcw102, simon.ward
 Tags: academic, assessment, formative, quiz, questions
 Requires at least: 3.0.1
 Tested up to: 4.7.2
-Stable tag: 2.3.10
+Stable tag: 2.5.0
 
 A light weight quiz tool aimed at academics wanting to create interactive learning content. Insert a single question or deploy an entire quiz.
 
