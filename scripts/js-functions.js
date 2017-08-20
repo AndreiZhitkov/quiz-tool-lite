@@ -373,3 +373,7 @@ jQuery('input[type="text"]')
     .keyup(resizeInput)
     // resize on page load
     .each(resizeInput);
+
+jQuery(function() {
+    jQuery('wp-color-picker').wpColorPicker();
+});

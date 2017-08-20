@@ -118,17 +118,9 @@ function make_javascript()
     $cols = color_names();
     foreach ($cols as $col)
     {
-        //$JS .= "jQuery('#color_picker_" . $col . "').farbtastic('#" . $col . "');";
         $JS .= "jQuery('#" . $col . "').wpColorPicker();";
 
     }
-
-    /*
-    jQuery(function() {
-        jQuery('#initial_letter_plugin_color_picker').wpColorPicker();
-    });
-    */
-
 
     $JS .= '});
 	</script>';
@@ -284,51 +276,14 @@ if($fromEmailName=="")
 		<br />
 		<h3 style="margin-bottom:10px;"><?php _e('Reflective Feedback', 'qtl') ?></h3>
 		<table>
-			<?php display_feedback_example(get_option('reflectiveFeedbacktextColour'), get_option('reflectiveFeedbackBoxColour'), 'reflectionFeedbackDiv'); ?>		
+			    <?php display_feedback_example(get_option('reflectiveFeedbacktextColour'), get_option('reflectiveFeedbackBoxColour'), 'reflectionFeedbackDiv'); ?>
 			<tr>
 				<?php display_color_picker('reflectiveFeedbackBoxColour'); ?>
 			</tr>
 			<tr>
 				<?php display_color_picker('reflectiveFeedbacktextColour'); ?>
-				<!--<input type="text" value="#bada55" class="my-color-field" data-default-color="#effeff" /> -->
 			</tr>
 		</table>
-
-
-	<!--
-	<div style="clear:both;">
-		<h4>Correct Feedback</h4>
-		<div style="float:left;">
-			<?php  //display_color_picker('correctFeedbackBoxColour')?>
-		</div>
-		<div style="float:left;">
-		<?php //display_color_picker('correctFeedbacktextColour')?>
-		</div>
-	</div>
-	
-
-	<div style="clear:both;">
-		<br/><br/>
-		<h4>Incorrect Feedback</h4>
-		<div style="float:left;">
-			<?php  //display_color_picker('incorrectFeedbackBoxColour')?>
-		</div>
-		<div style="float:left;">
-		<?php  //display_color_picker('incorrectFeedbacktextColour')?>
-		</div>
-	</div>
-
-	<div style="clear:both;">
-		<br/><br/>
-		<h4>Reflective Feedback</h4>
-		<div style="float:left;">
-			<?php  //display_color_picker('reflectiveFeedbackBoxColour')?>
-		</div>
-		<div style="float:left;">
-		<?php //display_color_picker('reflectiveFeedbacktextColour')?>
-		</div>
-	</div>
-	-->
 
 	 <div style="clear:both; padding-top:35px">	 	
 	 <input type="submit" name="update_options" value="<?php _e('Update Options', 'qtl') ?>" class="button-primary"/></div>

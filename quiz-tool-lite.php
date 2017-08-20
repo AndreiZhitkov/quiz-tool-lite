@@ -295,7 +295,7 @@ class qtl_initialise
 
 			//use WP color picker
 			wp_enqueue_style( 'wp-color-picker' );
-    		wp_enqueue_script('wp-color-picker_js', plugins_url('scripts/admin.js', __FILE__ ), array( 'wp-color-picker' ), FALSE, TRUE );
+			wp_enqueue_script('wp-color-picker_js', plugins_url('scripts/admin.js', __FILE__ ), array( 'wp-color-picker' ), FALSE, TRUE );
 
 
 		}
