@@ -2,7 +2,7 @@
 Contributors: alexfurr, lcw102, simon.ward
 Tags: academic, assessment, formative, quiz, questions
 Requires at least: 3.0.1
-Tested up to: 4.7.2
+Tested up to: 4.8.x
 Stable tag: 2.5.0
 
 A light weight quiz tool aimed at academics wanting to create interactive learning content. Insert a single question or deploy an entire quiz.
@@ -32,7 +32,6 @@ It also handles summative assessment if you wish to deploy an entire quiz.
 - Can display participants responses to previously submitted reflective questions on different pages
 - Display scoreboards of quizzes on a page using a shortcode
 
-<br>
 **Quiz Options**
 
 - Date window for availability
@@ -44,11 +43,6 @@ It also handles summative assessment if you wish to deploy an entire quiz.
 - Email participants an admin once a quiz has been completed
 - Security measures so participants cannot use the browser back button to correct and resubmit
 - Grade Boundaries to present different feedback to users depending on their grade.
-
-<div>
-  <a href="https://www.efolio.soton.ac.uk/blog/alexfurr/quiz-tool-lite-demo/">Click here to view some example of the embedded formative questions</a>
-</div>
-
 
 
 == Installation ==
@@ -96,6 +90,9 @@ Yes, but results won't be stored in the database
 6. Quiz Boundary example
 
 == Changelog ==
+= 2.5.0 =
+* Misc. improvements.
+
 
 = 2.4.0 =
 * Plugin internationalized
