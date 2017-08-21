@@ -12,7 +12,6 @@ A light weight quiz tool aimed at academics wanting to create interactive learni
 This plugin allows you to display an individual question on a page, along with feedback for formative assessment using no form or page submission. 
 It also handles summative assessment if you wish to deploy an entire quiz.
 
-
 **Question Types**
 
 - Single response / True False(radio)
@@ -21,7 +20,6 @@ It also handles summative assessment if you wish to deploy an entire quiz.
 - Fill in the blanks (multiple text boxes)
 - Reflective question types (click to reveal)
 
-<br>
 **Features**
 
 - Embed a single question on a post or page for formative assessment (no form posting)
@@ -43,7 +41,6 @@ It also handles summative assessment if you wish to deploy an entire quiz.
 - Email participants an admin once a quiz has been completed
 - Security measures so participants cannot use the browser back button to correct and resubmit
 - Grade Boundaries to present different feedback to users depending on their grade.
-
 
 == Installation ==
 
@@ -91,8 +88,8 @@ Yes, but results won't be stored in the database
 
 == Changelog ==
 = 2.5.0 =
-* Misc. improvements.
-
+* Reorganaized help system for localizations
+* Misc. improvements
 
 = 2.4.0 =
 * Plugin internationalized
@@ -124,7 +121,6 @@ Yes, but results won't be stored in the database
 * Removed all error messages if in debug mode
 * Bug fix for allowing shortcodes in grade boundaries
 
-
 = 2.3.3 =
 * Bug fix for option ordering when manually assigning question IDs to quiz
 * Bug fix for allowing shortcodes in grade boundaries
@@ -132,30 +128,24 @@ Yes, but results won't be stored in the database
 = 2.3.2 =
 * Bug fix for HREF tags rendering in Boundary Feedback
 
-
 = 2.3.1 =
 * Bug fix for fill in the blanks if additional 'blanks' were added to the question text
 * Fill in the blanks single question now does not show feedback box unless there is actual feedback text
 
-
 = 2.3 =
 * Bug fix for rendering greek and other non A-Z characters.
 * New question type 'Fill in the blanks'
-
 
 = 2.2.3 =
 * Bug fix for allowing "0" (zero) as a response option
 * New shortcode option for showing a students all their scores for a quiz
 * Fix so that a radio button answer for a student can be shown to them (in addition to reflective submissions)
 
-
 = 2.2.2 =
 * Essential Bug fix for QUestion and Quiz Edit on the backend
 
-
 = 2.2.1 =
 * Improved Shortcode handling for stricter servers. Thanks to sakra00 for pointing out the original limitations.
-
 
 = 2.2 =
 * Added Grade Boundaries functionality so you can display feedback to users based on their score
@@ -164,13 +154,11 @@ Yes, but results won't be stored in the database
 * New shortcode parameters for tick cross options and feedback messages
 * BUG FIX - single question embed now works with bootstrap based themes. Thanks to Gregor (humanbodylab) and brenthays for the help with this
 
-
 = 2.1.2 =
 * Fix to remove redundant date picker code that broke some jquery functions
 
 = 2.1.1 =
 * Fix to remove debug text for buttons
-
 
 = 2.1 =
 * Added new shortcodes to view leaderboards and dispay the score of a quiz to the current logged in user
