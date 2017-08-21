@@ -1,4 +1,5 @@
 === Quiz Tool Lite ===
+
 Contributors: alexfurr, lcw102, simon.ward
 Tags: academic, assessment, formative, quiz, questions
 Requires at least: 3.0.1
@@ -87,6 +88,7 @@ Yes, but results won't be stored in the database
 6. Quiz Boundary example
 
 == Changelog ==
+
 = 2.5.0 =
 * Reorganaized help system for localizations
 * Misc. improvements
