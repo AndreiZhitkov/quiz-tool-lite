@@ -172,9 +172,9 @@ if (!class_exists('qtl_quiz_draw'))
 					{
 						// Firstly log the fact they've done the test at all
 						$myFields="INSERT into ".$table_name." (attemptCount, quizID, lastDateStarted, username)  ";
-						$myFields.="VALUES (%u, %u, '%s', '%s')";	
-
-
+						$myFields.="VALUES (%d, %d, '%s', '%s')";	
+				
+				
 						$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
 							1,
 							$quizID,
@@ -186,9 +186,9 @@ if (!class_exists('qtl_quiz_draw'))
 					{
 						// Update the fact they've done retaken the test
 						$myFields ="UPDATE ".$table_name." SET ";
-						$myFields.="attemptCount=%u ";
-						$myFields.="WHERE username ='%s' AND quizID=%u";
-		
+						$myFields.="attemptCount=%d ";
+						$myFields.="WHERE username ='%s' AND quizID=%d";
+						
 						$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
 							$newAttemptCount,
 							$currentUsername,
@@ -272,9 +272,9 @@ if (!class_exists('qtl_quiz_draw'))
 	
 					// Because the attempt count is auto updated regardless, we need to reset this to minus one if they can't catually take it
 					$myFields ="UPDATE ".$table_name." SET ";
-					$myFields.="attemptCount=%u ";
-					$myFields.="WHERE username ='%s' AND quizID=%u";
-	
+					$myFields.="attemptCount=%d ";
+					$myFields.="WHERE username ='%s' AND quizID=%d";
+					
 					$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
 						$originalAttemptCount,
 						$currentUsername,
@@ -343,9 +343,9 @@ if (!class_exists('qtl_quiz_draw'))
 
 				// Log this attempt along with the question order
 				$myFields="INSERT into ".$table_name_responses." (quizID, username, dateStarted, questionArray)  ";
-				$myFields.="VALUES (%u, '%s', '%s', '%s')";	
-
-
+				$myFields.="VALUES (%d, '%s', '%s', '%s')";	
+		
+		
 				$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
 					$quizID,
 					$thisUsername,
@@ -491,9 +491,9 @@ if (!class_exists('qtl_quiz_draw'))
 				if($lastAttemptMarked<$attemptCount)
 				{
 					$myFields ="UPDATE ".$table_name." SET ";
-					$myFields.="lastAttemptMarked=%u ";
-					$myFields.="WHERE username ='%s' AND quizID=%u";
-	
+					$myFields.="lastAttemptMarked=%d ";
+					$myFields.="WHERE username ='%s' AND quizID=%d";
+					
 					$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
 						$attemptCount,
 						$currentUsername,
@@ -731,7 +731,7 @@ if (!class_exists('qtl_quiz_draw'))
 					$myFields.="dateFinished='%s' ,";
 					$myFields.="responseArray='%s', ";
 					$myFields.="score='%s' ";
-					$myFields.="WHERE userAttemptID =%u";
+					$myFields.="WHERE userAttemptID =%d";
 	
 					$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
 						date('Y-m-d H:i:s'),
@@ -796,9 +796,9 @@ if (!class_exists('qtl_quiz_draw'))
 						if($percentageScore>$previousHighestScore)
 						{
 							$myFields ="UPDATE ".$table_name." SET ";
-							$myFields.="highestScore=%u ,";
+							$myFields.="highestScore=%d ,";
 							$myFields.="highestScoreDate='%s' ";
-							$myFields.="WHERE username ='%s' AND quizID=%u";
+							$myFields.="WHERE username ='%s' AND quizID=%d";
 			
 							$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
 								$percentageScore,

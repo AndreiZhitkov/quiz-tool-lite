@@ -73,7 +73,7 @@ function responseOptionReorder()
 	foreach($myOrder as $myOptionID)
 	{
 		$myOptionID = substr($myOptionID, 9);
-		$myFields ="UPDATE ".$table_name." SET optionOrder=%u WHERE optionID =%u";		
+		$myFields ="UPDATE ".$table_name." SET optionOrder=%d WHERE optionID =%d";		
 		$RunQry = $wpdb->query( $wpdb->prepare($myFields, $currentOrder, $myOptionID));	
 		
 		$currentOrder++;		
@@ -111,7 +111,7 @@ function responseOptionUpdateViewType()
 	{	
 		$optionID = str_replace('thisOrder', '', $optionID);
 		
-		$myFields ="UPDATE ".$table_name." SET optionOrder=%u WHERE optionID =%u";		
+		$myFields ="UPDATE ".$table_name." SET optionOrder=%d WHERE optionID =%d";		
 		$RunQry = $wpdb->query( $wpdb->prepare($myFields,
 			$currentOrder,
 			$optionID

@@ -56,7 +56,7 @@ if (!class_exists('qtl_actions'))
 				$myFields.="potName='%s', ";
 				$myFields.="lastEditedBy='%s', ";
 				$myFields.="lastEditedDate='%s' ";
-				$myFields.="WHERE potID =%u";
+				$myFields.="WHERE potID =%d";
 				
 
 				$RunQry = $wpdb->query( $wpdb->prepare($myFields,
@@ -117,7 +117,9 @@ if (!class_exists('qtl_actions'))
 					$myFields.="question='%s', ";
 					$myFields.="incorrectFeedback='%s', ";
 					$myFields.="correctFeedback='%s' ";
-					$myFields.="WHERE questionID =%u";
+					$myFields.="WHERE questionID =%d";
+					
+
 					
 
 					$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
@@ -134,7 +136,9 @@ if (!class_exists('qtl_actions'))
 				
 				
 				$myFields="INSERT into ".$table_name." (qType, question, potID, correctFeedback, incorrectFeedback, creator, createDate, optionOrderType) ";
-				$myFields.="VALUES ('%s', '%s', %u, '%s', '%s', '%s', '%s', '%s')";	
+				$myFields.="VALUES ('%s', '%s', %d, '%s', '%s', '%s', '%s', '%s')";	
+				
+
 				
 
 				$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
@@ -272,7 +276,7 @@ if (!class_exists('qtl_actions'))
 				$myFields.="lastEditedBy='%s', ";		
 				$myFields.="lastEditedDate='%s', ";
 				$myFields.="quizOptions='%s' ";  
-				$myFields.="WHERE quizID =%u";
+				$myFields.="WHERE quizID =%d";
 				
 				
 
@@ -402,7 +406,7 @@ if (!class_exists('qtl_actions'))
 			$blankResponseArray = serialize($blankResponseArray);
 			
 			$myFields="INSERT into ".$responseOptions_table_name." (questionID, optionValue) ";
-			$myFields.="VALUES (%u, '%s')";	
+			$myFields.="VALUES (%d, '%s')";	
 		
 			$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
 				$questionID,
@@ -454,7 +458,7 @@ if (!class_exists('qtl_actions'))
 				$myFields.="optionValue='%s', ";
 				$myFields.="responseCorrectFeedback='%s' ,";
 				$myFields.="responseIncorrectFeedback='%s' ";
-				$myFields.="WHERE optionID=%u";
+				$myFields.="WHERE optionID=%d";
 				
 				
 		
@@ -498,7 +502,7 @@ if (!class_exists('qtl_actions'))
 					}
 					
 					$myFields="INSERT into ".$table_name." (optionValue, questionID, responseCorrectFeedback, responseIncorrectFeedback, optionOrder) ";
-					$myFields.="VALUES ('%s', %u, '%s', '%s', %u)";	
+					$myFields.="VALUES ('%s', %d, '%s', '%s', %d)";	
 				
 					$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
 						$optionValue,
@@ -571,7 +575,7 @@ if (!class_exists('qtl_actions'))
 			$optionOrderType = $questionInfo['optionOrderType'];			
 			
 			$myFields="INSERT into ".$question_table_name." (qType, question, potID, correctFeedback, incorrectFeedback, creator, createDate, optionOrderType) ";
-			$myFields.="VALUES ('%s', '%s', %u, '%s', '%s', '%s', '%s', '%s')";	
+			$myFields.="VALUES ('%s', '%s', %d, '%s', '%s', '%s', '%s', '%s')";	
 			
 			$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
 				$qType,
@@ -598,7 +602,7 @@ if (!class_exists('qtl_actions'))
 				$responseIncorrectFeedback= $myOptions['responseIncorrectFeedback'];
 				
 				$myFields="INSERT into ".$responseOptions_table_name." (optionValue, questionID, responseCorrectFeedback, responseIncorrectFeedback, isCorrect) ";
-				$myFields.="VALUES ('%s', %u, '%s', '%s', '%s')";	
+				$myFields.="VALUES ('%s', %d, '%s', '%s', '%s')";	
 			
 				$RunQry = $wpdb->query( $wpdb->prepare(	$myFields,
 					$optionValue,
@@ -663,7 +667,7 @@ if (!class_exists('qtl_actions'))
 			$table_name = $wpdb->prefix . "AI_Quiz_tblQuestions";
 			
 			$RunQry = $wpdb->query( $wpdb->prepare( 
-				"UPDATE ".$table_name." SET optionOrderType=%s WHERE questionID=%u",
+				"UPDATE ".$table_name." SET optionOrderType=%s WHERE questionID=%d",
 				$newOrderType,
 				$questionID
 			));
@@ -693,7 +697,7 @@ if (!class_exists('qtl_actions'))
 				{
 					
 					$myFields="INSERT into ".$table_name." (minGrade, maxGrade, quizID, feedback) ";
-					$myFields.="VALUES (%u, %u, %u, '%s')";	
+					$myFields.="VALUES (%d, %d, %d, '%s')";	
 					
 					$RunQry = $wpdb->query( $wpdb->prepare($myFields,
 						$minGrade,
@@ -708,7 +712,7 @@ if (!class_exists('qtl_actions'))
 				{
 					
 					$RunQry = $wpdb->query( $wpdb->prepare( 
-						"UPDATE ".$table_name." SET minGrade=%u, maxGrade=%u, feedback='%s' WHERE boundaryID=%u",
+						"UPDATE ".$table_name." SET minGrade=%d, maxGrade=%d, feedback='%s' WHERE boundaryID=%d",
 						$minGrade,
 						$maxGrade,
 						$feedback,
@@ -728,7 +732,7 @@ if (!class_exists('qtl_actions'))
 			global $wpdb;
 			$table_name = $wpdb->prefix . "AI_Quiz_tblGradeBoundaries";
 			
-			$RunQry = $wpdb->query( $wpdb->prepare(	'DELETE FROM '.$table_name.' WHERE boundaryID=%u',
+			$RunQry = $wpdb->query( $wpdb->prepare(	'DELETE FROM '.$table_name.' WHERE boundaryID=%d',
 				$boundaryID
 			));
 		

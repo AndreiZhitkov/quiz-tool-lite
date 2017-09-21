@@ -2,8 +2,8 @@
 Contributors: alexfurr, lcw102, simon.ward
 Tags: academic, assessment, formative, quiz, questions
 Requires at least: 3.0.1
-Tested up to: 4.7.2
-Stable tag: 2.5.0
+Tested up to: 4.8.2
+Stable tag: 2.5.1
 
 A light weight quiz tool aimed at academics wanting to create interactive learning content. Insert a single question or deploy an entire quiz.
 
@@ -96,6 +96,11 @@ Yes, but results won't be stored in the database
 6. Quiz Boundary example
 
 == Changelog ==
+
+= 2.5.1 =
+* Compatibility with WP 4.8.2
+* Reorganaized help system for localizations
+* Misc. improvements
 
 = 2.4.0 =
 * Plugin internationalized
