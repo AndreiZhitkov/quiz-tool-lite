@@ -257,14 +257,16 @@ class qtl_initialise
 
 		// Include JS/CSS only if we're on our options page  | falling back on is_admin() for the screen ID gets localized
 		if (is_admin() || is_singular()) //(qtl_initialise::QTL_isMyPluginScreen())
-		{  
+		{
 			wp_enqueue_script('js_custom', plugins_url('/scripts/js-functions.js',__FILE__) ); #Custom JS functions
 
 			wp_register_style( 'QTL_css_custom',  plugins_url('/css/qtl-styles.css',__FILE__) );
 			wp_enqueue_style( 'QTL_css_custom' );
 
-			global $wp_scripts;	
-			
+			global $wp_scripts;
+		}
+				if (is_admin()) //(qtl_initialise::QTL_isMyPluginScreen())
+		{
 			// Allow the poopup thickbox to appear all pages
 			add_thickbox();
 
@@ -296,7 +298,6 @@ class qtl_initialise
 			//use WP color picker
 			wp_enqueue_style( 'wp-color-picker' );
 			wp_enqueue_script('wp-color-picker_js', plugins_url('scripts/admin.js', __FILE__ ), array( 'wp-color-picker' ), FALSE, TRUE );
-
 
 		}
 	}

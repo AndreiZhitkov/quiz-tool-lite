@@ -1,4 +1,3 @@
-
 <h1><?php _e('Quiz Results', 'qtl') ?></h1>
 <p class="greyText"><?php _e('Please note: Results are saved only for logged in users', 'qtl') ?></p><br/>
 
@@ -14,7 +13,6 @@ if(isset($_GET['quizID']))
 	//displaySearchForm();	
 	drawUserResults($quizID);
 }
-
 
 function drawUserResults($quizID)
 {
@@ -125,8 +123,5 @@ function drawUserResults($quizID)
 
 
 }
-
-
-
 	
 ?>

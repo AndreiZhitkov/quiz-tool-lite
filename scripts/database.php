@@ -203,6 +203,4 @@ function AI_Quiz_create_tables()
 
 }
 
-
-
 ?>

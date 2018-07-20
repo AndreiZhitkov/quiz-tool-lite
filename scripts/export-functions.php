@@ -298,8 +298,4 @@ class AI_Quiz_importExport
 	
 }
 
-
-
-
-
 ?>

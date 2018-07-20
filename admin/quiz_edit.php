@@ -528,5 +528,4 @@ function openTab(evt, tabName) {
 // Get the element with id="Overview" and click on it
 document.getElementById("Overview").click();
 
-
 </script>

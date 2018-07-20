@@ -155,7 +155,7 @@ class qtl_queries
 		global $wpdb;
 		$attempt_table = $wpdb->prefix . "AI_Quiz_tblQuizAttempts";	
 		$user_table = $wpdb->base_prefix . "users";
-		$SQL= 'Select * FROM '.$attempt_table.' Where '.$attempt_table.'.quizID = '.$quizID. ' ORDER BY '.$quizID. ' '. $order .'' ;
+		$SQL= 'Select * FROM '.$attempt_table.' Where '.$attempt_table.'.quizID = '.$quizID. ' ORDER BY highestScore '. $order .'' ;
 		
 		$rs = $wpdb->get_results( $SQL, ARRAY_A );
 		return $rs;
@@ -220,7 +220,6 @@ class qtl_queries
 		}
 		return $feedback;
 	}
-	
 
 }
 ?>

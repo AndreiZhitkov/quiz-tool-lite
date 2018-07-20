@@ -289,7 +289,6 @@ To display the response submitted for question with ID of 25, add the following 
 </div>
 
 <script>
-
 function openTab(evt, tabName) {
 
 	var i, tabcontent, tablinks;
@@ -309,14 +308,20 @@ function openTab(evt, tabName) {
 
 // Get the element with id="nav-overview" and click on it
 document.getElementById("nav-overview").click();
-
-
 </script>
 
 <style>
 	.nav-tab {
     display: block;
-    min-width: 90%;
+    width: 100%;
     margin: 0;
 }
+
+    table tbody tr td:nth-child(1) {
+        width: 55%;
+    }
+
+    table tbody tr td:nth-child(2) {
+       line-height: 1.5;
+   }
 </style>

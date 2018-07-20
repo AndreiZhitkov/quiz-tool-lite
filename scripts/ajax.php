@@ -46,9 +46,7 @@ function addResponseToDatabase()
 		$userResponse,
 		$date,
 		$questionID
-	));		
-	
-
+	));
 
 	die();
 }
@@ -126,13 +124,10 @@ function responseOptionUpdateViewType()
     $optionOrderType=""; // added for missing parameter in qtl_draw::drawRadioCheckOptionsEditTable below
 	
 	qtl_draw::drawRadioCheckOptionsEditTable($questionID, $qType, $optionOrderType);
-	
-	
+
 	die();
 }
 
 add_action('wp_ajax_responseOptionUpdateViewType', 'responseOptionUpdateViewType');
-
-
 
 ?>

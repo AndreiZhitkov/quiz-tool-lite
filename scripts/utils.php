@@ -1,4 +1,4 @@
-<?PHP
+<?php
 
 define ("PHP_TRUE",  1);
 define ("PHP_FALSE", 0); 
@@ -328,12 +328,10 @@ if (!class_exists('qtl_utils'))
 		sprintf("%02X%02X%02X",$G,$R,$B) 
 		: sprintf("%02X%02X%02X",$R,$G,$B)); 
 		} 		
-		
-	
-		
+
 		public static function getQTL_IconArray()
 		{
-		
+
 			// Get the contents of the image dir
 			$iconDir = AIQUIZ_DIR.'images/icons/correct/';
 			

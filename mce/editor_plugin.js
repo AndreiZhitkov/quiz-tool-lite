@@ -47,4 +47,3 @@ function insertAI_shortcode(thisShortcode)
 	tinyMCEPopup.execCommand('mceReplaceContent', false, shortcode);
 	tinyMCEPopup.close();
 }
-

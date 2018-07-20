@@ -79,5 +79,4 @@ function drawUserResults($username, $quizID)
 	<?php	
 }
 
-
 ?>

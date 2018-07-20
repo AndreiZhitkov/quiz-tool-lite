@@ -27,9 +27,7 @@ function color_config()
 	);
 }
 
-
 //Begin
-
 
 //initialise options to create new ones if needed
 initialise_color_options();
