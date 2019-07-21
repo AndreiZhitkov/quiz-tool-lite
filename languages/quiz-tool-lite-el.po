@@ -1,0 +1,1066 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Quiz Tool Lite\n"
+"POT-Creation-Date: 2017-06-15 09:07-0500\n"
+"PO-Revision-Date: 2019-07-21 03:08+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: quiz-tool-lite.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: el_GR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/boundary_edit.php:31
+msgid "Edit Boundary"
+msgstr ""
+
+#: admin/boundary_edit.php:32
+msgid "Return to my boundaries"
+msgstr ""
+
+#: admin/boundary_edit.php:49
+msgid "Minimum Score"
+msgstr ""
+
+#: admin/boundary_edit.php:70
+msgid "Maximum Score"
+msgstr ""
+
+#: admin/boundary_edit.php:73
+msgid "Feedback to display"
+msgstr ""
+
+#: admin/boundary_edit.php:80 admin/home.php:77
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: admin/export.php:1 quiz-tool-lite.php:165 quiz-tool-lite.php:166
+msgid "Export / Import"
+msgstr "Εισαγωγή / Εξαγωγή"
+
+#: admin/export.php:2
+msgid "Export Questions"
+msgstr "Εξαγωγή Ερωτήσεων"
+
+#: admin/export.php:3
+msgid "Export Questions as CSV"
+msgstr "Εξαγωγή Ερωτήσεων ως CSV"
+
+#: admin/export.php:6 admin/export.php:16
+msgid "Import Questions"
+msgstr "Εισαγωγή Ερωτήσεων"
+
+#: admin/export.php:13
+msgid "Upload your CSV import file."
+msgstr "Μεταφόρτωση αρχείου CSV."
+
+#: admin/grade_boundaries.php:29
+msgid "Range Deleted"
+msgstr ""
+
+#: admin/grade_boundaries.php:44 admin/grade_boundaries.php:81
+msgid "Add new grade range"
+msgstr ""
+
+#: admin/grade_boundaries.php:53 admin/quiz_list.php:50 quiz-tool-lite.php:186
+#: quiz-tool-lite.php:187
+msgid "Grade Boundaries"
+msgstr ""
+
+#: admin/grade_boundaries.php:55 admin/results.php:10
+msgid "Back to Quiz List"
+msgstr ""
+
+#: admin/grade_boundaries.php:87
+msgid "Grade Range"
+msgstr ""
+
+#: admin/grade_boundaries.php:87 admin/question_edit.php:156
+#: admin/quiz_edit.php:163
+msgid "Feedback"
+msgstr "Ανατροφοδότηση"
+
+#: admin/grade_boundaries.php:89
+msgid "No range defined"
+msgstr ""
+
+#: admin/grade_boundaries.php:193 admin/questions.php:105 scripts/draw.php:131
+msgid "Edit"
+msgstr ""
+
+#: admin/grade_boundaries.php:196 admin/home.php:90 admin/questions.php:111
+#: scripts/draw.php:27 scripts/draw.php:132
+msgid "Delete"
+msgstr ""
+
+#: admin/grade_boundaries.php:199
+msgid "Are you sure you want to delete this grade range?"
+msgstr ""
+
+#: admin/grade_boundaries.php:200 admin/quiz_edit.php:458
+msgid "Yes"
+msgstr ""
+
+#: admin/grade_boundaries.php:201 admin/home.php:78 admin/home.php:99
+#: admin/questions.php:121 admin/questions.php:132 admin/quiz_list.php:59
+#: scripts/draw.php:138 scripts/draw.php:282
+msgid "Cancel"
+msgstr ""
+
+#: admin/grade_boundaries.php:301
+msgid "No feedback given"
+msgstr ""
+
+#: admin/grade_boundaries.php:308
+msgid "Undefined Boundary"
+msgstr ""
+
+#: admin/help-en_US.php:2 admin/help-sl_SI.php:2 admin/help.php:2
+#: quiz-tool-lite.php:179 quiz-tool-lite.php:180
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: admin/home.php:3 mce/AI_Quiz_button_popup.php:91
+msgid "Question Pots"
+msgstr "Τράπεζα Ερωτήσεων"
+
+#: admin/home.php:6 admin/home.php:11
+msgid "Create a new question pot"
+msgstr "Δημιουργία νέας τράπεζας ερωτήσεων"
+
+#: admin/home.php:10 admin/quiz_edit.php:170
+msgid "Enter Quiz Name"
+msgstr ""
+
+#: admin/home.php:55
+msgid "Pot Name"
+msgstr "Όνομα τράπεζας ερωτήσεων"
+
+#: admin/home.php:56
+msgid "Number of questions"
+msgstr ""
+
+#: admin/home.php:88
+msgid "Add or edit questions"
+msgstr ""
+
+#: admin/home.php:89
+msgid "Change Pot Name"
+msgstr ""
+
+#: admin/home.php:96
+msgid "Are you sure you want to delete this question pot?"
+msgstr ""
+
+#: admin/home.php:97
+msgid "This will delete all questions in this pot and cannot be undone!"
+msgstr ""
+
+#: admin/home.php:98
+msgid "Yes, delete this question pot"
+msgstr ""
+
+#: admin/home.php:109
+msgid "Welcome to Quiz Tool Lite"
+msgstr ""
+
+#: admin/home.php:110
+msgid ""
+"All questions you create need to be within a question \"pot, e.g. \"Maths "
+"Questions\" or \"Difficult Questions\"<br/><br/>Create a question pot by "
+"clicking the button above."
+msgstr ""
+
+#: admin/home.php:111
+msgid ""
+"For more information and help please read the <a href=\"admin.php?page=ai-"
+"quiz-help\">help pages</a> or visit the <a href=\"https://wordpress.org/"
+"support/plugin/quiz-tool-lite\">support forum</a>"
+msgstr ""
+
+#: admin/question_edit.php:29 admin/question_edit.php:34
+#: admin/question_edit.php:39
+msgid "Option updated"
+msgstr ""
+
+#: admin/question_edit.php:44
+msgid "Option deleted"
+msgstr ""
+
+#: admin/question_edit.php:85 admin/quiz_settings.php:236 scripts/draw.php:262
+msgid "Correct Feedback"
+msgstr ""
+
+#: admin/question_edit.php:91
+msgid "Text to display after click"
+msgstr ""
+
+#: admin/question_edit.php:93 admin/question_edit.php:98 scripts/draw.php:224
+#: scripts/draw.php:281
+msgid "Save"
+msgstr ""
+
+#: admin/question_edit.php:104
+msgid "Save and continue"
+msgstr ""
+
+#: admin/question_edit.php:128 quiz-tool-lite.php:130 quiz-tool-lite.php:131
+msgid "Edit Question"
+msgstr ""
+
+#: admin/question_edit.php:130
+msgid "Return to pot:"
+msgstr ""
+
+#: admin/question_edit.php:155 admin/questions.php:87 quizFrontEnd/draw.php:399
+#: quizFrontEnd/draw.php:702
+msgid "Question"
+msgstr ""
+
+#: admin/question_edit.php:158
+msgid "Response Options"
+msgstr ""
+
+#: admin/question_edit.php:163
+msgid "Question Text"
+msgstr ""
+
+#: admin/question_edit.php:168
+msgid ""
+"To create your blank text boxes, type out your question and then replace "
+"each word you wish to replace with \"[blank]\""
+msgstr ""
+
+#: admin/question_edit.php:169
+msgid "e.g. That's one small step for a [blank], one giant leap for [blank]"
+msgstr ""
+
+#: admin/question_edit.php:188 admin/quiz_settings.php:248 scripts/draw.php:269
+msgid "Incorrect Feedback"
+msgstr ""
+
+#: admin/question_edit.php:211
+msgid "Possible Answers"
+msgstr ""
+
+#: admin/question_edit.php:215
+msgid "Please <b>save</b> this question before entering response options"
+msgstr ""
+
+#: admin/question_type.php:26 admin/questions.php:71
+msgid "Add a new question"
+msgstr ""
+
+#: admin/question_type.php:27 admin/questions.php:41
+msgid "Return to all question pots"
+msgstr ""
+
+#: admin/question_type.php:30
+msgid "Please select a question type."
+msgstr ""
+
+#: admin/question_type.php:35
+msgid "Multiple Choice"
+msgstr "Πολλαπλής Επιλογής"
+
+#: admin/question_type.php:36
+msgid "Text"
+msgstr "Κείμενο"
+
+#: admin/question_type.php:37
+msgid "Reflective"
+msgstr ""
+
+#: admin/question_type.php:46
+msgid "Single Answer (radio buttons)"
+msgstr ""
+
+#: admin/question_type.php:54
+msgid "Multiple Answer (check boxes)"
+msgstr ""
+
+#: admin/question_type.php:69
+msgid "Free Text"
+msgstr "Ελεύθερο Κείμενο"
+
+#: admin/question_type.php:86
+msgid "Fill in the blanks"
+msgstr "Συμπλήρωση κενών"
+
+#: admin/question_type.php:98
+msgid ""
+"Reflective questions are not marked - instead, answers can be saved and "
+"displayed to students on a seperate page.<br/>\r\n"
+"\t\t\tSee the <a href=\"admin.php?page=ai-quiz-help#shortcodes\">shortcode "
+"reference</a> for help with this."
+msgstr ""
+
+#: admin/question_type.php:104
+msgid "Reflection (no textbox)"
+msgstr ""
+
+#: admin/questions.php:3 admin/quiz_edit.php:161 admin/quiz_settings.php:177
+#: quiz-tool-lite.php:172 quiz-tool-lite.php:173
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: admin/questions.php:21
+msgid "This will copy the question to the current question pot"
+msgstr ""
+
+#: admin/questions.php:55
+msgid "Question Deleted"
+msgstr "Η ερώτηση έχει διαγραφεί"
+
+#: admin/questions.php:60
+msgid "Question copied succesfully"
+msgstr "Η ερώτηση έχει αντιγραφεί επιτυχώς"
+
+#: admin/questions.php:80
+msgid "No questions found"
+msgstr ""
+
+#: admin/questions.php:88 admin/quiz_list.php:33
+msgid "Shortcode"
+msgstr ""
+
+#: admin/questions.php:108
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: admin/questions.php:116
+msgid "Select destination question pot"
+msgstr ""
+
+#: admin/questions.php:120
+msgid "Copy question"
+msgstr ""
+
+#: admin/questions.php:130
+msgid "Are you sure you want to delete question"
+msgstr ""
+
+#: admin/questions.php:131
+msgid "Yes, delete this question"
+msgstr ""
+
+#: admin/quiz_edit.php:15 quizFrontEnd/draw.php:1543 quizFrontEnd/draw.php:1646
+msgid "Correct"
+msgstr ""
+
+#: admin/quiz_edit.php:16 quizFrontEnd/draw.php:1557 quizFrontEnd/draw.php:1647
+msgid "Incorrect"
+msgstr ""
+
+#: admin/quiz_edit.php:31
+msgid "Quiz updated"
+msgstr ""
+
+#: admin/quiz_edit.php:145 quiz-tool-lite.php:123 quiz-tool-lite.php:124
+msgid "Edit Quiz"
+msgstr ""
+
+#: admin/quiz_edit.php:159
+msgid "Overview"
+msgstr ""
+
+#: admin/quiz_edit.php:165
+msgid "Participation"
+msgstr ""
+
+#: admin/quiz_edit.php:169 admin/quiz_list.php:33
+msgid "Quiz Name"
+msgstr ""
+
+#: admin/quiz_edit.php:172
+msgid "Select Questions for this Quiz"
+msgstr ""
+
+#: admin/quiz_edit.php:174
+msgid "Add questions from pots"
+msgstr ""
+
+#: admin/quiz_edit.php:176
+msgid "Add questions from list"
+msgstr ""
+
+#: admin/quiz_edit.php:220
+msgid "Warning! The following questions do not exist:"
+msgstr ""
+
+#: admin/quiz_edit.php:231
+msgid ""
+"Warning! The following questions are reflective types and therefore cannot "
+"be marked:"
+msgstr ""
+
+#: admin/quiz_edit.php:245
+msgid "Randomise questions"
+msgstr ""
+
+#: admin/quiz_edit.php:292
+msgid "questions from this pot"
+msgstr ""
+
+#: admin/quiz_edit.php:304
+msgid "Availability"
+msgstr ""
+
+#: admin/quiz_edit.php:308
+msgid "Start Date"
+msgstr ""
+
+#: admin/quiz_edit.php:311 admin/quiz_edit.php:319 admin/quiz_settings.php:209
+#: scripts/draw.php:215 scripts/draw.php:217 scripts/draw.php:262
+#: scripts/draw.php:269
+msgid "optional"
+msgstr ""
+
+#: admin/quiz_edit.php:316
+msgid "End Date"
+msgstr ""
+
+#: admin/quiz_edit.php:324
+msgid "Completion Options"
+msgstr ""
+
+#: admin/quiz_edit.php:325
+msgid "Message displayed to user after quiz has been submitted"
+msgstr ""
+
+#: admin/quiz_edit.php:328
+msgid "Redirect URL after completing the quiz"
+msgstr ""
+
+#: admin/quiz_edit.php:328
+msgid "Optional. Leave blank to return to current page"
+msgstr ""
+
+#: admin/quiz_edit.php:332
+msgid "Email me when a participant has taken the quiz"
+msgstr ""
+
+#: admin/quiz_edit.php:334
+msgid "Time Limit"
+msgstr ""
+
+#: admin/quiz_edit.php:336
+msgid "Add a time limit to this quiz"
+msgstr ""
+
+#: admin/quiz_edit.php:350
+msgid "minutes"
+msgstr ""
+
+#: admin/quiz_edit.php:364
+msgid "seconds"
+msgstr ""
+
+#: admin/quiz_edit.php:366
+msgid "After the time above the quiz will automatically submit"
+msgstr ""
+
+#: admin/quiz_edit.php:372
+msgid "Feedback Options"
+msgstr ""
+
+#: admin/quiz_edit.php:374
+msgid "Display detailed feedback to participants"
+msgstr ""
+
+#: admin/quiz_edit.php:376
+msgid "Hide feedback from participants"
+msgstr ""
+
+#: admin/quiz_edit.php:378
+msgid "Feedback Text"
+msgstr ""
+
+#: admin/quiz_edit.php:382
+msgid "Correct Text"
+msgstr ""
+
+#: admin/quiz_edit.php:390
+msgid "Incorrect Text"
+msgstr ""
+
+#: admin/quiz_edit.php:398
+msgid "Feedback Icons"
+msgstr ""
+
+#: admin/quiz_edit.php:399
+msgid "Icon set"
+msgstr ""
+
+#: admin/quiz_edit.php:415
+msgid "No icons"
+msgstr ""
+
+#: admin/quiz_edit.php:448
+msgid "Participant Options"
+msgstr ""
+
+#: admin/quiz_edit.php:450
+msgid "Participants must be logged in to take this quiz"
+msgstr ""
+
+#: admin/quiz_edit.php:453
+msgid ""
+"All the options below are only applicable if you have ticked 'Require user "
+"to be logged in'"
+msgstr ""
+
+#: admin/quiz_edit.php:454
+msgid "Max number of attempts"
+msgstr ""
+
+#: admin/quiz_edit.php:457
+msgid "Email user their mark after completing the quiz"
+msgstr ""
+
+#: admin/quiz_edit.php:460
+msgid "No"
+msgstr ""
+
+#: admin/quiz_edit.php:463
+msgid "Minimum time between attempts"
+msgstr ""
+
+#: admin/quiz_edit.php:476
+msgid "Hour(s)"
+msgstr ""
+
+#: admin/quiz_edit.php:478
+msgid "Day(s)"
+msgstr ""
+
+#: admin/quiz_edit.php:489
+msgid "Update Quiz"
+msgstr ""
+
+#: admin/quiz_list.php:2
+msgid "Quiz List"
+msgstr ""
+
+#: admin/quiz_list.php:4
+msgid "Add a new quiz"
+msgstr "Προσθήκη νέου κουίζ"
+
+#: admin/quiz_list.php:16
+msgid "Quiz deleted"
+msgstr ""
+
+#: admin/quiz_list.php:33
+msgid "Number of Participants"
+msgstr ""
+
+#: admin/quiz_list.php:51 admin/results.php:100
+msgid "View Results"
+msgstr ""
+
+#: admin/quiz_list.php:54
+msgid "Delete Quiz"
+msgstr ""
+
+#: admin/quiz_list.php:57
+msgid "Are you sure you want to delete quiz:"
+msgstr ""
+
+#: admin/quiz_list.php:58
+msgid "Yes, delete this quiz"
+msgstr ""
+
+#: admin/quiz_list.php:70
+msgid "Create a quiz by clicking the button above"
+msgstr ""
+
+#: admin/quiz_settings.php:11
+msgid "Correct feedback box color"
+msgstr ""
+
+#: admin/quiz_settings.php:14
+msgid "Correct feedback text color"
+msgstr ""
+
+#: admin/quiz_settings.php:17
+msgid "Incorrect feedback box color"
+msgstr ""
+
+#: admin/quiz_settings.php:20
+msgid "Incorrect feedback text color"
+msgstr ""
+
+#: admin/quiz_settings.php:23
+msgid "Reflective feedback box color"
+msgstr ""
+
+#: admin/quiz_settings.php:26
+msgid "Reflective feedback text color"
+msgstr ""
+
+#: admin/quiz_settings.php:41
+msgid "Settings updated"
+msgstr ""
+
+#: admin/quiz_settings.php:135
+msgid "Feedback Text Sample"
+msgstr ""
+
+#: admin/quiz_settings.php:182
+msgid "Minimum level required to be able to edit quizzes"
+msgstr ""
+
+#: admin/quiz_settings.php:208
+msgid "Email Settings"
+msgstr ""
+
+#: admin/quiz_settings.php:216
+msgid "Send Quiz emails from this address:"
+msgstr ""
+
+#: admin/quiz_settings.php:224
+msgid "And from this name:"
+msgstr ""
+
+#: admin/quiz_settings.php:228
+msgid ""
+"If left blank, emails will be sent from the default donotreply@yourdomain."
+"com address."
+msgstr ""
+
+#: admin/quiz_settings.php:234
+msgid "Feedback color settings"
+msgstr ""
+
+#: admin/quiz_settings.php:260
+msgid "Reflective Feedback"
+msgstr ""
+
+#: admin/quiz_settings.php:309
+msgid "Update Options"
+msgstr ""
+
+#: admin/results.php:2
+msgid "Quiz Results"
+msgstr ""
+
+#: admin/results.php:3
+msgid "Please note: Results are saved only for logged in users"
+msgstr ""
+
+#: admin/results.php:43 quizFrontEnd/draw.php:1898
+msgid "Name"
+msgstr ""
+
+#: admin/results.php:43
+msgid "Username"
+msgstr ""
+
+#: admin/results.php:43
+msgid "Role"
+msgstr ""
+
+#: admin/results.php:43 quizFrontEnd/draw.php:1898
+msgid "Highest Score"
+msgstr ""
+
+#: admin/results.php:43
+msgid "Number of attempts"
+msgstr ""
+
+#: admin/user_results.php:10
+msgid "Back to user results"
+msgstr ""
+
+#: admin/user_results.php:27
+msgid "Attempt"
+msgstr ""
+
+#: admin/user_results.php:27
+msgid "Attempt Date"
+msgstr ""
+
+#: admin/user_results.php:27
+msgid "Time taken"
+msgstr ""
+
+#: admin/user_results.php:27 quizFrontEnd/draw.php:784
+#: quizFrontEnd/draw.php:820 quizFrontEnd/draw.php:1760
+msgid "Score"
+msgstr ""
+
+#: admin/user_results.php:27
+msgid "Breakdown"
+msgstr ""
+
+#: admin/user_results.php:47
+msgid "Uninished"
+msgstr ""
+
+#: admin/user_results.php:55
+msgid "View Answers"
+msgstr ""
+
+#: mce/AI_Quiz_button_popup.php:54
+msgid "Select your Question or Quiz"
+msgstr ""
+
+#: mce/AI_Quiz_button_popup.php:82
+msgid "No Quizzes found"
+msgstr ""
+
+#: mce/AI_Quiz_button_popup.php:124
+msgid "This Quiz will show:"
+msgstr ""
+
+#: mce/AI_Quiz_button_popup.php:140
+msgid "Insert this quiz"
+msgstr ""
+
+#: mce/AI_Quiz_button_popup.php:146
+msgid "There are no questions in this quiz."
+msgstr ""
+
+#: mce/AI_Quiz_button_popup.php:168
+msgid "No questions found in this pot."
+msgstr ""
+
+#: mce/AI_Quiz_button_popup.php:181
+msgid "Insert this question"
+msgstr ""
+
+#: quiz-tool-lite.php:101 quiz-tool-lite.php:102
+msgid "Quiz Questions"
+msgstr ""
+
+#: quiz-tool-lite.php:109 quiz-tool-lite.php:110
+msgid "Quizzes"
+msgstr "Κουίζ"
+
+#: quiz-tool-lite.php:116 quiz-tool-lite.php:117
+msgid "Question List"
+msgstr ""
+
+#: quiz-tool-lite.php:137 quiz-tool-lite.php:138
+msgid "Results"
+msgstr "Αποτελέσματα"
+
+#: quiz-tool-lite.php:144 quiz-tool-lite.php:145
+msgid "User Results"
+msgstr ""
+
+#: quiz-tool-lite.php:151 quiz-tool-lite.php:152
+msgid "Quiz Breakdown"
+msgstr ""
+
+#: quiz-tool-lite.php:158 quiz-tool-lite.php:159
+msgid "Pick Question Type"
+msgstr ""
+
+#: quiz-tool-lite.php:193 quiz-tool-lite.php:194
+msgid "Edit Grade Boundary"
+msgstr ""
+
+#: quizFrontEnd/draw.php:214
+msgid "The quiz is not available until "
+msgstr ""
+
+#: quizFrontEnd/draw.php:225
+msgid "You need to login before you can take this quiz"
+msgstr ""
+
+#: quizFrontEnd/draw.php:236
+msgid "The quiz closed on "
+msgstr ""
+
+#: quizFrontEnd/draw.php:269
+msgid "You can next take this test in "
+msgstr ""
+
+#: quizFrontEnd/draw.php:294
+msgid "You have exceeded the number of maximum attmempts"
+msgstr ""
+
+#: quizFrontEnd/draw.php:302
+msgid "Total number of allowed attempts: "
+msgstr ""
+
+#: quizFrontEnd/draw.php:302
+msgid "Number of attempts remaining: "
+msgstr ""
+
+#: quizFrontEnd/draw.php:304
+msgid ""
+"<b>Please note</b>: Clicking 'refresh' or using the back or forward buttons "
+"on your browser after starting the quiz will count as another attempt."
+msgstr ""
+
+#: quizFrontEnd/draw.php:306
+msgid "Click here to start the quiz"
+msgstr ""
+
+#: quizFrontEnd/draw.php:318 quizFrontEnd/draw.php:1814
+msgid "Number of times you have taken this test :"
+msgstr ""
+
+#: quizFrontEnd/draw.php:318 quizFrontEnd/draw.php:1814
+msgid "Your highest acheaved score: "
+msgstr ""
+
+#: quizFrontEnd/draw.php:368
+msgid "This quiz will submit in"
+msgstr ""
+
+#: quizFrontEnd/draw.php:416
+msgid "Submit answers"
+msgstr ""
+
+#: quizFrontEnd/draw.php:568
+msgid ""
+"Sorry! There appears to have been a problem submitting this quiz.<br/"
+">Perhaps you accidently pressed the \"back\" button."
+msgstr ""
+
+#: quizFrontEnd/draw.php:577
+msgid "Thank you."
+msgstr ""
+
+#: quizFrontEnd/draw.php:577
+msgid "Scroll down to check your answers and final score."
+msgstr ""
+
+#: quizFrontEnd/draw.php:713
+msgid "Total number of correct anwers:"
+msgstr ""
+
+#: quizFrontEnd/draw.php:715
+msgid "Your score on this attempt:"
+msgstr ""
+
+#: quizFrontEnd/draw.php:781 quizFrontEnd/draw.php:782
+msgid "A Participant has taken the quiz: "
+msgstr ""
+
+#: quizFrontEnd/draw.php:783 quizFrontEnd/draw.php:819
+msgid "Date Taken: "
+msgstr ""
+
+#: quizFrontEnd/draw.php:785 quizFrontEnd/draw.php:821
+msgid "This message has been generated automatically"
+msgstr ""
+
+#: quizFrontEnd/draw.php:817
+msgid "Quiz name: "
+msgstr ""
+
+#: quizFrontEnd/draw.php:818
+msgid "This e-mail is a receipt of your quiz results for "
+msgstr ""
+
+#: quizFrontEnd/draw.php:1518
+msgid "Blank "
+msgstr ""
+
+#: quizFrontEnd/draw.php:1518
+msgid "Possible Correct Answers"
+msgstr ""
+
+#: quizFrontEnd/draw.php:1535
+msgid "No answer given"
+msgstr ""
+
+#: quizFrontEnd/draw.php:1536
+msgid "Your answer: "
+msgstr ""
+
+#: quizFrontEnd/draw.php:1648
+msgid "Check Answer"
+msgstr ""
+
+#: quizFrontEnd/draw.php:1760
+msgid "Finish Date"
+msgstr ""
+
+#: quizFrontEnd/draw.php:1820
+msgid "You have not yet attempted this quiz"
+msgstr ""
+
+#: quizFrontEnd/draw.php:1876
+msgid "Leaderboard"
+msgstr ""
+
+#: quizFrontEnd/draw.php:1898
+msgid "Attempts"
+msgstr ""
+
+#: quizFrontEnd/draw.php:1908
+msgid "Anonymous User "
+msgstr ""
+
+#: scripts/actions.php:30
+msgid "Question Pot created"
+msgstr ""
+
+#: scripts/actions.php:34 scripts/actions.php:75
+msgid "Question Pot Name cannot be blank"
+msgstr ""
+
+#: scripts/actions.php:70
+msgid "Question Pot Name Edited"
+msgstr ""
+
+#: scripts/draw.php:15
+msgid "Add possible answer"
+msgstr ""
+
+#: scripts/draw.php:22
+msgid "Current Possible Answers"
+msgstr ""
+
+#: scripts/draw.php:29
+msgid "Answers are NOT case sensitive"
+msgstr ""
+
+#: scripts/draw.php:80
+msgid "Add a new response option"
+msgstr ""
+
+#: scripts/draw.php:84
+msgid "These responses are shown in a random order"
+msgstr ""
+
+#: scripts/draw.php:86
+msgid "Switch to manual ordering"
+msgstr ""
+
+#: scripts/draw.php:91
+msgid "These responses are displayed in the order shown below"
+msgstr ""
+
+#: scripts/draw.php:93
+msgid "Switch to random ordering"
+msgstr ""
+
+#: scripts/draw.php:129 scripts/draw.php:279
+msgid "Correct Answer"
+msgstr ""
+
+#: scripts/draw.php:137
+msgid "Yes, delete this response"
+msgstr ""
+
+#: scripts/draw.php:196
+msgid "Question Preview"
+msgstr ""
+
+#: scripts/draw.php:201
+msgid ""
+"Answers are not case sensitive. Separate each valid answer with a comma e.g. "
+"\"red, yellow\""
+msgstr ""
+
+#: scripts/draw.php:214 scripts/draw.php:215 scripts/draw.php:217
+msgid "Blank"
+msgstr ""
+
+#: scripts/draw.php:214
+msgid "answers"
+msgstr ""
+
+#: scripts/draw.php:215 scripts/draw.php:217
+msgid "correct feedback"
+msgstr ""
+
+#: scripts/draw.php:257
+msgid "Possible answer:"
+msgstr ""
+
+#: scripts/draw.php:263
+msgid "The feedback shown next to this response if answered correctly"
+msgstr ""
+
+#: scripts/draw.php:270
+msgid "The feedback shown next to this response if answered incorrectly"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Quiz Tool Lite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wordpress.org/plugins/quiz-tool-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create questions and quizzes, embed individual questions for formative "
+"assessment or deploy entire an quiz"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Alex Furr, Lisha Chen Wilson and Simon Ward"
+msgstr ""
+
+msgid " Optional. Leave blank to return to current page)"
+msgstr "Poljubno. Pusti prazno za vrnitev na trenutno stran."
+
+msgid "View results"
+msgstr "Poglej rezultate"
+
+msgid "Email Settings (optional)"
+msgstr "Nastavitve e-pošte (poljubno)"
+
+msgid "Score: "
+msgstr "Βαθμολογία:"
+
+msgid "Send Quiz Email Address from this address:"
+msgstr "Pošlji e-poštni naslov testa iz tega naslova:"
+
+msgid "Total number of correct anwers: "
+msgstr "Skupno število pravilnih odgovorov:"
+
+msgid "Your score on this attempt: "
+msgstr "Vaš rezultat pri tem poskusu:"
+
+msgid "Are you sure you want to delete the question pot"
+msgstr "Ste prepričani, da hočete zbrisati ta sklop?"
+
+msgid "Options"
+msgstr "Επιλογές"
+
+msgid "Are you sure you want to delete question "
+msgstr "Ste prepričani, da želite zbrisati to vprašanje"
+
+msgid "Are you sure you want to delete the question pot<br>"
+msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε την τράπεζα ερωτήσεων;<br>"
+
+msgid ""
+"This will delete all questions in this pot and cannot be undone!</span><br/"
+"><br/>"
+msgstr "To bo zbrisalo vsa vprašanja v tem sklopu in je nemogoče razveljaviti!"
+
+msgid "Quiz Deleted"
+msgstr "Test zbrisan"
+
+msgid "Are you sure you want to delete quiz: "
+msgstr "Ste prepričani, da hočete zbrisati test:"
+
+msgid "Question Listqtl"
+msgstr "Seznam vprašanj"
+
+msgid "This quiz will submit in:<br/>"
+msgstr "Test bo predložen"
+
+msgid "Pick a different quiz"
+msgstr "Izberi drug test"
