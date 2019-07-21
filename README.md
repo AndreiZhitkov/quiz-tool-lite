@@ -8,18 +8,18 @@ Tested with :
 
 == Changes over original plugin ==
 
-= 2.6.0 =
-* Fixed some errors in quiz frontend
-* Added Greek Translation
-=======
+= 2.6.0 =  
+* Fixed some errors in quiz frontend  
+* Added Greek Translation  
+  
 = 2.5.1 =
 * Compatibility with WP 4.8.2
 
-= 2.5.0 =
+= 2.5.0 =  
 * Reorganaized help system for localizations
 * Misc. improvements
 
-= 2.4.0 =
+= 2.4.0 =  
 * Plugin internationalized
 * Fixed the bug with minimum authorized level to manage the plugin
 * Miscellaneous UI improvements
