@@ -9,7 +9,7 @@ Tested with :
 == Changes over original plugin ==
 
 = 2.6.0 =  
-* Fixed some errors in quiz frontend  
+* Fixed bugs in quiz frontend (draw.php)
 * Added Greek Translation  
   
 = 2.5.1 =
