@@ -3,13 +3,8 @@
 Contributors: alexfurr, lcw102, simon.ward
 Tags: academic, assessment, formative, quiz, questions
 Requires at least: 3.0.1
-<<<<<<< HEAD
-Tested up to: 4.9.7
+Tested up to: 5.2.x
 Stable tag: 2.5.2
-=======
-Tested up to: 4.9.x
-Stable tag: 2.5.2
->>>>>>> c383c380cdf57eff794506d189b0e2d92178a1d4
 
 A light weight quiz tool aimed at academics wanting to create interactive learning content. Insert a single question or deploy an entire quiz.
 
@@ -94,15 +89,14 @@ Yes, but results won't be stored in the database
 
 == Changelog ==
 
-<<<<<<< HEAD
-= 2.5.2 =
-* divide by zero bug fixed
+= 2.6.0 =
+* Fixed fatal errors in quiFrontEnd/draw.php
+* Added Greek Translation
 =======
 = 2.5.1 =
 * Compatibility with WP 4.8.2
-=======
+
 = 2.5.0 =
->>>>>>> c383c380cdf57eff794506d189b0e2d92178a1d4
 * Reorganaized help system for localizations
 * Misc. improvements
 
