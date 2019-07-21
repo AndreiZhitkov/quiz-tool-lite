@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quiz Tool Lite\n"
 "POT-Creation-Date: 2017-06-15 09:07-0500\n"
-"PO-Revision-Date: 2019-07-21 23:56+0300\n"
+"PO-Revision-Date: 2019-07-22 00:52+0300\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -539,23 +539,23 @@ msgstr "Όχι"
 
 #: admin/quiz_edit.php:463
 msgid "Minimum time between attempts"
-msgstr ""
+msgstr "Ελάχιστος χρόνος μεταξύ προσπαθειών"
 
 #: admin/quiz_edit.php:476
 msgid "Hour(s)"
-msgstr ""
+msgstr "Ώρα(ες)"
 
 #: admin/quiz_edit.php:478
 msgid "Day(s)"
-msgstr ""
+msgstr "Ημέρα(ες)"
 
 #: admin/quiz_edit.php:489
 msgid "Update Quiz"
-msgstr ""
+msgstr "Ενημέρωση Κουίζ"
 
 #: admin/quiz_list.php:2
 msgid "Quiz List"
-msgstr ""
+msgstr "Λίστα Κουίζ"
 
 #: admin/quiz_list.php:4
 msgid "Add a new quiz"
@@ -563,19 +563,19 @@ msgstr "Προσθήκη νέου κουίζ"
 
 #: admin/quiz_list.php:16
 msgid "Quiz deleted"
-msgstr ""
+msgstr "Το Κουίζ έχει διαγραφεί"
 
 #: admin/quiz_list.php:33
 msgid "Number of Participants"
-msgstr ""
+msgstr "Αριθμός συμμετεχόντων"
 
 #: admin/quiz_list.php:51 admin/results.php:100
 msgid "View Results"
-msgstr ""
+msgstr "Προβολή Αποτελεσμάτων"
 
 #: admin/quiz_list.php:54
 msgid "Delete Quiz"
-msgstr ""
+msgstr "Διαγραφή Κουίζ"
 
 #: admin/quiz_list.php:57
 msgid "Are you sure you want to delete quiz:"
@@ -583,7 +583,7 @@ msgstr ""
 
 #: admin/quiz_list.php:58
 msgid "Yes, delete this quiz"
-msgstr ""
+msgstr "Ναι να γίνει διαγραφή του κουίζ"
 
 #: admin/quiz_list.php:70
 msgid "Create a quiz by clicking the button above"
@@ -591,7 +591,7 @@ msgstr ""
 
 #: admin/quiz_settings.php:11
 msgid "Correct feedback box color"
-msgstr ""
+msgstr "Διόρθωση χρώματος κουτιού ανατροφοδότησης"
 
 #: admin/quiz_settings.php:14
 msgid "Correct feedback text color"
@@ -615,7 +615,7 @@ msgstr ""
 
 #: admin/quiz_settings.php:41
 msgid "Settings updated"
-msgstr ""
+msgstr "Οι ρυθμίσεις έχουν ενημερωθεί"
 
 #: admin/quiz_settings.php:135
 msgid "Feedback Text Sample"
