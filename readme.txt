@@ -90,7 +90,7 @@ Yes, but results won't be stored in the database
 == Changelog ==
 
 = 2.6.0 =
-* Fixed fatal errors in quiFrontEnd/draw.php
+* Fixed fatal errors in quiz frontend
 * Added Greek Translation
 =======
 = 2.5.1 =

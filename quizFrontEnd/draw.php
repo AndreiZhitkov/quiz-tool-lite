@@ -577,7 +577,7 @@ if (!class_exists('qtl_quiz_draw'))
 				$_SESSION['totalCorrect']=0;	
 				$markedTest= '<div id="theExam">';
 				
-				if($quizFinishMessage==""){$quizFinishMessage='<b>Thank you.</b><br/>Scroll down to check your answers and final score<hr/><br/>';}
+				if($quizFinishMessage==""){$quizFinishMessage='<b>'.__('Thank you.', 'qtl').'</b><br/>'.__('Scroll down to check your answers and final score.', 'qtl').'<hr/><br/>';}
 				
 				if($readOnly==false){$markedTest.= $quizFinishMessage;} // Only show this message if they've done the quiz, not if showing results
 				
@@ -702,7 +702,7 @@ if (!class_exists('qtl_quiz_draw'))
 
 						
 						
-						$markedTest.= '<b class="greyText">Question '.$currentQuestionNumber.'</b><br/>';
+						$markedTest.= '<b class="greyText">'.__('Question', 'qtl').$currentQuestionNumber.'</b><br/>';
 						$markedTest.= '<div id="question">';
 						$markedTest.= qtl_quiz_draw::drawMarkedQuestion($questionID, $optionOrder, $response, $showFeedback);
 						$currentQuestionNumber++;
@@ -715,7 +715,7 @@ if (!class_exists('qtl_quiz_draw'))
 				$markedTest.='<div id="quizResults">';
 				$markedTest.= 'Total Right = '.$_SESSION['totalCorrect'].'/'.$_SESSION['possibleMaxScore'];		
 				$percentageScore = round($_SESSION['totalCorrect']/$_SESSION['possibleMaxScore'],2)*100;
-				$markedTest.= '<h2>You got '.$percentageScore.'% on this attempt</h2>';
+				$markedTest.= '<h2>'.__('Your score on this attempt:', 'qtl').$percentageScore.'% </h2>';
 				
 				// Get the grade boundary for this mark if it exists
 				$boundaryFeedback = qtl_queries::getBoundaryFeedback($percentageScore, $quizID);
@@ -781,11 +781,11 @@ if (!class_exists('qtl_quiz_draw'))
 								
 								
 								$headers = array('From: '.$fromEmailName.' <'.$fromEmailAddress.'>');
-								$subject = "A Participant has taken the quiz : ".$quizName;
-								$message = "A participant has taken the quiz '".$quizName."'\n\n";
-								$message.= "Date Taken : ".$currentDate."\n";
-								$message.="Score  : ".$_SESSION['totalCorrect']."/".$_SESSION['possibleMaxScore']." = ".$percentageScore."%\n\n";								
-								$message.="This message has been generated automatically";										
+								$subject = __('A Participant has taken the quiz: ', 'qtl').$quizName;
+								$message = __('A Participant has taken the quiz: ', 'qtl').$quizName."'\n\n";
+								$message .= __('Date Taken: ', 'qtl').$currentDate."\n";
+								$message .= __('Score', 'qtl') .$_SESSION['totalCorrect']."/".$_SESSION['possibleMaxScore']." = ".$percentageScore."%\n\n";								
+								$message .= __('This message has been generated automatically', 'qtl');										
 								
 								
 								wp_mail($user_email, $subject, $message, $headers );
@@ -817,11 +817,11 @@ if (!class_exists('qtl_quiz_draw'))
 							global $current_user;
 							get_currentuserinfo();
 							$thisEmail = $current_user->user_email;		
-							$subject = "Quiz Results for ".$quizName;
-							$message = "This email is a receipt of your quiz results for '".$quizName."'\n\n";
-							$message.= "Date Taken : ".$currentDate."\n";
-							$message.="Score  : ".$_SESSION['totalCorrect']."/".$_SESSION['possibleMaxScore']." = ".$percentageScore."%\n\n";
-							$message.="This message has been generated automatically";
+							$subject = __('Quiz name: ', 'qtl').$quizName;
+							$message = __('This e-mail is a receipt of your quiz results for ','qtl').$quizName."'\n\n";
+							$message .= __('Date Taken: ', 'qtl').$currentDate."\n";
+							$message .= __('Score', 'qtl').$_SESSION['totalCorrect']."/".$_SESSION['possibleMaxScore']." = ".$percentageScore."%\n\n";
+							$message .= __('This message has been generated automatically', 'qtl');
 
 
 							$fromEmailAddress = get_option('qtl-fromEmailAddress');
