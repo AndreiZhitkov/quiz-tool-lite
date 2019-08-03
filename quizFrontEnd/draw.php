@@ -713,7 +713,7 @@ if (!class_exists('qtl_quiz_draw'))
 				
 				
 				$markedTest.='<div id="quizResults">';
-				$markedTest.= 'Total Right = '.$_SESSION['totalCorrect'].'/'.$_SESSION['possibleMaxScore'];		
+				$markedTest.= __('Total Right', 'qtl').' = '.$_SESSION['totalCorrect'].'/'.$_SESSION['possibleMaxScore'];		
 				$percentageScore = round($_SESSION['totalCorrect']/$_SESSION['possibleMaxScore'],2)*100;
 				$markedTest.= '<h2>'.__('Your score on this attempt:', 'qtl').$percentageScore.'% </h2>';
 				

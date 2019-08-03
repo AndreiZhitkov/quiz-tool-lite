@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quiz Tool Lite\n"
 "POT-Creation-Date: 2017-06-15 09:07-0500\n"
-"PO-Revision-Date: 2019-08-03 20:29+0300\n"
+"PO-Revision-Date: 2019-08-03 20:55+0300\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -764,7 +764,7 @@ msgstr "Εισαγωγή αυτής της ερώτησης"
 
 #: quiz-tool-lite.php:101 quiz-tool-lite.php:102
 msgid "Quiz Questions"
-msgstr "Ερωτήσεις τεστ"
+msgstr "Τράπεζα Ερωτήσεων"
 
 #: quiz-tool-lite.php:109 quiz-tool-lite.php:110
 msgid "Quizzes"
@@ -1103,3 +1103,6 @@ msgstr "Αυτό το τεστ θα υποβληθεί σε:<br/>"
 
 msgid "Pick a different quiz"
 msgstr "Επιλογή διαφορετικού τεστ"
+
+msgid "Total Right"
+msgstr "Συνολικά σωστά"
