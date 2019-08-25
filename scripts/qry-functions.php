@@ -114,6 +114,7 @@ class qtl_queries
 		
 		$SQL='Select * FROM '.$table_name. ' ORDER BY quizID '. $order .'';
 		$rs = $wpdb->get_results( $SQL, ARRAY_A );
+		
 		return $rs;
 	}
 	

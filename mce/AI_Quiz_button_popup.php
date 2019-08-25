@@ -1,5 +1,5 @@
 <?php
-include("../../../../wp-blog-header.php"); // Load up the wordpress stuff first. DOn't know how to get this path (in multisite) so had to do this.
+include('../../../../wp-blog-header.php'); // Load up the wordpress stuff first. DOn't know how to get this path (in multisite) so had to do this.
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -61,10 +61,11 @@ echo '<div id="container">';
 echo '<div id="potsDiv">';
 
 // Draw the quiz list
-echo '<h4>Quizzes</h4>';
+echo '<h4>'.__('Quizzes','qtl').'</h4>';
 $quizCount=0;
 $quizListStr="";
-$quizRS = qtl_queries::getQuizzes();
+$order = 'DESC';
+$quizRS =  qtl_queries::getQuizzes($order);
 
 foreach ($quizRS as $myQuizList)
 {		

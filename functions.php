@@ -41,7 +41,6 @@ class AIQuiz_TinyMCE_Button
 	}
 	
 }
-
 add_action('init', array('AIQuiz_TinyMCE_Button','tinymce_add_button'));
 add_shortcode('kkytv', array('AIQuiz_TinyMCE_Button','addAI_Button'));
 // End of Tiny MCE add question icon to bar

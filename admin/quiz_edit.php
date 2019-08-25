@@ -144,7 +144,7 @@ else
 <div class="wrap">
 <h1><?php _e('Edit Quiz', 'qtl') ?></h1>
 
-<a href="admin.php?page=ai-quiz-quiz-list" class="backIcon">Return to my quizzes</a>
+<a href="admin.php?page=ai-quiz-quiz-list" class="backIcon"><?php _e('Return to my quizzes', 'qtl') ?></a>
 
 <?php
 if($feedback)
