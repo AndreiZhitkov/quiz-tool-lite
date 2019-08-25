@@ -132,11 +132,11 @@ msgstr "Βοήθεια"
 
 #: admin/home.php:3 mce/AI_Quiz_button_popup.php:91
 msgid "Question Pots"
-msgstr "Τράπεζα Ερωτήσεων"
+msgstr "Κατάλογος Ερωτήσεων"
 
 #: admin/home.php:6 admin/home.php:11
 msgid "Create a new question pot"
-msgstr "Δημιουργία νέας τράπεζας ερωτήσεων"
+msgstr "Δημιουργία νέου καταλόγου ερωτήσεων"
 
 #: admin/home.php:10 admin/quiz_edit.php:170
 msgid "Enter Quiz Name"
@@ -144,7 +144,7 @@ msgstr "Εισάγετε όνομα "
 
 #: admin/home.php:55
 msgid "Pot Name"
-msgstr "Όνομα τράπεζας ερωτήσεων"
+msgstr "Όνομα καταλόγου ερωτήσεων"
 
 #: admin/home.php:56
 msgid "Number of questions"
@@ -156,17 +156,16 @@ msgstr "Προσθήκη ή επεξεργασία ερωτήσεων"
 
 #: admin/home.php:89
 msgid "Change Pot Name"
-msgstr "Αλλαγή ονόματος τράπεζας ερωτήσεων"
+msgstr "Αλλαγή ονόματος καταλόγου ερωτήσεων"
 
 #: admin/home.php:96
 msgid "Are you sure you want to delete this question pot?"
-msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε αυτή τη τράπεζα ερωτήσεων;"
+msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε αυτόν τον κατάλογο ερωτήσεων;"
 
 #: admin/home.php:97
 msgid "This will delete all questions in this pot and cannot be undone!"
 msgstr ""
-"Αυτή η ενέργεια θα διαγράψει όλες τις ερωτήσεις από αυτή την τράπεζα "
-"ερωτήσεων και δεν μπορεί να αναιρεθεί!"
+"Αυτή η ενέργεια θα διαγράψει όλες τις ερωτήσεις από αυτόν τον κατάλογο ερωτήσεων και δεν μπορεί να αναιρεθεί!"
 
 #: admin/home.php:98
 msgid "Yes, delete this question pot"
@@ -182,9 +181,9 @@ msgid ""
 "Questions\" or \"Difficult Questions\"<br/><br/>Create a question pot by "
 "clicking the button above."
 msgstr ""
-"Όλες οι ερωτήσεις που δημιουργείτε πρέπει να βρίσκονται σε μια τράπεζα "
+"Όλες οι ερωτήσεις που δημιουργείτε πρέπει να βρίσκονται σε έναν κατάλογο "
 "ερωτήσεων π.χ. \"Ερωτήσεις Μαθηματικών\" ή \"Δύσκολες Ερωτήσεις\"<br/><br/"
-">Δημιουργήστε μια τράπεζα ερωτήσεων επιλέγοντας το παραπάνω κουμπί."
+">Δημιουργήστε έναν κατάλογο ερωτήσεων επιλέγοντας το παραπάνω κουμπί."
 
 #: admin/home.php:111
 msgid ""
@@ -227,7 +226,7 @@ msgstr "Επεξεργασία Ερώτησης"
 
 #: admin/question_edit.php:130
 msgid "Return to pot:"
-msgstr "Επιστροφή στην τράπεζα ερωτήσεων:"
+msgstr "Επιστροφή στον κατάλογο ερωτήσεων:"
 
 #: admin/question_edit.php:155 admin/questions.php:87 quizFrontEnd/draw.php:399
 #: quizFrontEnd/draw.php:702
@@ -275,7 +274,7 @@ msgstr "Προσθήκη νέας ερώτησης"
 
 #: admin/question_type.php:27 admin/questions.php:41
 msgid "Return to all question pots"
-msgstr "Επιστροφή σε όλες τις τράπεζες ερωτήσεων"
+msgstr "Επιστροφή σε όλες τους καταλόγους ερωτήσεων"
 
 #: admin/question_type.php:30
 msgid "Please select a question type."
@@ -333,7 +332,7 @@ msgstr "Ρυθμίσεις"
 
 #: admin/questions.php:21
 msgid "This will copy the question to the current question pot"
-msgstr "Αυτό θα αντιγράψει την ερώτηση στην τρέχουσα τράπεζα ερωτήσεων"
+msgstr "Αυτό θα αντιγράψει την ερώτηση στον τρέχοντα κατάλογο ερωτήσεων"
 
 #: admin/questions.php:55
 msgid "Question Deleted"
@@ -357,7 +356,7 @@ msgstr "Αντιγραφή"
 
 #: admin/questions.php:116
 msgid "Select destination question pot"
-msgstr "Επιλέξτε την τράπεζα ερωτήσεων προορισμόυ"
+msgstr "Επιλέξτε τον κατάλογος ερωτήσεων προορισμόυ"
 
 #: admin/questions.php:120
 msgid "Copy question"
@@ -369,7 +368,7 @@ msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψε
 
 #: admin/questions.php:131
 msgid "Yes, delete this question"
-msgstr "Ναι διαγραφή αυτής της ερώτησης"
+msgstr "Ναι, διαγραφή αυτής της ερώτησης"
 
 #: admin/quiz_edit.php:15 quizFrontEnd/draw.php:1543 quizFrontEnd/draw.php:1646
 msgid "Correct"
@@ -405,7 +404,7 @@ msgstr "Επιλογή ερωτήσεων για αυτό το τεστ"
 
 #: admin/quiz_edit.php:174
 msgid "Add questions from pots"
-msgstr "Προσθήκη ερωτήσεων από τράπεζα ερωτήσεων"
+msgstr "Προσθήκη ερωτήσεων από κατάλογο ερωτήσεων"
 
 #: admin/quiz_edit.php:176
 msgid "Add questions from list"
@@ -429,7 +428,7 @@ msgstr "Ανακάτεμα ερωτήσεων"
 
 #: admin/quiz_edit.php:292
 msgid "questions from this pot"
-msgstr "ερωτήσεις από αυτήν την τράπεζα ερωτήσεων"
+msgstr "ερωτήσεις από αυτόν τον κατάλογο ερωτήσεων"
 
 #: admin/quiz_edit.php:304
 msgid "Availability"
@@ -736,7 +735,7 @@ msgstr "Προβολή απαντήσεων"
 
 #: mce/AI_Quiz_button_popup.php:54
 msgid "Select your Question or Quiz"
-msgstr "Επιλέξτε την Ερώτηση ή το Τεστ σας"
+msgstr "Επιλέξτε Ερώτηση ή Τεστ για εισαγωγή"
 
 #: mce/AI_Quiz_button_popup.php:82
 msgid "No Quizzes found"
@@ -756,7 +755,7 @@ msgstr "Δεν υπάρχουν ερωτήσεις σε αυτό το τεστ."
 
 #: mce/AI_Quiz_button_popup.php:168
 msgid "No questions found in this pot."
-msgstr "Δεν έχουν βρεθεί ερωτήσεις σε αυτή τη τράπεζα θεμάτων."
+msgstr "Δεν έχουν βρεθεί ερωτήσεις σε αυτόν τον κατάλογο."
 
 #: mce/AI_Quiz_button_popup.php:181
 msgid "Insert this question"
@@ -764,7 +763,7 @@ msgstr "Εισαγωγή αυτής της ερώτησης"
 
 #: quiz-tool-lite.php:101 quiz-tool-lite.php:102
 msgid "Quiz Questions"
-msgstr "Τράπεζα Ερωτήσεων"
+msgstr "Κατάλογος Ερωτήσεων"
 
 #: quiz-tool-lite.php:109 quiz-tool-lite.php:110
 msgid "Quizzes"
@@ -938,15 +937,15 @@ msgstr "Ανώνυμος Χρήστης "
 
 #: scripts/actions.php:30
 msgid "Question Pot created"
-msgstr "Έχει δημιουργηθεί τράπεζα ερωτήσεων"
+msgstr "Έχει δημιουργηθεί κατάλογος ερωτήσεων"
 
 #: scripts/actions.php:34 scripts/actions.php:75
 msgid "Question Pot Name cannot be blank"
-msgstr "Το όνομα της τράπεζας ερωτήσεων δεν μπορεί να είναι κενό"
+msgstr "Το όνομα του καταλόγου ερωτήσεων δεν μπορεί να είναι κενό"
 
 #: scripts/actions.php:70
 msgid "Question Pot Name Edited"
-msgstr "Το όνομα της τράπεζας ερωτήσεων έχει επεξεργαστεί"
+msgstr "Το όνομα του καταλόγου ερωτήσεων έχει επεξεργαστεί"
 
 #: scripts/draw.php:15
 msgid "Add possible answer"
@@ -1071,7 +1070,7 @@ msgid "Your score on this attempt: "
 msgstr "Η βαθμολογία σας σε αυτή τη προσπάθεια: "
 
 msgid "Are you sure you want to delete the question pot"
-msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε την τράπεζα απαντήσεων"
+msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε την κατάλογος απαντήσεων"
 
 msgid "Options"
 msgstr "Επιλογές"
@@ -1080,13 +1079,13 @@ msgid "Are you sure you want to delete question "
 msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε την ερώτηση "
 
 msgid "Are you sure you want to delete the question pot<br>"
-msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε την τράπεζα ερωτήσεων;<br>"
+msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε την κατάλογος ερωτήσεων;<br>"
 
 msgid ""
 "This will delete all questions in this pot and cannot be undone!</span><br/"
 "><br/>"
 msgstr ""
-"Αυτή η ενέργεια θα διαγράψει όλες τις ερωτήσεις σε αυτή την τράπεζα θεμάτων "
+"Αυτή η ενέργεια θα διαγράψει όλες τις ερωτήσεις σε αυτή την κατάλογος θεμάτων "
 "και δεν μπορεί να αναιρεθεί!</span><br/><br/>"
 
 msgid "Quiz Deleted"

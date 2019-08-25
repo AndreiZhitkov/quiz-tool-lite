@@ -13,13 +13,13 @@ include('../../../../wp-blog-header.php'); // Load up the wordpress stuff first.
     margin:10px auto;
 	line-height:20px;
 	width: 800px;
-	font-family: "Open Sans",sans-serif;
+	font-family: "Helvetica Neue";
 	padding:20px;
 }
 
 h1
 {
-	font-family: "Open Sans",sans-serif;
+	font-family: "Helvetica Neue";
 	padding-left:20px;
 }
 
@@ -31,10 +31,10 @@ h1
 
 #questionsDiv {
     float:left;
-    width:570px;
+    /* width:570px; */
 	border-left:2px solid #ccc;	
 	padding-left:10px;
-	height : 400px; overflow : auto;	
+	/* height : 400px; overflow : auto;	 */
 	
 }
 
