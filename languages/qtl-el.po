@@ -140,7 +140,7 @@ msgstr "Δημιουργία νέας τράπεζας ερωτήσεων"
 
 #: admin/home.php:10 admin/quiz_edit.php:170
 msgid "Enter Quiz Name"
-msgstr "Εισάγετε όνομα τεστ"
+msgstr "Εισάγετε όνομα "
 
 #: admin/home.php:55
 msgid "Pot Name"
@@ -1106,3 +1106,6 @@ msgstr "Επιλογή διαφορετικού τεστ"
 
 msgid "Total Right"
 msgstr "Συνολικά σωστά"
+
+msgid "Return to my quizzes"
+msgstr "Επιστροφή"

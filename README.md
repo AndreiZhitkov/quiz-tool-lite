@@ -11,6 +11,7 @@ Tested with :
 = 2.6.0 =  
 * Fixed bugs in quiz frontend (draw.php)
 * Added Greek Translation  
+* Fixed bugs in tinyMCE plugin (AI_Quiz_button_popup.php)
   
 = 2.5.1 =
 * Compatibility with WP 4.8.2
