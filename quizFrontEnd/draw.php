@@ -136,12 +136,12 @@ if (!class_exists('qtl_quiz_draw'))
 				
 					foreach ($previousAttemptInfo as $key => $value) 
 					{
-						$$key = $value;
+						$key = $value;
 					}
 					
 				}
 				
-				
+				settype($attemptCount, "integer");
 				$newAttemptCount = ($attemptCount+1);
 			}
 			
@@ -395,7 +395,7 @@ if (!class_exists('qtl_quiz_draw'))
 						$quizStr.= '<div id="questionDiv">';
 						$questionID = $value[0];
 						$optionOrder = $value[1];
-						$quizStr.= '<b class="greyText">'.__('Question', 'qtl').$currentQuestionNumber.'</b><br/>';
+						$quizStr.= '<b class="greyText">'.__('Question', 'qtl')." ".$currentQuestionNumber.'</b><br/>';
 						$quizStr.= '<div id="question">';			
 						$questionStr = qtl_quiz_draw::drawQuestion($questionID, $optionOrder, false, false);
 						
@@ -702,7 +702,7 @@ if (!class_exists('qtl_quiz_draw'))
 
 						
 						
-						$markedTest.= '<b class="greyText">'.__('Question', 'qtl').$currentQuestionNumber.'</b><br/>';
+						$markedTest.= '<b class="greyText">'.__('Question', 'qtl')." ".$currentQuestionNumber.'</b><br/>';
 						$markedTest.= '<div id="question">';
 						$markedTest.= qtl_quiz_draw::drawMarkedQuestion($questionID, $optionOrder, $response, $showFeedback);
 						$currentQuestionNumber++;
@@ -782,9 +782,10 @@ if (!class_exists('qtl_quiz_draw'))
 								
 								$headers = array('From: '.$fromEmailName.' <'.$fromEmailAddress.'>');
 								$subject = __('A Participant has taken the quiz: ', 'qtl').$quizName;
-								$message = __('A Participant has taken the quiz: ', 'qtl').$quizName."'\n\n";
+								$message = __('A Participant has taken the quiz: ', 'qtl').$quizName."\n\n";
+								$message .= __('Username : ', 'qtl').$currentUsername."\n"; 
 								$message .= __('Date Taken: ', 'qtl').$currentDate."\n";
-								$message .= __('Score', 'qtl') .$_SESSION['totalCorrect']."/".$_SESSION['possibleMaxScore']." = ".$percentageScore."%\n\n";								
+								$message .= __('Score', 'qtl')." : ".$_SESSION['totalCorrect']." / ".$_SESSION['possibleMaxScore']." ( ".$percentageScore."% ) \n\n";								
 								$message .= __('This message has been generated automatically', 'qtl');										
 								
 								
@@ -818,9 +819,9 @@ if (!class_exists('qtl_quiz_draw'))
 							get_currentuserinfo();
 							$thisEmail = $current_user->user_email;		
 							$subject = __('Quiz name: ', 'qtl').$quizName;
-							$message = __('This e-mail is a receipt of your quiz results for ','qtl').$quizName."'\n\n";
+							$message = __('This e-mail is a receipt of your quiz results for ','qtl').$quizName."\n\n";
 							$message .= __('Date Taken: ', 'qtl').$currentDate."\n";
-							$message .= __('Score', 'qtl').$_SESSION['totalCorrect']."/".$_SESSION['possibleMaxScore']." = ".$percentageScore."%\n\n";
+							$message .= __('Score', 'qtl')." : ".$_SESSION['totalCorrect']." / ".$_SESSION['possibleMaxScore']." ( ".$percentageScore."% ) \n\n";	
 							$message .= __('This message has been generated automatically', 'qtl');
 
 
@@ -1518,7 +1519,7 @@ if (!class_exists('qtl_quiz_draw'))
 
 
 					// Lookup the possible answers for this. 
-					$blank_feedback.='<div style="margin:5px 0px 5px 0px; padding:5px; border:1px solid #ccc"><b>Blank '.$i.' : Possible Correct Answers</b><br/>';				
+					$blank_feedback.='<div style="margin:5px 0px 5px 0px; padding:5px; border:1px solid #ccc"><b>'.__('Blank', 'qtl').' '.$i.' : '.__('Possible Correct Answers', 'qtl').'</b><br/>';				
 					$blank_feedback.= "<ol>";
 
 					$theseCorrectAnswersArray = $correctBlankResponsesArray[$i];
@@ -1535,15 +1536,15 @@ if (!class_exists('qtl_quiz_draw'))
 					
 					$myResponse = $myBlankResponseArray[$i-1];
 
-					if($myResponse==""){$myResponseText="None given";}else{$myResponseText = $myResponse;}
-					$blank_feedback.= 'Your Response : <b>'.stripslashes($myResponseText).'</b><br/>';
+					if($myResponse==""){$myResponseText= __('None given','qtl');}else{$myResponseText = $myResponse;}
+					$blank_feedback.= __('Your Response','qtl').' : <b>'.stripslashes($myResponseText).'</b><br/>';
 				
 					
 					// Check if its right
 					if (in_array($myResponse, $theseCorrectAnswersArray))
 					{
 						$thisFeedback = ${'blank_correct_feedback_'.$i};
-						$blank_feedback.='<span class="correct">Correct</span>';
+						$blank_feedback.='<span class="correct">'.__('Correct','qtl').'</span>';
 						
 						
 						if($thisFeedback)
@@ -1557,7 +1558,7 @@ if (!class_exists('qtl_quiz_draw'))
 					else
 					{
 						$thisFeedback = ${'blank_incorrect_feedback_'.$i};						
-						$blank_feedback.='<span class="incorrect">Incorrect</span>';
+						$blank_feedback.='<span class="incorrect">'.__('Incorrect','qtl').'</span>';
 						if($thisFeedback)
 						{
 							$blank_feedback.='<div class="incorrectFeedbackDiv">'.qtl_utils::convertTextFromDB(wpautop($thisFeedback)).'</div>';

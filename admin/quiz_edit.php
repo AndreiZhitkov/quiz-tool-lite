@@ -173,7 +173,7 @@ if($feedback)
 		<input type="radio" name="questionListType" id="potQuestions" value="pot" onclick="javascript:divDisplayHide('customListDiv'); divDisplayShow('questionPotsDiv');" <?php if ($quizOptionsArray['questionListType']=='pot'){echo 'checked'; }?>/>
 		<label for="potQuestions"><?php _e('Add questions from pots', 'qtl') ?></label><br />
 		<input type="radio" name="questionListType" id="customQuestions" value="custom" onclick="javascript:divDisplayShow('customListDiv'); divDisplayHide('questionPotsDiv');" <?php if ($quizOptionsArray['questionListType']=='custom'){echo 'checked'; }?>/>
-		<label for="customQuestions"><?php _e('Add questions from list', 'qtl') ?></label> <span class="greyText">(advanced)</span><hr />
+		<label for="customQuestions"><?php _e('Add questions from list', 'qtl') ?></label> <span class="greyText"><?php _e('(advanced)', 'qtl') ?></span><hr />
 
 
 		<?php

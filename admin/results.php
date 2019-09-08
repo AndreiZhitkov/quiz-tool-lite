@@ -1,6 +1,6 @@
 <h1><?php _e('Quiz Results', 'qtl') ?></h1>
 <p class="greyText"><?php _e('Please note: Results are saved only for logged in users', 'qtl') ?></p><br/>
-
+<h2>Ληψη αποτελεσμάτων</h2>
 <?php
 $quizID="";
 if(isset($_GET['quizID']))
@@ -18,7 +18,6 @@ function drawUserResults($quizID)
 {
 	//dataTables js
 	qtl_utils::loadDataTables();
-
 
 	// Get an array of results with username as key
 	// Get the results
@@ -105,6 +104,7 @@ function drawUserResults($quizID)
 
 	?>
 	<script>
+
 		jQuery(document).ready(function(){	
 			if (jQuery('#userTable').length>0)
 			{

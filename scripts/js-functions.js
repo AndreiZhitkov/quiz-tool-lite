@@ -10,7 +10,7 @@ jQuery.fn.isChildof = function(b){
 };
 
 
-<!-- layervis - generic toggler for show/hide on any divs by id-->
+// <!-- layervis - generic toggler for show/hide on any divs by id-->
 function toggleLayerVis(id){
 if (document.getElementById) {
 	if (this.document.getElementById(id).style.display=="none")
