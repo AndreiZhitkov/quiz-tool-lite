@@ -107,10 +107,13 @@ if (!class_exists('DownloadCSV'))
 
 					$user = get_user_by('id', $userID);		
 					$fileName = 'results_user_'.$user->user_login.'.csv';
-					 
+					$cnt = 1;
+					$results = $wpdb->get_results("SELECT * FROM `wp_AI_Quiz_tblUserQuizResponses` WHERE `username`='".$user->user_login."' AND `quizID`=".$quizID." ORDER BY `userAttemptID` ASC");
 
-					$results = $wpdb->get_results("SELECT `score`,`userAttemptID` FROM `wp_ai_quiz_tbluserquizresponses` WHERE `username`='".$user->user_login."' AND `quizID`=".$quizID." ORDER BY `userAttemptID` DESC");
-					$quiz_name = $wpdb->get_var("	SELECT `quizName` FROM `wp_ai_quiz_tblquizzes` WHERE `quizID`=".$quizID);
+					$quiz_name = $wpdb->get_var("	SELECT `quizName` FROM `wp_AI_Quiz_tblQuizzes` WHERE `quizID`=".$quizID);
+
+					// var_dump($results);die;
+
 					$fileName = $quiz_name.'_result_'.$user->user_login.'.csv';
 					header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
 					header('Content-Description: File Transfer');
@@ -121,19 +124,32 @@ if (!class_exists('DownloadCSV'))
 
 						
 						$fh = @fopen( 'php://output', 'w' );
-					foreach($results as $result) { 
-						
+						foreach($results as $result) { 
+
 							$CSV_array;
-							$tempOptionArray = array('Εξεταζόμενος',''.$user->user_login.'');
+
+							$tempOptionArray = array(__('Student','qtl'),''.$user->display_name.'');
 							$CSV_array[] = $tempOptionArray;
-							$tempOptionArray = array('Εξέταση',''.$quiz_name.'');
+
+							$tempOptionArray = array(__('Exam','qtl'),''.$quiz_name.'');
 							$CSV_array[] = $tempOptionArray;
-							$tempOptionArray = array('ΑρΠροσπάθειας',''.$result->userAttemptID.'');
+
+							$tempOptionArray = array(__('Attempt_Num','qtl'),''.$cnt.'');
 							$CSV_array[] = $tempOptionArray;
-							$tempOptionArray = array('Βαθμολογία',''.$result->score.'');
+						 
+							$dateStarted = $result->dateStarted;
+							$dateFinished =  $result->dateFinished; 
+							$timeTaken = qtl_utils::dateDiff(strtotime($dateStarted), strtotime($dateFinished));
+							$tempOptionArray = array(__('Time','qtl'),''.$timeTaken.'');
 							$CSV_array[] = $tempOptionArray;
+
+
+							$tempOptionArray = array(__('Score','qtl'),''.$result->score.'');
+							$CSV_array[] = $tempOptionArray;
+
 							$tempOptionArray = array('');
 							$CSV_array[] = $tempOptionArray;
+							$cnt++;
 						}
 				
 
@@ -148,7 +164,58 @@ if (!class_exists('DownloadCSV'))
 				}
 				elseif ($pagenow=='admin.php' && $downloadType=='exmres'){
 				 
- 
+					if(isset($_GET['quizID'])){
+						$quizID = $_GET['quizID'];
+					}
+
+					$cnt = 1;
+					$results = $wpdb->get_results("SELECT * FROM `wp_AI_Quiz_tblQuizAttempts` WHERE `quizID`=".$quizID);
+
+					$quiz_name = $wpdb->get_var("	SELECT `quizName` FROM `wp_AI_Quiz_tblQuizzes` WHERE `quizID`=".$quizID);
+					$fileName = 'results_user_'.$quiz_name.'.csv';
+
+					// var_dump($results);die;
+
+					$fileName = $quiz_name.'_results_.csv';
+					header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
+					header('Content-Description: File Transfer');
+					header("Content-type: text/csv");
+					header("Content-Disposition: attachment; filename={$fileName}");
+					header("Expires: 0");
+					header("Pragma: public");
+
+						
+						$fh = @fopen( 'php://output', 'w' );
+						foreach($results as $result) { 
+							$user = get_user_by('login', $result->username);		
+
+							$CSV_array;
+
+							$tempOptionArray = array(__('Student','qtl'),''.$user->display_name.'');
+							$CSV_array[] = $tempOptionArray;
+
+							$tempOptionArray = array(__('Attempts_Num','qtl'),''.$result->attemptCount.'');
+							$CSV_array[] = $tempOptionArray;
+						 
+							$tempOptionArray = array(__('Last_attemmpt','qtl'),''.$result->highestScoreDate.'');
+							$CSV_array[] = $tempOptionArray;
+
+							$tempOptionArray = array(__('Max_score','qtl'),''.$result->highestScore.'');
+							$CSV_array[] = $tempOptionArray;
+							
+							$tempOptionArray = array('');
+							$CSV_array[] = $tempOptionArray;
+							$cnt++;
+						}
+				
+
+						foreach ($CSV_array as $fields) {
+							fputcsv($fh, $fields);
+						}
+					
+					// Close the file
+					fclose($fh);
+ 					exit;
 				}
 			}
 		}

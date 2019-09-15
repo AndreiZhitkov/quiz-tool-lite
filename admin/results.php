@@ -9,10 +9,11 @@ if(isset($_GET['quizID']))
 	$quizInfo = qtl_queries::getQuizInfo($quizID);
 	$quizName = qtl_utils::convertTextFromDB($quizInfo['quizName']);
 	echo '<h2>'.$quizName.'</h2>';
+	echo '<a href="admin.php?page=ai-quiz-results&download=exmres&quizID='.$quizID.'" class="button-primary">'.__('Export exam results as CSV','qtl').'</a><br><br>';
+
 	//displaySearchForm();	
 	drawUserResults($quizID);
  
-	echo '<a href="admin.php?page=ai-quiz-results&download=stdres&userID='.$userID.'&quizID='.$quizID.'" class="button-primary">'.__('Export user results as CSV','qtl').'</a><br><br>';
   
 }
 
@@ -39,7 +40,7 @@ function drawUserResults($quizID)
 	}	
 
 	echo '<table id="userTable" class="display">';
-	echo '<thead><tr><th>'.__('Name').'</th><th>'.__('Username').'</th><th>'.__('Role').'</th><th>'.__('Highest Score', 'qtl').'</th><th>'.__('Number of attempts', 'qtl').'</th><th></th></tr></thead><tbody>';
+	echo '<thead><tr><th>'.__('Name').'</th><th>'.__('Username').'</th><th>'.__('Role').'</th><th>'.__('Highest Score', 'qtl').'</th><th>'.__('Number of attempts', 'qtl').'</th><th>'.__('Breakdown', 'qtl').'</th></tr></thead><tbody>';
 
 	$blogusers = get_users();
 
