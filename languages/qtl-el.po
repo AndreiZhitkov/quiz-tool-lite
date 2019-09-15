@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quiz Tool Lite\n"
 "POT-Creation-Date: 2017-06-15 09:07-0500\n"
-"PO-Revision-Date: 2019-09-08 23:56+0300\n"
+"PO-Revision-Date: 2019-09-15 20:10+0300\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -664,7 +664,7 @@ msgstr "Αριθμός προσπαθειών"
 
 #: admin/user_results.php:10
 msgid "Back to user results"
-msgstr "Επιστροφή στα αποτελέσματα χρήστη"
+msgstr "Επιστροφή"
 
 #: admin/user_results.php:27
 msgid "Attempt"
@@ -1055,3 +1055,6 @@ msgstr "Οι απανήσεις σας"
 
 msgid "None given"
 msgstr "Δεν δώθηκε καμία"
+
+msgid "Export user results as CSV"
+msgstr "Εξαγωγή αποτελεσμάτων χρήστη ως CSV"
