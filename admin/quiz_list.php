@@ -28,7 +28,7 @@ if($quizCount>=1)
 
 	echo '<div id="quiztable">';
 	echo '<table class="widefat"><thead>';
-	echo '<tr><th class="row-title">'.__('Quiz Name', 'qtl').'</th><th>'. __('Shortcode').'</th><th>'.__('Number of Participants', 'qtl').'</th><th>'.__('Grade Boundaries', 'qtl').'</th><th>'.__('View Results', 'qtl').'</th><th>'.__('Delete Quiz', 'qtl').'</th></tr></thead><tbody>';
+	echo '<tr><th class="row-title">'.__('Quiz Name', 'qtl').'</th><th>'. __('Shortcode').'</th><th>'.__('Number of Participants', 'qtl').'</th><th></th><th></th><th></th></tr></thead><tbody>';
 
 	foreach ($quizRS as $myQuizzes)
 	{		
