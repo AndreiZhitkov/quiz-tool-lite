@@ -1,6 +1,5 @@
 <h1><?php _e('Quiz Results', 'qtl') ?></h1>
 <p class="greyText"><?php _e('Please note: Results are saved only for logged in users', 'qtl') ?></p><br/>
-<h2>Ληψη αποτελεσμάτων</h2>
 <?php
 $quizID="";
 if(isset($_GET['quizID']))
@@ -12,6 +11,9 @@ if(isset($_GET['quizID']))
 	echo '<h2>'.$quizName.'</h2>';
 	//displaySearchForm();	
 	drawUserResults($quizID);
+ 
+	echo '<a href="admin.php?page=ai-quiz-results&download=stdres&userID='.$userID.'&quizID='.$quizID.'" class="button-primary">'.__('Export user results as CSV','qtl').'</a><br><br>';
+  
 }
 
 function drawUserResults($quizID)

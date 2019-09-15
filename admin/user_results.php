@@ -22,7 +22,9 @@ function drawUserResults($username, $quizID)
 	$userID=  $userInfo->ID;
 
 	echo '<h3>'.get_avatar( $userID, 64 ).' '.$fullname.'</h3>';
-
+	 
+	echo '<a href="admin.php?page=ai-quiz-results&download=stdres&userID='.$userID.'&quizID='.$quizID.'" class="button-primary">'.__('Export user results as CSV','qtl').'</a><br><br>';
+	
 	echo '<table id="userTable" class="display">';
 	echo '<thead><tr><th>'.__('Attempt', 'qtl').'</th><th>'. __('Attempt Date', 'qtl').'</th><th>'.__('Time taken', 'qtl').'</th><th>'.__('Score', 'qtl').'</th><th>'.__('Breakdown', 'qtl').'</th></tr></thead>';
 

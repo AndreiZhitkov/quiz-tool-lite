@@ -6,6 +6,7 @@
 class AIQuiz_TinyMCE_Button 
 {
 
+
 	static public function tinymce_add_button()
 	{
 		if ( ! current_user_can('edit_posts') && ! current_user_can('edit_pages') )
@@ -59,7 +60,7 @@ if (!class_exists('DownloadCSV'))
 		static function plugins_loaded()
 		{
 			global $pagenow;
-
+			global $wpdb;
 
 			if ( current_user_can( 'manage_options' ) )
 	//	{) // Are they logged in?
@@ -98,18 +99,64 @@ if (!class_exists('DownloadCSV'))
 					// Make sure nothing else is sent, our file is done
 					exit;
 				}
+				elseif ($pagenow=='admin.php' && $downloadType=='stdres'){
+					if(isset($_GET['quizID']) && isset($_GET['userID'])){
+						$quizID = $_GET['quizID'];
+						$userID = $_GET['userID'];	
+					}
+
+					$user = get_user_by('id', $userID);		
+					$fileName = 'results_user_'.$user->user_login.'.csv';
+					 
+
+					$results = $wpdb->get_results("SELECT `score`,`userAttemptID` FROM `wp_ai_quiz_tbluserquizresponses` WHERE `username`='".$user->user_login."' AND `quizID`=".$quizID." ORDER BY `userAttemptID` DESC");
+					$quiz_name = $wpdb->get_var("	SELECT `quizName` FROM `wp_ai_quiz_tblquizzes` WHERE `quizID`=".$quizID);
+					$fileName = $quiz_name.'_result_'.$user->user_login.'.csv';
+					header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
+					header('Content-Description: File Transfer');
+					header("Content-type: text/csv");
+					header("Content-Disposition: attachment; filename={$fileName}");
+					header("Expires: 0");
+					header("Pragma: public");
+
+						
+						$fh = @fopen( 'php://output', 'w' );
+					foreach($results as $result) { 
+						
+							$CSV_array;
+							$tempOptionArray = array('Εξεταζόμενος',''.$user->user_login.'');
+							$CSV_array[] = $tempOptionArray;
+							$tempOptionArray = array('Εξέταση',''.$quiz_name.'');
+							$CSV_array[] = $tempOptionArray;
+							$tempOptionArray = array('ΑρΠροσπάθειας',''.$result->userAttemptID.'');
+							$CSV_array[] = $tempOptionArray;
+							$tempOptionArray = array('Βαθμολογία',''.$result->score.'');
+							$CSV_array[] = $tempOptionArray;
+							$tempOptionArray = array('');
+							$CSV_array[] = $tempOptionArray;
+						}
+				
+
+						foreach ($CSV_array as $fields) {
+							fputcsv($fh, $fields);
+						}
+					
+					// Close the file
+					fclose($fh);
+ 					exit;
+ 
+				}
+				elseif ($pagenow=='admin.php' && $downloadType=='exmres'){
+				 
+ 
+				}
 			}
 		}
 	}
 
-	//if (is_user_logged_in()) // Are they logged in?
-	//{
-	//	if ( current_user_can( 'manage_options' ) )
-	//	{
-			/* A user with admin privileges */
+ 
 			DownloadCSV::on_load();
-	//	}
-	//}
+	 
 }
 
 ?>
