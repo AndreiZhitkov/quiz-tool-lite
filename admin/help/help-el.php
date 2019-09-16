@@ -29,10 +29,9 @@
 <div id="overview" class="tab-content" style="float: right; width:66%;" >
 
 <h2>Επισκόπηση</h2>
-<p>This plugin will allow you to create quiz questions and deploy them as a single question on a page, or as an entire quiz.<p>
-<p>Questions are stored in 'pots' which allow you to create custom quizzes from different questions in each pot. You can think of a question pot as a bucket in which you store similar questions, for example you could have 3 question pots called 'Easy', 'Medium' and 'Hard'. You can then create a quiz with 5 questions from the 'Easy' pot, 5 questions from the 'Medium' pot and 5 questions from the 'Hard' pot.</p>
-<p>Quiz questions are assigned randomly so in the above example if you had 10 questions in each pot you would be displaying 15 random questions, 5 from each difficulty to each individual taking the quiz (see below)</p>
-
+<p> Αυτό το πρόσθετο σας επιτρέπει να δημιουργήσετε ερωτήσεις κουίζ και να τις εντάξετε σε μια σελίδα ένα άρθρο ή να δημιουργήσετε μια ολοκληρωμένη εξέταση</p>
+<p> Οι ερωτήσεις αποθηκεύονται σε καταλόγους που σας επιτρέπουν να δημιουργήσετε προσαρμοσμένα κουίζ από διαφορετικές ερωτήσεις σε κάθε κατάλογο. Μπορείτε να φανταστείτε έναν κατάλογο ως αποθετήριο στο οποίο αποθηκεύετε παρόμοιες ερωτήσεις, για παράδειγμα, θα μπορούσατε να έχετε 3 καταλόγους ερωτήσεων με το όνομα 'Εύκολες', 'Μέτριες' και 'Δύσκολες'. Στη συνέχεια, μπορείτε να δημιουργήσετε ένα κουίζ με 5 ερωτήσεις από τον κατάλογο  'Εύκολες', 5 ερωτήσεις από τον κατάτλογο με τις Μέτριες και 5 ερωτήσεις από τον κατάλογο με τις δύσκολες ερωτήσεις. </p>
+<p> Οι ερωτήσεις τηε εξέτασης έχουν εκχωρηθεί τυχαία στο παραπάνω παράδειγμα, αν είχατε 10 ερωτήσεις σε κάθε κατάλογο, θα εμφανίζονταν 15 τυχαίες ερωτήσεις, 5 από κάθε δυσκολία σε κάθε άτομο που εξετάζεται (βλ. παρακάτω) </p>
 <?php
 //echo home_url();
 $homeURL =  network_home_url();
@@ -46,7 +45,7 @@ $imgSrc =  $homeURL.'/wp-content/plugins/quiz-tool-lite/admin/help/pot-example-e
 //echo $imgSrc;
 
 echo '<div style="text-align:center"><img src="'.$imgSrc.'" />';
-echo '<br/><span class="greyText">An example showing a quiz made up of 2 questions at random from 3 pots.</span>';
+echo '<br/><span class="greyText">Ένα παράδειγμα που δείχνει ένα κουίζ που αποτελείται από 2 ερωτήσεις επιλεγμένες τυχαία από 3 καταλόγους.</span>';
 echo '</div>';
 
 ?>
