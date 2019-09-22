@@ -11,7 +11,7 @@
 	<a onclick="openTab(event, 'question_feedback')">
 	<h3 class="nav-tab">Ανατροφοδότηση ερωτήσεων</h3></a>
 	<a onclick="openTab(event, 'insertQuestion')" >
-	<h3 class="nav-tab">Προσθήκη ερωτήσεων σε σελίδα</h3></a>
+	<h3 class="nav-tab">Προσθήκη ερώτησης σε σελίδα</h3></a>
 	<a onclick="openTab(event, 'quiz')" >
 	<h3 class="nav-tab">Δημιουργία εξετάσεων</h3></a>
 	<a onclick="openTab(event, 'insertQuiz')">
@@ -53,90 +53,90 @@ echo '</div>';
 </div>
 <div id="started" class="tab-content" style="float: right; width:66%;">
 
-<h2>Getting started : Creating your question pots</h2>
-<p>First off you need to create a question pot to add your questions to. Click 'Quiz Questions' from the menu and then 'Create a new question pot'</p>
-<p>You can call your question pot anything you want e.g. 'Geography questions'. People taking the quiz will never see the name of your question pots.</p>
-<p>You can also change your question pot names at any point</p>
-Once you've created a question pot click the 'Add / edit questions' link to start adding questions
-
+<h2>Ξεκινώντας : Δημιουργία καταλόγου ερωτήσεων</h2>
+<p>Αρχικά πρέπει να δημιουργήσετε έναν κατάλογο ερωτήσεων στον οποίο θα προσθέσετε τις ερωτήσεις σας. Κάντε κλικ στο 'Κατάλογος Ερωτήσεων' από το μενού και, στη συνέχεια, 'Δημιουργία νέου καταλόγου ερωτήσεων'</p>
+<p>Μπορείτε να ονομάσετε τον κατάλογό σας όπως θέλετε, π.χ. «Γεωγραφικές ερωτήσεις». Το όνομα αυτό δεν εμφανίζεται στους χρήστες που εξετάζονται σε ερωτήσεις από τον κατάλογο αυτόν.</p>
+<p>Επίσης, μπορείτε να αλλάξετε το όνομα του καταλόγου οποιαδήποτε στιγμή</p>
+Μόλις δημιουργήσετε έναν κατάλογο ερωτήσεων, κάντε κλικ στο κουμπί "Προσθήκη / επεξεργασία ερωτήσεων" για να ξεκινήσετε να προσθέτετε ερωτήσεις.
 </div>
 <div id="questions" class="tab-content" style="float: right; width:66%;">
 
-<h2>Creating questions</h2>
-<p>Once you've created a question pot and have clicked 'Add / edit questions' you should see a new link 'Add a new question'. Click this and you're taken through to a page that asks you to pick a question type. There are currently 4 questions types to choose from.</p>
+<h2>Δημιουργία ερωτήσεων</h2>
+<p>Αφού δημιουργήσετε έναν κατάλογο ερωτήσεων, κάντε κλικ στο κουμπί "Προσθήκη / επεξεργασία ερωτήσεων" για να ξεκινήσετε να προσθέτετε ερωτήσεις. Επιλέγοντας το κουμπί "Προσθέστε μια νέα ερώτηση" μετα΄φερεστε σε μια σελίδα που σας ζητά να επιλέξετε τύπο ερώτησης. Υπάρχουν 5 τύποι ερωτήσεων για να διαλέξετε.</p>
 
-<b>Single Answer (Radio Buttons)</b><br/>
-This question type allows participants to select ONE and only one answer. Use this for creating True / False questions, or when only one answer is correct e.g. what is the capital of France.
+<b>Πολλαπλής επιλογής μιας απάντησης (Radio Buttons)</b><br/>
+<p>Αυτός ο τύπος ερώτησης επιτρέπει στους εξεταζόμενους να επιλέξουν ΜΙΑ και μόνο μία απάντηση. Χρησιμοποιήστε το για να δημιουργήσετε ερωτήσεις Σωστό / Λάθος ή όταν υπάρχει μόνο μία απάντηση, π.χ. Ποια είναι η πρωτεύουσα της Γαλλίας.</p>
 
-<b>Multiple Answer (check boxes)</b><br/>
-<p>This question type allows participants to select more than one answer e.g. which of the following are true / select all that apply.</p>
+<b>Πολλαπλής επιλογής πολλών απαντήσεων (check boxes)</b><br/>
+<p>Αυτός ο τύπος ερωτήσης επιτρέπει στους εξεταζόμενους να επιλέγουν περισσότερες από μία απαντήσεις, π.χ. ποιο από τα παρακάτω είναι αληθές / επιλέξτε όλα όσα ισχύουν.</p>
 
-<b>Free Text</b><br/>
-<p>This question type allows participants to add text into a box. You can identify as many correct answers as you wish. These are not case sensitive. i.e. "Bones" would be accepted as well as "bones".</p>
+<b>Κειμένο</b><br/>
+<p>Αυτός ο τύπος ερώτησης επιτρέπει στους εξεταζόμενους να προσθέτουν κείμενο σε ένα πλαίσιο. Μπορείτε να προσδιορίσετε όσες σωστές απαντήσεις επιθυμείτε. Σα πεδία δεν γίονεται διάκριση πεζών/κεφαλαίων. Δηλαδή  το "Ρήμα" θα γίνονταν αποδεκτό και ως "ρήμα".</p>
 
-<b>Reflection (no textbox)</b>
-<p>You can use this question type when you want to give your participants a statement to think about, and then click a button to reveal a model answer. 
-This 'click to reveal' question type simply present information to people and does not give any means to enter a response.</p>
+<b>Κρίσεως (χωρίς textbox)</b>
+<p>Μπορείτε να χρησιμοποιήσετε αυτόν τον τύπο ερώτησης όταν θέλετε να δώσετε στους εξεταζόμενους μια πρόταση ή ιδέα για να σκεφτούν και, στη συνέχεια, κάνοντας κλικ σε ένα κουμπί για να αποκαλύψουν την απάντηση.
+Αυτός ο τύπος ερωτήματος «κλικ για αποκάλυψη» απλώς παρουσιάζει πληροφορίες στους εξεταζόμενους και δεν δίνει κανένα μέσο για να εισαγάγουν κάποια απάντηση.</p>
 
-<b>Reflection (with textbox)</b>
-This question type works in the same way as above (click to reveal a model answer/text) but also allows students to type a response before revealing the answer.
-You can use this to collect information from participants and then on a later page present their original response to them to see if it has changed. See the <a href="#shortcodes">'shortcodes'</a> section on how to do this.
+<b>Κρίσεως (με textbox)</b>
+<p>
+Αυτός ο τύπος ερωτήματος λειτουργεί με τον ίδιο τρόπο όπως παραπάνω (κάντε κλικ για να αποκαλύψετε μια απάντηση), αλλά επίσης επιτρέπει στους μαθητές να πληκτρολογήσουν μια δικιά τους απάντηση πριν αποκαλύψουν την απάντηση.
+Μπορείτε να χρησιμοποιήσετε αυτόν τον τύπο ερώτησης για να συλλέξετε πληροφορίες από τους συμμετέχοντες και στη συνέχεια σε μια μεταγενέστερη σελίδα να παρουσιάσετε την αρχική τους απάντηση. Δείτε περισσότερα γι αυτό στο παράρτημα που αφορά τα <a href="#shortcodes">'shortcodes'</a>.</p>
 
 </div>
 <div id="question_feedback" class="tab-content" style="float: right; width:66%;">
 
-<h2>Question feedback</h2>
-<p>Each question has several options for giving feedback. They have an overall correct and incorrect feedback box, but each response option (if applicable) can also have feedback for correct and incorrect feedback.</p>
-<p>Feedback is not required and can be left blank. Feedback is given automatically when adding a single question - you do not need to 'enable' it in anyway.</p>
+<h2>Ανατροφοδότηση ερωτήσεων</h2>
+<p>Κάθε ερώτηση έχει αρκετές επιλογές για την παροχή ανατροφοδότηση. Υπάρχει σωστό και εσφαλμένο πλαίσιο ανάδρασης, αλλά κάθε επιλογή απάντησης (αν υπάρχει) μπορεί επίσης να έχει ανατροφοδότηση για σωστή και εσφαλμένη απάντηση.</p>
+<p>Η ανατροφοδότηση δεν είναι απαραίτητη και μπορεί να αφεθεί κενή. Δίνεται αυτόματα όταν προσθέτετε μια μόνο ερώτηση - δεν χρειάζεται να την ενεργοποιείτε με κάποιο τρόπο.</p>
 
 </div>
 <div id="insertQuestion" class="tab-content" style="float: right; width:66%;">
 
-<h2>Adding questions to a page</h2>
-<p>Add a question to the page using the Quiz Tool Lite wizard icon. You can find this on any page or post tool bar - look for the red 'Q' icon (see below)</p>
+<h2>Προσθήκη ερώτησης σε σελίδα</h2>
+<p>Προσθέστε μια ερώτηση σε σελίδα χρησιμοποιώντας το εικονίδιο του οδηγού Quiz Tool Lite. Μπορείτε να το βρείτε στην γραμμή εργαλείων του επεξεργαστή κειμένου του WordPress (βλ. παρακάτω)</p>
 <?php
 $imgSrc =  $homeURL.'/wp-content/plugins/quiz-tool-lite/admin/help/question-add-el.jpg';
 echo '<div style="text-align:center"><img src="'.$imgSrc.'" />';
-echo '<br/><span class="greyText">When editing a page, click the Q icon to add a question or a quiz to the page.</span>';
+echo '<br/><span class="greyText">Κατά την επεξεργασία μιας σελίδας ή ενός άρθρου πατήστε το εικονίδιο με το γράμμα Q για να προσθέσετε εξέταση ή ερώτηση.</span>';
 echo '</div>';
 ?>
 
-<p>When clicked a popup window will appear where you can select either a quiz or a question to insert into the page. Firstly select the pot that contains the questions, then click the question itself and 'Insert into page'. This will insert a 'shortcode' onto the page.</p>
+<p>Όταν κάνετε κλικ στο εικονίδιο, θα εμφανιστεί ένα αναδυόμενο παράθυρο στο οποίο μπορείτε να επιλέξετε είτε μια εξέταση είτε μια ερώτηση που θα εισαχθεί στη σελίδα. Αρχικά, επιλέξτε τον κατάλογο που περιέχει τις ερωτήσεις, στη συνέχεια κάντε κλικ στην ερώτηση και στο "Εισαγωγή στη σελίδα". Με αυτόν τον τρόπο θα εισαχθεί ένας shortcode στη σελίδα.</p>
 
 </div>
 <div id="quiz" class="tab-content" style="float: right; width:66%;">
 
-<h2>Creating Quizzes</h2>
-<p>A quiz is created by pulling in X number of questions from X number of question pots. In its most simple formar, if you had one question pot with ten questions you could create a quiz that pulled in 10 questions from that pot. That would create a quiz with all 10 questions being displayed at random. However, you can combine multiple questions from seperate question pots to make each participant see a slightly different version of the quiz.</p>
-<p>Results from quizzes for logged in users are stored and can be viewed in the 'Results' page. The highest score is saved for each participant.</p>
+<h2>Δημιουργία εξετάσεων</h2>
+<p>Μια εξέταση δημιουργείται παίρνοντας έναν αριθμό ερωτήσεων από τους επιλεγμένους καταλόγους ερωτήσεων. Σε μια απλή περίπτωση, αν είχατε έναν κατάλογο με δέκα ερωτήσεις, θα μπορούσατε να δημιουργήσετε μια εξέταση που θα "τραβούσε" 10 ερωτήσεις από αυτόν τον κατάλογο. Αυτό θα δημιουργούσε μια εξέταση με τις 10 ερωτήσεις να εμφανίζονται τυχαία. Ωστόσο, μπορείτε να συνδυάσετε πολλαπλές ερωτήσεις από ξεχωριστούς καταλόγους, ώστε κάθε εξεταζόμενος να δει μια ελαφρώς διαφορετική έκδοση της εξέτασης.</p>
+<p>Τα αποτελέσματα των εξετάσεων για εγγεγραμμένους χρήστες αποθηκεύονται και μπορούν να προβληθούν ανά εξέταση και εξεταζόμενο. Επίσης μπορούν να εξαχθούν σε αρχεία μορφής CSV.</p>
 
 </div>
 
 <div id="insertQuiz" class="tab-content" style="float: right; width:66%;">
 
-<h2>Adding a quiz to a page</h2>
-<p>Use the 'Insert Wizard' from the editor toolbar in the same way as you add a single question to add the shortcode for displaying a quiz. Or you can use a shortcode, as shown below.</p>
+<h2>Προσθήκη εξέτασης σε σελίδα</h2>
+<p>Χρησιμοποιήστε των οδηγό εισαγωγής ερωτήσεων και εξετάσεων από την γραμμή εργαλείων του επεξεργαστή κειμένου του WordPress κατά την επεξεργασία μιας σελίδας όπως έχει αναφερθεί παραπάνω. Επίσης μπορείτε να χρησιμποιήσετε απευθείας ένα shortcode.</p>
 
 </div>
 <div id="shortcodes" class="tab-content" style="float: right; width:66%;">
 
 <h2>Shortcodes</h2>
-<p>To add a question or a quiz to a page you need to use 'shortcodes'. A shortcode is a simple bit of text that is added between to square brackets e.g. [My Shortcode].</p>
-On the whole you will not need to know anything else about shortcodes to add questions to a page. Simply use the 'Insert question Wizard' (see above) and the shortcode will be generated and added to the page for you.i
-<p>Example shortcodes are shown below</p>
+<p>Η προσθήκη ερωτήσεων και εξετάσεων σε σελίδες γίνεται με την χρήση 'shortcodes'. Το shortcode είναι ένα μικρό απόσπασμα κώδικα που εσωκλείεται από αγκύλες, για παράδειγμα : [My Shortcode].</p>
+Για να χρησιμποιήσετε τα shortcodes δεν χρειάζονται κάποιες επιπλέον τεχνικές γνώσεις. Απλά χρησιμοποιήστε τον οδηγό εισαγωγής ερωτήσεων και εξετάσεων και όλα τα απαραίτητα shortcodes θα δημιουργηθούν αυτόματα.
+<p>Παραδείγματα shortcodes μπορείτε να δείτε παρακάτω.</p>
 
-<h4>Standard Shortcode Examples</h4>
+<h4>Παραδείγματα Shortcode</h4>
 <table style="line-height:50px; text-align:left; border-bottom:1px solid #ccc">
 <tr>
 <th width="350px">Shortcode</th>
-<th>Description</th>
+<th>Περιγραφή</th>
 </tr>
 <tr>
 <td>
 <span class="codeExample">[QTL-Question id=25]</span>
 </td>
 <td>
-Insert question ID 25.
+Εισαγωγή ερώτησης με ID = 25
 </td>
 </tr>
 <tr>
@@ -144,82 +144,82 @@ Insert question ID 25.
 <span class="codeExample">[QTL-Question id=25 savedata=true]</span>
 </td>
 <td>
-Insert question ID 25 and save the response to the database
+Εισαγωγή ερώτησης με ID = 25 και αποθήκευση απάντησης στη βάση δεδομένων
 </td>
 </tr>
 <tr>
 <td>
-<span class="codeExample">[QTL-Question id=25 button="Click Here"]</span>
+<span class="codeExample">[QTL-Question id=25 button="Κλικ εδώ!"]</span>
 </td>
 <td>
-Insert question ID 25 and change the default "Check Answer" button text to "Click Here"
+Εισαγωγή ερώτησης με ID = 25 και παραμετροποίηση κειμένου κουμπιού "Υποβολή απάντησης"
 </td>
 </tr>
 
 <tr>
 <td>
-<span class="codeExample">[QTL-Question id=25 correctfeedback="Well done!"]</span>
+<span class="codeExample">[QTL-Question id=25 correctfeedback="Μπράβο!"]</span>
 </td>
 <td>
-Insert question ID 25 and change the default correct feedback
+Εισαγωγή ερώτησης με ID = 25 και παραμετροποίηση της προεπιλεγμένης ανατροφοδότησης
 </td>
 </tr>
 
 <tr>
 <td><span class="codeExample">[QTL-Response id=25]</span></td>
-<td>Shows the response given to question ID 25 by the current logged in user</td>
+<td>Εμφανίζει την απάντηση που δόθηκε στο ερώτημα με ID 25 από τον τρέχοντα συνδεδεμένο χρήστη</td>
 </tr>
 <tr>
 <td><span class="codeExample">[QTL-Quiz id=2]</span></td>
-<td>Insert quiz ID 2 into the page</td>
+<td>Εισαγωγή εξέτασης με ID 2 στη σελίδα</td>
 </tr>
 <tr>
 <tr>
 <td valign="top"><span class="codeExample">[QTL-Score id=2]</span></td>
-<td>Shows the number of attempts and maximum score for quiz ID 2 to the current logged in user<br/>Optional - add "showall=true" to the shortcode to view ALL attempt scores</td>
+<td>Εμφανίζει τον αριθμό των προσπαθειών και τη μέγιστη βαθμολογία για την εξέταση ID 2 στον τρέχοντα συνδεδεμένο χρήστη <br/> Προαιρετικό - προσθέστε "showall = true" στο shortcode για να εμφανίσετε όλες τις βαθμολογίες απόπειρας</td>
 </tr>
 <tr>
 <td><span class="codeExample">[QTL-Leaderboard id=2]</span></td>
-<td>Draw the leaderboard showing all user scores for quiz ID 2</td>
+<td>Προβολή πίνακα αποτελεσμάτων που δείχνει όλες τις βαθμολογίες χρηστών για την εξέταση με ID 2</td>
 </tr>
 <tr>
 <td><span class="codeExample">[QTL-Leaderboard id=2 anonymous=true]</span></td>
-<td>Draw the leaderboard showing all user scores for quiz ID 2 but hiding their names</td>
+<td>Προβολή πίνακα αποτελεσμάτων που δείχνει όλες τις βαθμολογίες χρηστών για την εξέταση με ID 2 αλλά κρύβει τα ονόματά τους</td>
 </tr>
 
 </table>
 
-<h4>Shortcodes available for the single question [QTL-Question]</h4>
+<h4>Shortcodes διαθέσιμα για μεμονωμένες ερωτήσεις [QTL-Question]</h4>
 <table style="line-height:50px; text-align:left; border-bottom:1px solid #ccc">
 
 <tr>
 <td><span class="codeExample">savedata=true</span></td>
-<td>Saves the response to the database so you can display to the user on another page</td>
+<td>Αποθηκεύει την απάντηση στη βάση δεδομένων ώστε να μπορείτε να εμφανίσετε στο χρήστη σε άλλη σελίδα</td>
 </tr>
 
 <tr>
-<td><span class="codeExample">button="Click here"</span></td>
-<td>Changes the default button text of the show answer button</td>
+<td><span class="codeExample">button="Κλίκ εδώ!"</span></td>
+<td>Αλλάζει το προεπιλεγμένο κείμενο κουμπιού απάντησης</td>
 </tr>
 
 <tr>
-<td><span class="codeExample">correctfeedback="Well done!"</span></td>
-<td>Changes the default correct message to user</td>
+<td><span class="codeExample">correctfeedback="Μπράβο!"</span></td>
+<td>Αλλάζει το προεπιλεγμένο μήνυμα για σωστή απάντηση</td>
 </tr>
 
 <tr>
-<td><span class="codeExample">incorrectfeedback="Thats wrong"</span></td>
-<td>Changes the default incorrect message to user</td>
+<td><span class="codeExample">incorrectfeedback="Αυτό είναι λάθος!"</span></td>
+<td>Αλλάζει το προεπιλεγμένο μήνυμα για λάθος απάντηση</td>
 </tr>
 
 <tr>
 <td><span class="codeExample">iconset=3</span></td>
-<td>Changes the default icon set. <a href="javascript:toggleLayerVis('iconsets')">View iconsets</a></td>
+<td>Αλλάζει το προεπιλεγμένο σετ εικονιδίων. <a href="javascript:toggleLayerVis('iconsets')">Προβολή εικονιδίων</a></td>
 </tr>
 </table>
 
 <div id="iconsets" style="display:none">
-<h3>Available Iconsets</h3>
+<h3>Διαθέσιμα εικονίδια (Icon Sets)</h3>
 <?php
 
 $iconArray = array();
@@ -252,21 +252,21 @@ echo '</table>';
 </div>
 <div id="showResponse" class="tab-content" style="float: right; width:66%;">
 
-<h2>Showing user responses</h2>
-<p>It is possible to present participants with a response they gave to a previous question. This is particularly useful for the 'Reflective' question types where you wish to present their responses to them at a later stage in their learning journey.</p>
-<p>Do this you need to do the following:</p>
-<p><b>1. Ensure data is being saved by manually modifying the shortcode</b>
-A typical shortcode for a question is as follows:</p>
+<h2>Εμφάνιση απαντήσεων χρηστών</h2>
+<p>Είναι δυνατό να προβληθεί στους συμμετέχοντες μια απάντηση που έδωσαν σε μια προηγούμενη συνεδρία. Αυτό είναι ιδιαίτερα χρήσιμο για τους τύπους ερωτήσεων κρίσεως εάν επιθυμείτε να εμφανίσετε τις απαντήσεις τους σε αυτές σε μεταγενέστερο στάδιο.</p>
+<p>Για να γίνει αυτό χρειάζεστε τα παρακάτω:</p>
+<p><b>1. Βεβαιωθείτε ότι τα δεδομένα αποθηκεύονται με χειροκίνητη τροποποίηση του shortcode </b>
+Ένα τυπικό shortcode για μια ερώτηση έχει ως εξής:</p>
 
 <span class="codeExample">[QTL-Question id=25]</span>
-<p>To make the question save the data simply add 'savedata=true' to the shoprtcode as shown below</p>
+<p>Για να κάνετε την ερώτηση να αποθηκεύσει δεδομένα απαντήσεων απλώς προσθέστε 'savedata = true' στο shoprtcode όπως φαίνεται παρακάτω</p>
 
 <span class="codeExample">[QTL-Question id=25 savedata=true]</span>
 
 <p><b>2. Προσθήκη shortcode για εμφάνιση απάντησης</b>
 Για να εμφανίσετε την απάντηση που υποβλήθηκε για ερώτηση με ID25, προσθέστε τα παρακάτω στη σελίδα ή το άρθρο σας σας</p>
 
-<span class="codeExample">[QTL-Response id=3]</span>
+<span class="codeExample">[QTL-Response id=25]</span>
 
 <p><i>Λάβετε υπόψη ότι αυτή τη στιγμή υποστηρίζεται μόνο σε τύπους ερωτήσεων κρίσεως (πλαίσια κειμένου) και μόνο με μεμονωμένες ερωτήσεις, όχι σε εξετάσεις.</i></p>
 
