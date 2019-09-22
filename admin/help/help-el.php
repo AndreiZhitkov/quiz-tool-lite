@@ -263,26 +263,27 @@ A typical shortcode for a question is as follows:</p>
 
 <span class="codeExample">[QTL-Question id=25 savedata=true]</span>
 
-<p><b>2. Add the 'Show Response' shortcode</b>
-To display the response submitted for question with ID of 25, add the following to your page or post</p>
+<p><b>2. Προσθήκη shortcode για εμφάνιση απάντησης</b>
+Για να εμφανίσετε την απάντηση που υποβλήθηκε για ερώτηση με ID25, προσθέστε τα παρακάτω στη σελίδα ή το άρθρο σας σας</p>
 
 <span class="codeExample">[QTL-Response id=3]</span>
 
-<p><i>Please note that currently this is only properly supported with reflective question types (text boxes), and only with formative questions i.e. single questions, not quizzes.</i></p>
+<p><i>Λάβετε υπόψη ότι αυτή τη στιγμή υποστηρίζεται μόνο σε τύπους ερωτήσεων κρίσεως (πλαίσια κειμένου) και μόνο με μεμονωμένες ερωτήσεις, όχι σε εξετάσεις.</i></p>
 
 </div>
 <div id="results" class="tab-content" style="float: right; width:66%;">
 
-<h2>Viewing Results</h2>
-<p>The results page will show you a list of quizzes you have created. Clicking the 'View Results' link will display all registered users on your site, along with their highest score achieved.</p>
-<p>Please note that currently quizzes can be taken as many times as they wish, and only the highest score will be recorded.</p>
+<h2>Προβολή αποτελεσμάτων</h2>
+<p>Η σελίδα αποτελεσμάτων εμφανίζει μια λίστα από κουίζ που έχετε δημιουργήσει. Κάνοντας κλικ στο σύνδεσμο "Προβολή αποτελεσμάτων" θα εμφανιστούν όλοι οι εγγεγραμμένοι χρήστες στην εξέταση, καθώς και ο υψηλότερος βαθμός τους.</p>
+<p>Σημειώστε ότι αν δεν ορίσετε περιοριμό οι εξεταζόμενοι θα μπορούν να προσπαθήσουν όσες φορές επιθυμούν και μόνο η υψηλότερη βαθμολογία θα καταγραφεί ως τελικό αποτέλεσμα.</p>
 
 </div>
 <div id="more_help" class="tab-content" style="float: right; width:66%;">
 
-<h2>Need more help?</h2>
-<p>If you require more help please add your question to the <a href="http://wordpress.org/support/plugin/quiz-tool-lite
-">support forum</a> where we will be in touch ASAP.</p>
+<h2>Χρειάζεστε περισσότερη βοήθεια;</h2>
+<p>Αν χρειάζεστε περισσότερη βοήθεια μπορείτε να απευθυνθείτε στο <a href="http://wordpress.org/support/plugin/quiz-tool-lite
+">φόρουμ υποστήριξης</a>  του αρχικού δημιουργού ή να ανοίξετε issue στην <a href="https://github.com/ir4klis/quiz-tool-lite
+" target="_blank">σελίδα</a> αυτής της παραλλαγής του προσθέτου στο GitHub.</p>
 
 </div>
 </div>
