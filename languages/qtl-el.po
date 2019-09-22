@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quiz Tool Lite\n"
 "POT-Creation-Date: 2017-06-15 09:07-0500\n"
-"PO-Revision-Date: 2019-09-15 22:49+0300\n"
+"PO-Revision-Date: 2019-09-22 07:21+0300\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr "Επεξεργασία ορίου"
 
 #: admin/boundary_edit.php:32
 msgid "Return to my boundaries"
-msgstr "Επιστροφή των ορίων"
+msgstr "Επιστροφή"
 
 #: admin/boundary_edit.php:49
 msgid "Minimum Score"
@@ -777,11 +777,11 @@ msgstr "Έχετε υπερβεί τον αριθμό των μέγιστων π
 
 #: quizFrontEnd/draw.php:302
 msgid "Total number of allowed attempts: "
-msgstr "Συνολικός αριθμός επιτρεπόμενων προσπαθειών: "
+msgstr "Συνολικός αριθμός επιτρεπόμενων προσπαθειών : "
 
 #: quizFrontEnd/draw.php:302
 msgid "Number of attempts remaining: "
-msgstr "Αριθμός προσπαθειών που απομένουν: "
+msgstr "Αριθμός προσπαθειών που απομένουν : "
 
 #: quizFrontEnd/draw.php:304
 msgid "<b>Please note</b>: Clicking 'refresh' or using the back or forward buttons on your browser after starting the quiz will count as another attempt."
@@ -793,7 +793,7 @@ msgstr "Κάντε κλικ εδώ για να ξεκινήσετε την εξ�
 
 #: quizFrontEnd/draw.php:318 quizFrontEnd/draw.php:1814
 msgid "Number of times you have taken this test :"
-msgstr "Αριθμός προσπαθειών σας σε αυτή την εξέταση"
+msgstr "Αριθμός προσπαθειών σας σε αυτή την εξέταση :"
 
 #: quizFrontEnd/draw.php:318 quizFrontEnd/draw.php:1814
 msgid "Your highest acheaved score: "
