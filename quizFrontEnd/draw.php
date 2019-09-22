@@ -133,15 +133,14 @@ if (!class_exists('qtl_quiz_draw'))
 				
 				if($previousAttemptInfo['quizID'])
 				{
-				
-					foreach ($previousAttemptInfo as $key => $value) 
+
+					foreach ($previousAttemptInfo as $key => $value)
 					{
-						$key = $value;
+						$$key = $value;
 					}
-					
+
 				}
-				
-				settype($attemptCount, "integer");
+
 				$newAttemptCount = ($attemptCount+1);
 			}
 			
