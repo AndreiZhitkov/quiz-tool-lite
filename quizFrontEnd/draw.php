@@ -141,7 +141,7 @@ if (!class_exists('qtl_quiz_draw'))
 
 				}
 
-				$newAttemptCount = ($attemptCount+1);
+				@$newAttemptCount = ($attemptCount+1);
 			}
 			
 			
@@ -296,8 +296,8 @@ if (!class_exists('qtl_quiz_draw'))
 					// They are eligiable so check for other problems before displaying the 'click to start' and they HAVEN@T yet clicked it.
 					if($allowQuizAttempt==true && $startTest=="")
 					{
-						$attemptsLeft = $maxAttempts-$attemptCount;
-						$clickToStart = '<hr/>'.__('Total number of allowed attempts: ', 'qtl').$maxAttempts. '<br/>'.__('Number of attempts remaining: ', 'qtl').$attemptsLeft.'<br/><br/>';
+						@$attemptsLeft = $maxAttempts-$attemptCount;
+						$clickToStart = '<hr/>'.__('Total number of allowed attempts: ', 'qtl').' '.$maxAttempts. '<br/>'.__('Number of attempts remaining: ', 'qtl').$attemptsLeft.'<br/><br/>';
 						$clickToStart.= '<div style="warning">';
 						$clickToStart.= __('<b>Please note</b>: Clicking \'refresh\' or using the back or forward buttons on your browser after starting the quiz will count as another attempt.', 'qtl');
 						$clickToStart.= '</div><br/>';
@@ -313,7 +313,7 @@ if (!class_exists('qtl_quiz_draw'))
 			{
 				if($highestScore && $clickToStart<>"")
 				{
-					$quizStr.= __('Number of times you have taken this test :','qtl').$attemptCount.'<br/>'. __('Your highest acheaved score: ', 'qtl').$highestScore.'%</b>.<br/>';
+					$quizStr.= __('Number of times you have taken this test :','qtl').' '.$attemptCount.'<br/>'. __('Your highest acheaved score: ', 'qtl').$highestScore.'%</b>.<br/>';
 				}
 			}
 			
