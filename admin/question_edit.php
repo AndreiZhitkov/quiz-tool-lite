@@ -101,7 +101,7 @@ elseif($questionID<>"")
 }
 else
 {
-	$buttonLabel = __('Save and continue');
+	$buttonLabel = __('Save and continue', 'qtl');
 	//$questionEditFormAction = 'admin.php?page=ai-quiz-question-edit&action=questionEdit&potID='.$potID.'&questionID='.$questionID.'&qType='.$qType.'&tab=options';
 }
 
