@@ -1,6 +1,7 @@
 <h1><?php _e('Quiz Results', 'qtl') ?></h1>
 <p class="greyText"><?php _e('Please note: Results are saved only for logged in users', 'qtl') ?></p><br/>
 <?php
+global $wpdb;
 $quizID="";
 if(isset($_GET['quizID']))
 {
@@ -8,15 +9,15 @@ if(isset($_GET['quizID']))
 	echo '<a href="?page=ai-quiz-quiz-list" class="backIcon">'.__('Back to Quiz List', 'qtl').'</a>';
 	$quizInfo = qtl_queries::getQuizInfo($quizID);
 	$quizName = qtl_utils::convertTextFromDB($quizInfo['quizName']);
+	
 	echo '<h2>'.$quizName.'</h2>';
-	echo '<a href="admin.php?page=ai-quiz-results&download=exmres&quizID='.$quizID.'" class="button-primary">'.__('Export exam results as CSV','qtl').'</a><br><br>';
-
-	//displaySearchForm();	
-	drawUserResults($quizID);
- 
+	$result_exist = $wpdb->get_var("SELECT COUNT(*) FROM `wp_AI_Quiz_tblQuizAttempts` WHERE `quizID` = ".$quizID);
+	if($result_exist >= 1){
+		echo '<a href="admin.php?page=ai-quiz-results&download=exmres&quizID='.$quizID.'" class="button-primary">'.__('Export exam results as CSV','qtl').'</a><br><br>';
+	}
   
 }
-
+drawUserResults($quizID);
 function drawUserResults($quizID)
 {
 	//dataTables js

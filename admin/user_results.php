@@ -20,16 +20,16 @@ function drawUserResults($username, $quizID)
 	$userInfo = get_user_by( 'login', $username );
 	$fullname =  $userInfo->first_name . ' ' . $userInfo->last_name;
 	$userID=  $userInfo->ID;
+	$attemptsRS = qtl_queries::getAllUserAttemptInfo($username, $quizID);
 
 	echo '<h3>'.get_avatar( $userID, 64 ).' '.$fullname.'</h3>';
-	 
+	if($attemptsRS){ 
 	echo '<a href="admin.php?page=ai-quiz-results&download=stdres&userID='.$userID.'&quizID='.$quizID.'" class="button-primary">'.__('Export user results as CSV','qtl').'</a><br><br>';
-	
+	}
 	echo '<table id="userTable" class="display">';
 	echo '<thead><tr><th>'.__('Attempt', 'qtl').'</th><th>'. __('Attempt Date', 'qtl').'</th><th>'.__('Time taken', 'qtl').'</th><th>'.__('Score', 'qtl').'</th><th>'.__('Breakdown', 'qtl').'</th></tr></thead>';
 
 
-	$attemptsRS = qtl_queries::getAllUserAttemptInfo($username, $quizID);
 	$i=1;
 	foreach($attemptsRS as $attemptInfo)
 	{
