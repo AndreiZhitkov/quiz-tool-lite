@@ -1,6 +1,6 @@
 <h1><?php _e('Quiz List', 'qtl') ?></h1>
 
-<a href="?page=ai-quiz-quiz-edit" class="button-primary"><?php _e('Add a new quiz', 'qtl') ?></a>
+<a href="?page=ai-quiz-quiz-edit" class="button-primary"><?php _e('Add a new quiz', 'qtl') ?></a><br><br>
 <?php
 
 $feedback = "";

@@ -11,7 +11,7 @@ if(isset($_GET['userAttemptID']))
 	$quizName = qtl_utils::convertTextFromDB($quizInfo['quizName']);
 
 	echo '<h1>'.$quizName.'</h1>';
-	echo '<a href="?page=ai-user-results&quizID='.$quizID.'&username='.$username.'" class="backIcon">Back to user results</a><hr/>';
+	echo '<a href="?page=ai-user-results&quizID='.$quizID.'&username='.$username.'" class="backIcon">'. __('Back to user results', 'qtl').'</a><hr/>';
 
 	$quizBreakdown = qtl_quiz_draw::markTest($quizID, $attemptInfo);
 	echo $quizBreakdown;

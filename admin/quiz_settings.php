@@ -246,7 +246,7 @@ if($fromEmailName=="")
 	</tbody>
 </table>
 
-<h2><?php _e('Feedback color settings') ?></h2>
+<h2><?php _e('Feedback color settings', 'qtl') ?></h2>
 
 		<h3 style="margin-bottom:10px;"><?php _e('Correct Feedback', 'qtl') ?></h3>
 		<table>

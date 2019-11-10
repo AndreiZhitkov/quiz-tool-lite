@@ -1,0 +1,1090 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Quiz Tool Lite\n"
+"POT-Creation-Date: 2017-06-15 09:07-0500\n"
+"PO-Revision-Date: 2019-09-22 07:54+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: quiz-tool-lite.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: el_GR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/boundary_edit.php:31
+msgid "Edit Boundary"
+msgstr "Επεξεργασία ορίου"
+
+#: admin/boundary_edit.php:32
+msgid "Return to my boundaries"
+msgstr "Επιστροφή"
+
+#: admin/boundary_edit.php:49
+msgid "Minimum Score"
+msgstr "Μέγιστη βαθμολογία"
+
+#: admin/boundary_edit.php:70
+msgid "Maximum Score"
+msgstr "Ελάχιστη βαθμολογία"
+
+#: admin/boundary_edit.php:73
+msgid "Feedback to display"
+msgstr "Ανατροφοδότηση προς προβολή"
+
+#: admin/boundary_edit.php:80 admin/home.php:77
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: admin/export.php:1 quiz-tool-lite.php:165 quiz-tool-lite.php:166
+msgid "Export / Import"
+msgstr "Εισαγωγή / Εξαγωγή"
+
+#: admin/export.php:2
+msgid "Export Questions"
+msgstr "Εξαγωγή Ερωτήσεων"
+
+#: admin/export.php:3
+msgid "Export Questions as CSV"
+msgstr "Εξαγωγή Ερωτήσεων ως CSV"
+
+#: admin/export.php:6 admin/export.php:16
+msgid "Import Questions"
+msgstr "Εισαγωγή Ερωτήσεων"
+
+#: admin/export.php:13
+msgid "Upload your CSV import file."
+msgstr "Μεταφόρτωση αρχείου CSV."
+
+#: admin/grade_boundaries.php:29
+msgid "Range Deleted"
+msgstr "Το εύρος έχει διαγραφεί"
+
+#: admin/grade_boundaries.php:44 admin/grade_boundaries.php:81
+msgid "Add new grade range"
+msgstr "Προσθήκη νέος εύρους βαθμολογιας"
+
+#: admin/grade_boundaries.php:53 admin/quiz_list.php:50 quiz-tool-lite.php:186
+#: quiz-tool-lite.php:187
+msgid "Grade Boundaries"
+msgstr "Όρια βαθμολογίας"
+
+#: admin/grade_boundaries.php:55 admin/results.php:10
+msgid "Back to Quiz List"
+msgstr "Πίσω στην λίστα εξετάσεων"
+
+#: admin/grade_boundaries.php:87
+msgid "Grade Range"
+msgstr "Όρια Βαθμολογίας"
+
+#: admin/grade_boundaries.php:87 admin/question_edit.php:156
+#: admin/quiz_edit.php:163
+msgid "Feedback"
+msgstr "Ανατροφοδότηση"
+
+#: admin/grade_boundaries.php:89
+msgid "No range defined"
+msgstr "Δεν έχει οριστεί εύρος"
+
+#: admin/grade_boundaries.php:193 admin/questions.php:105 scripts/draw.php:131
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: admin/grade_boundaries.php:196 admin/home.php:90 admin/questions.php:111
+#: scripts/draw.php:27 scripts/draw.php:132
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: admin/grade_boundaries.php:199
+msgid "Are you sure you want to delete this grade range?"
+msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε αυτό το εύρος βαθμολογίας;"
+
+#: admin/grade_boundaries.php:200 admin/quiz_edit.php:458
+msgid "Yes"
+msgstr "Ναι"
+
+#: admin/grade_boundaries.php:201 admin/home.php:78 admin/home.php:99
+#: admin/questions.php:121 admin/questions.php:132 admin/quiz_list.php:59
+#: scripts/draw.php:138 scripts/draw.php:282
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: admin/grade_boundaries.php:301
+msgid "No feedback given"
+msgstr "Δεν έχει δοθεί ανατροφοδότηση"
+
+#: admin/grade_boundaries.php:308
+msgid "Undefined Boundary"
+msgstr "Μη ορισμένο όριο"
+
+#: admin/help-en_US.php:2 admin/help-sl_SI.php:2 admin/help.php:2
+#: quiz-tool-lite.php:179 quiz-tool-lite.php:180
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: admin/home.php:3 mce/AI_Quiz_button_popup.php:91
+msgid "Question Pots"
+msgstr "Κατάλογος Ερωτήσεων"
+
+#: admin/home.php:6 admin/home.php:11
+msgid "Create a new question pot"
+msgstr "Δημιουργία νέου καταλόγου ερωτήσεων"
+
+#: admin/home.php:10 admin/quiz_edit.php:170
+msgid "Enter Quiz Name"
+msgstr "Εισάγετε όνομα "
+
+#: admin/home.php:55
+msgid "Pot Name"
+msgstr "Όνομα καταλόγου ερωτήσεων"
+
+#: admin/home.php:56
+msgid "Number of questions"
+msgstr "Αριθμός ερωτήσεων"
+
+#: admin/home.php:88
+msgid "Add or edit questions"
+msgstr "Προσθήκη ή επεξεργασία ερωτήσεων"
+
+#: admin/home.php:89
+msgid "Change Pot Name"
+msgstr "Αλλαγή ονόματος καταλόγου ερωτήσεων"
+
+#: admin/home.php:96
+msgid "Are you sure you want to delete this question pot?"
+msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε αυτόν τον κατάλογο ερωτήσεων;"
+
+#: admin/home.php:97
+msgid "This will delete all questions in this pot and cannot be undone!"
+msgstr "Αυτή η ενέργεια θα διαγράψει όλες τις ερωτήσεις από αυτόν τον κατάλογο ερωτήσεων και δεν μπορεί να αναιρεθεί!"
+
+#: admin/home.php:98
+msgid "Yes, delete this question pot"
+msgstr "Ναι, διαγραφή αυτής της τράπεζας ερωτήσεων"
+
+#: admin/home.php:109
+msgid "Welcome to Quiz Tool Lite"
+msgstr "Καλώς ήρθατε στο Quiz Tool Lite"
+
+#: admin/home.php:110
+msgid "All questions you create need to be within a question \"pot, e.g. \"Maths Questions\" or \"Difficult Questions\"<br/><br/>Create a question pot by clicking the button above."
+msgstr "Όλες οι ερωτήσεις που δημιουργείτε πρέπει να βρίσκονται σε έναν κατάλογο ερωτήσεων π.χ. \"Ερωτήσεις Μαθηματικών\" ή \"Δύσκολες Ερωτήσεις\"<br/><br/>Δημιουργήστε έναν κατάλογο ερωτήσεων επιλέγοντας το παραπάνω κουμπί."
+
+#: admin/home.php:111
+msgid "For more information and help please read the <a href=\"admin.php?page=ai-quiz-help\">help pages</a> or visit the <a href=\"https://wordpress.org/support/plugin/quiz-tool-lite\">support forum</a>"
+msgstr "Για περισσότερες πληροφορίες ανατρέξτε στις σελίδες <a href=\"admin.php?page=ai-quiz-help\">βοήθειας</a>"
+
+#: admin/question_edit.php:29 admin/question_edit.php:34
+#: admin/question_edit.php:39
+msgid "Option updated"
+msgstr "Η επιλογή έχει ενημερωθεί"
+
+#: admin/question_edit.php:44
+msgid "Option deleted"
+msgstr "Η επιλογή έχει διαγραφεί"
+
+#: admin/question_edit.php:85 admin/quiz_settings.php:236 scripts/draw.php:262
+msgid "Correct Feedback"
+msgstr "Ανάδραση για σωστή απάντηση"
+
+#: admin/question_edit.php:91
+msgid "Text to display after click"
+msgstr "Κείμενο για προβολή μετά το κλικ"
+
+#: admin/question_edit.php:93 admin/question_edit.php:98 scripts/draw.php:224
+#: scripts/draw.php:281
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: admin/question_edit.php:104
+msgid "Save and continue"
+msgstr "Αποθήκευση και συνέχεια"
+
+#: admin/question_edit.php:128 quiz-tool-lite.php:130 quiz-tool-lite.php:131
+msgid "Edit Question"
+msgstr "Επεξεργασία Ερώτησης"
+
+#: admin/question_edit.php:130
+msgid "Return to pot:"
+msgstr "Επιστροφή στον κατάλογο ερωτήσεων:"
+
+#: admin/question_edit.php:155 admin/questions.php:87 quizFrontEnd/draw.php:399
+#: quizFrontEnd/draw.php:702
+msgid "Question"
+msgstr "Ερώτηση"
+
+#: admin/question_edit.php:158
+msgid "Response Options"
+msgstr "Επιλογές απαντήσεων"
+
+#: admin/question_edit.php:163
+msgid "Question Text"
+msgstr "Κείμενο Ερώτησης"
+
+#: admin/question_edit.php:168
+msgid "To create your blank text boxes, type out your question and then replace each word you wish to replace with \"[blank]\""
+msgstr "Για να δημιουργήσετε τα δικά σας κενά κουτιά, πληκτρολογήστε την ερώτηση και μετά αντικαταστήστε την κάθε λέξη που θέλετε να αντικατασταθεί με \"[blank]\""
+
+#: admin/question_edit.php:169
+msgid "e.g. That's one small step for a [blank], one giant leap for [blank]"
+msgstr "π.χ. Αυτό είναι ένα μικρό βήμα για τον [blank], ένα γιγαντιαίο άλμα για την [blank]"
+
+#: admin/question_edit.php:188 admin/quiz_settings.php:248 scripts/draw.php:269
+msgid "Incorrect Feedback"
+msgstr "Ανατροφοδότηση για λάθος απάντηση"
+
+#: admin/question_edit.php:211
+msgid "Possible Answers"
+msgstr "Πιθανές Απαντήσεις"
+
+#: admin/question_edit.php:215
+msgid "Please <b>save</b> this question before entering response options"
+msgstr "Παρακαλώ <b>αποθηκεύστε</b> αυτή την ερώτηση πριν εισάγετε επιλογές απάντησης"
+
+#: admin/question_type.php:26 admin/questions.php:71
+msgid "Add a new question"
+msgstr "Προσθήκη νέας ερώτησης"
+
+#: admin/question_type.php:27 admin/questions.php:41
+msgid "Return to all question pots"
+msgstr "Επιστροφή σε όλους τους καταλόγους ερωτήσεων"
+
+#: admin/question_type.php:30
+msgid "Please select a question type."
+msgstr "Παρακαλώ επιλέξτε τύπο ερώτησης."
+
+#: admin/question_type.php:35
+msgid "Multiple Choice"
+msgstr "Πολλαπλής Επιλογής"
+
+#: admin/question_type.php:36
+msgid "Text"
+msgstr "Κείμενο"
+
+#: admin/question_type.php:37
+msgid "Reflective"
+msgstr "Κρίσεως"
+
+#: admin/question_type.php:46
+msgid "Single Answer (radio buttons)"
+msgstr "Μονής απάντησης (κουμπιά radio)"
+
+#: admin/question_type.php:54
+msgid "Multiple Answer (check boxes)"
+msgstr "Πολλαπλών απαντήσεων (κουμπιά checkbox)"
+
+#: admin/question_type.php:69
+msgid "Free Text"
+msgstr "Ελεύθερο Κείμενο"
+
+#: admin/question_type.php:86
+msgid "Fill in the blanks"
+msgstr "Συμπλήρωση κενών"
+
+#: admin/question_type.php:98
+msgid ""
+"Reflective questions are not marked - instead, answers can be saved and displayed to students on a seperate page.<br/>\r\n"
+"\t\t\tSee the <a href=\"admin.php?page=ai-quiz-help#shortcodes\">shortcode reference</a> for help with this."
+msgstr ""
+"Οι ερωτήσεις κρίσεως δεν βαθμολογούνται - αντ' αυτού, οι απαντήσεις μπορούν να αποθηκευτούν και να προβληθούν στους εξεταζόμενους σε ξεχωριστή σελίδα.<br/>\n"
+"\t\t\tΔείτε την <a href=\"admin.php?page=ai-quiz-help#shortcodes\">επισκόπηση των shortcodes</a>για βοήθεια με αυτό."
+
+#: admin/question_type.php:104
+msgid "Reflection (no textbox)"
+msgstr "Απάντηση"
+
+#: admin/questions.php:3 admin/quiz_edit.php:161 admin/quiz_settings.php:177
+#: quiz-tool-lite.php:172 quiz-tool-lite.php:173
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: admin/questions.php:21
+msgid "This will copy the question to the current question pot"
+msgstr "Αυτό θα αντιγράψει την ερώτηση στον τρέχοντα κατάλογο ερωτήσεων"
+
+#: admin/questions.php:55
+msgid "Question Deleted"
+msgstr "Η ερώτηση έχει διαγραφεί"
+
+#: admin/questions.php:60
+msgid "Question copied succesfully"
+msgstr "Η ερώτηση έχει αντιγραφεί επιτυχώς"
+
+#: admin/questions.php:80
+msgid "No questions found"
+msgstr "Δεν βρέθηκαν ερωτήσεις"
+
+#: admin/questions.php:88 admin/quiz_list.php:33
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/questions.php:108
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: admin/questions.php:116
+msgid "Select destination question pot"
+msgstr "Επιλέξτε τον κατάλογος ερωτήσεων προορισμόυ"
+
+#: admin/questions.php:120
+msgid "Copy question"
+msgstr "Αντιγραφή ερώτησης"
+
+#: admin/questions.php:130
+msgid "Are you sure you want to delete question"
+msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε την ερώτηση"
+
+#: admin/questions.php:131
+msgid "Yes, delete this question"
+msgstr "Ναι, διαγραφή αυτής της ερώτησης"
+
+#: admin/quiz_edit.php:15 quizFrontEnd/draw.php:1543 quizFrontEnd/draw.php:1646
+msgid "Correct"
+msgstr "Σωστά"
+
+#: admin/quiz_edit.php:16 quizFrontEnd/draw.php:1557 quizFrontEnd/draw.php:1647
+msgid "Incorrect"
+msgstr "Λάθος"
+
+#: admin/quiz_edit.php:31
+msgid "Quiz updated"
+msgstr "Η εξέταση έχει ενημερωθεί"
+
+#: admin/quiz_edit.php:145 quiz-tool-lite.php:123 quiz-tool-lite.php:124
+msgid "Edit Quiz"
+msgstr "Επεξεργασία εξέτασης"
+
+#: admin/quiz_edit.php:159
+msgid "Overview"
+msgstr "Επισκόπηση"
+
+#: admin/quiz_edit.php:165
+msgid "Participation"
+msgstr "Συμμετοχή"
+
+#: admin/quiz_edit.php:169 admin/quiz_list.php:33
+msgid "Quiz Name"
+msgstr "Όνομα εξέτασης"
+
+#: admin/quiz_edit.php:172
+msgid "Select Questions for this Quiz"
+msgstr "Επιλογή ερωτήσεων για αυτή την εξέταση"
+
+#: admin/quiz_edit.php:174
+msgid "Add questions from pots"
+msgstr "Προσθήκη ερωτήσεων από κατάλογο ερωτήσεων"
+
+#: admin/quiz_edit.php:176
+msgid "Add questions from list"
+msgstr "Προσθήκη ερωτήσεων από λίστα"
+
+#: admin/quiz_edit.php:220
+msgid "Warning! The following questions do not exist:"
+msgstr "Προσοχή! Οι ακόλουθες ερωτήσεις δεν υπάρχουν:"
+
+#: admin/quiz_edit.php:231
+msgid "Warning! The following questions are reflective types and therefore cannot be marked:"
+msgstr "Προσοχή! Οι ακόλουθες ερωτήσεις είναι ερωτήσεις κρίσεως και δεν μπορούν να βαθμολογηθούν:"
+
+#: admin/quiz_edit.php:245
+msgid "Randomise questions"
+msgstr "Ανακάτεμα ερωτήσεων"
+
+#: admin/quiz_edit.php:292
+msgid "questions from this pot"
+msgstr "ερωτήσεις από αυτόν τον κατάλογο ερωτήσεων"
+
+#: admin/quiz_edit.php:304
+msgid "Availability"
+msgstr "Διαθεσιμότητα"
+
+#: admin/quiz_edit.php:308
+msgid "Start Date"
+msgstr "Ημερομηνία έναρξης"
+
+#: admin/quiz_edit.php:311 admin/quiz_edit.php:319 admin/quiz_settings.php:209
+#: scripts/draw.php:215 scripts/draw.php:217 scripts/draw.php:262
+#: scripts/draw.php:269
+msgid "optional"
+msgstr "προαιρετικό"
+
+#: admin/quiz_edit.php:316
+msgid "End Date"
+msgstr "Ημερομηνία λήξης"
+
+#: admin/quiz_edit.php:324
+msgid "Completion Options"
+msgstr "Επιλογής ολοκλήρωσης"
+
+#: admin/quiz_edit.php:325
+msgid "Message displayed to user after quiz has been submitted"
+msgstr "Μήνυμα που προβάλλεται στον χρήστη μετά την υποβολή της εξέτασης"
+
+#: admin/quiz_edit.php:328
+msgid "Redirect URL after completing the quiz"
+msgstr "URL ανακατεύθυνσης μετά την ολοκλήρωση της εξέτασης"
+
+#: admin/quiz_edit.php:328
+msgid "Optional. Leave blank to return to current page"
+msgstr "Προαιρετικό. Αφήστε κενό για επιστροφή στην τρέχουσα σελίδα"
+
+#: admin/quiz_edit.php:332
+msgid "Email me when a participant has taken the quiz"
+msgstr "Αποστολή Email όταν κάποιος εξεταζόμενος έχει ξεκινήσει την εξέταση"
+
+#: admin/quiz_edit.php:334
+msgid "Time Limit"
+msgstr "Όριο χρόνου"
+
+#: admin/quiz_edit.php:336
+msgid "Add a time limit to this quiz"
+msgstr "Προσθήκη ορίου χρόνου σε αυτή την εξέταση"
+
+#: admin/quiz_edit.php:350
+msgid "minutes"
+msgstr "λεπτά"
+
+#: admin/quiz_edit.php:364
+msgid "seconds"
+msgstr "δευτερόλεπτα"
+
+#: admin/quiz_edit.php:366
+msgid "After the time above the quiz will automatically submit"
+msgstr "Αφού ο περάσει ο παραπάνω χρόνος η εξέταση θα υποβληθεί αυτόματα"
+
+#: admin/quiz_edit.php:372
+msgid "Feedback Options"
+msgstr "Επιλογές Ανατροφοδότησης"
+
+#: admin/quiz_edit.php:374
+msgid "Display detailed feedback to participants"
+msgstr "Προβολή λεπτομερούς ανατροφοδότησης στους συμμετέχοντες"
+
+#: admin/quiz_edit.php:376
+msgid "Hide feedback from participants"
+msgstr "Απόκρυψη ανατροφοδότησης από τους συμμετέχοντες"
+
+#: admin/quiz_edit.php:378
+msgid "Feedback Text"
+msgstr "Κείμενο ανατροφοδότησης"
+
+#: admin/quiz_edit.php:382
+msgid "Correct Text"
+msgstr "Κείμενο για σωστή απάντηση"
+
+#: admin/quiz_edit.php:390
+msgid "Incorrect Text"
+msgstr "Κείμενο για λάθος απάντηση"
+
+#: admin/quiz_edit.php:398
+msgid "Feedback Icons"
+msgstr "Εικονίδια Ανατροφοδότησης"
+
+#: admin/quiz_edit.php:399
+msgid "Icon set"
+msgstr "Σετ εικονιδίων"
+
+#: admin/quiz_edit.php:415
+msgid "No icons"
+msgstr "Χωρίς εικόνιδια"
+
+#: admin/quiz_edit.php:448
+msgid "Participant Options"
+msgstr "Επιλογές συμμετοχής"
+
+#: admin/quiz_edit.php:450
+msgid "Participants must be logged in to take this quiz"
+msgstr "Οι συμμετέχοντες πρέπει να συνδεθούν για να ξεκινήσουν αυτή την εξέταση"
+
+#: admin/quiz_edit.php:453
+msgid "All the options below are only applicable if you have ticked 'Require user to be logged in'"
+msgstr "Όλες οι παρακάτω επιλογές ισχύουν μόνο αν έχετε ενεργοποιημένη την επιλογή \"Απαίτηση χρήστη να συνδεθεί\""
+
+#: admin/quiz_edit.php:454
+msgid "Max number of attempts"
+msgstr "Μέγιστος αριθμός προσπαθειών"
+
+#: admin/quiz_edit.php:457
+msgid "Email user their mark after completing the quiz"
+msgstr "Αποστολή στο χρήστη του βαθμού με email μετά τη συμπλήρωση της εξέτασης"
+
+#: admin/quiz_edit.php:460
+msgid "No"
+msgstr "Όχι"
+
+#: admin/quiz_edit.php:463
+msgid "Minimum time between attempts"
+msgstr "Ελάχιστος χρόνος μεταξύ προσπαθειών"
+
+#: admin/quiz_edit.php:476
+msgid "Hour(s)"
+msgstr "Ώρα(ες)"
+
+#: admin/quiz_edit.php:478
+msgid "Day(s)"
+msgstr "Ημέρα(ες)"
+
+#: admin/quiz_edit.php:489
+msgid "Update Quiz"
+msgstr "Ενημέρωση εξέτασης"
+
+#: admin/quiz_list.php:2
+msgid "Quiz List"
+msgstr "Λίστα εξετάσεων"
+
+#: admin/quiz_list.php:4
+msgid "Add a new quiz"
+msgstr "Προσθήκη νέας εξέτασης"
+
+#: admin/quiz_list.php:16
+msgid "Quiz deleted"
+msgstr "Η εξέταση έχει διαγραφεί"
+
+#: admin/quiz_list.php:33
+msgid "Number of Participants"
+msgstr "Αριθμός συμμετεχόντων"
+
+#: admin/quiz_list.php:51 admin/results.php:100
+msgid "View Results"
+msgstr "Προβολή Αποτελεσμάτων"
+
+#: admin/quiz_list.php:54
+msgid "Delete Quiz"
+msgstr "Διαγραφή Εξέτασης"
+
+#: admin/quiz_list.php:57
+msgid "Are you sure you want to delete quiz:"
+msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε αυτή την εξέταση :"
+
+#: admin/quiz_list.php:58
+msgid "Yes, delete this quiz"
+msgstr "Ναι να γίνει διαγραφή της εξέτασης"
+
+#: admin/quiz_list.php:70
+msgid "Create a quiz by clicking the button above"
+msgstr "Δημιουργήστε μια εξέταση επιλέγοντας το παραπάνω κουμπί"
+
+#: admin/quiz_settings.php:11
+msgid "Correct feedback box color"
+msgstr "Χρώμα κουτιού ανατροφοδότησης για σωστή απάντηση"
+
+#: admin/quiz_settings.php:14
+msgid "Correct feedback text color"
+msgstr "Χρώμα κειμένου ανατροφοδότησης για σωστή απάντηση"
+
+#: admin/quiz_settings.php:17
+msgid "Incorrect feedback box color"
+msgstr "Χρώμα κουτιού ανατροφοδότησης για λάθος απάντηση"
+
+#: admin/quiz_settings.php:20
+msgid "Incorrect feedback text color"
+msgstr "Χρώμα κειμένου ανατροφοδότησης για λάθος απάντηση"
+
+#: admin/quiz_settings.php:23
+msgid "Reflective feedback box color"
+msgstr "Χρώμα κουτιού ανατροφοδότησης για απάντηση σε ερώτηση κρίσεως"
+
+#: admin/quiz_settings.php:26
+msgid "Reflective feedback text color"
+msgstr "Χρώμα κειμένου ανατροφοδότησης για απάντηση σε ερώτηση κρίσεως"
+
+#: admin/quiz_settings.php:41
+msgid "Settings updated"
+msgstr "Οι ρυθμίσεις έχουν ενημερωθεί"
+
+#: admin/quiz_settings.php:135
+msgid "Feedback Text Sample"
+msgstr "Δείγμα κειμένου ανατροφοδότησης"
+
+#: admin/quiz_settings.php:182
+msgid "Minimum level required to be able to edit quizzes"
+msgstr "Ελάχιστο επίπεδο δικαιωμάτων για την επεξεργασία εξετάσεων"
+
+#: admin/quiz_settings.php:208
+msgid "Email Settings"
+msgstr "Ρυθμίσεις Email"
+
+#: admin/quiz_settings.php:216
+msgid "Send Quiz emails from this address:"
+msgstr "Αποστολή email σχετικών με τις εξετάσεις από αυτή τη διεύθυνση:"
+
+#: admin/quiz_settings.php:224
+msgid "And from this name:"
+msgstr "Και από αυτό το όνομα:"
+
+#: admin/quiz_settings.php:228
+msgid "If left blank, emails will be sent from the default donotreply@yourdomain.com address."
+msgstr "Αν παραμείνει κενό, τα email θα αποστέλλονται από την προεπιλεγμένη διεύθυνση donotreply@yourdomain.com."
+
+#: admin/quiz_settings.php:234
+msgid "Feedback color settings"
+msgstr "Ρυθμίσεις χρωμάτων ανατροφοδότησης"
+
+#: admin/quiz_settings.php:260
+msgid "Reflective Feedback"
+msgstr "Ανατροφοδότηση σε απάντηση ερώτησης κρίσεως"
+
+#: admin/quiz_settings.php:309
+msgid "Update Options"
+msgstr "Ενημέρωση Επιλογών"
+
+#: admin/results.php:2
+msgid "Quiz Results"
+msgstr "Αποτελέσματα εξέτασης"
+
+#: admin/results.php:3
+msgid "Please note: Results are saved only for logged in users"
+msgstr "Σημείωση: Τα αποτελέσματα αποθηκεύονται μόνο για συνδεδεμένους χρήστες"
+
+#: admin/results.php:43 quizFrontEnd/draw.php:1898
+msgid "Name"
+msgstr "Όνομα"
+
+#: admin/results.php:43
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: admin/results.php:43
+msgid "Role"
+msgstr "Ρόλος"
+
+#: admin/results.php:43 quizFrontEnd/draw.php:1898
+msgid "Highest Score"
+msgstr "Υψηλότερη βαθμολογία"
+
+#: admin/results.php:43
+msgid "Number of attempts"
+msgstr "Αριθμός προσπαθειών"
+
+#: admin/user_results.php:10
+msgid "Back to user results"
+msgstr "Επιστροφή"
+
+#: admin/user_results.php:27
+msgid "Attempt"
+msgstr "Προσπάθεια"
+
+#: admin/user_results.php:27
+msgid "Attempt Date"
+msgstr "Ημερομηνία προσπάθειας"
+
+#: admin/user_results.php:27
+msgid "Time taken"
+msgstr "Χρόνος"
+
+#: admin/user_results.php:27 quizFrontEnd/draw.php:784
+#: quizFrontEnd/draw.php:820 quizFrontEnd/draw.php:1760
+msgid "Score"
+msgstr "Βαθμολογία"
+
+#: admin/user_results.php:27
+msgid "Breakdown"
+msgstr "Ανάλυση"
+
+#: admin/user_results.php:47
+msgid "Uninished"
+msgstr "Δεν έχει ολοκληρωθεί"
+
+#: admin/user_results.php:55
+msgid "View Answers"
+msgstr "Προβολή απαντήσεων"
+
+#: mce/AI_Quiz_button_popup.php:54
+msgid "Select your Question or Quiz"
+msgstr "Επιλέξτε Ερώτηση ή Εξέταση για εισαγωγή"
+
+#: mce/AI_Quiz_button_popup.php:82
+msgid "No Quizzes found"
+msgstr "Δεν έχουν βρεθεί εξετάσεις"
+
+#: mce/AI_Quiz_button_popup.php:124
+msgid "This Quiz will show:"
+msgstr "Αυτή η εξέταση θα εμφανίσει:"
+
+#: mce/AI_Quiz_button_popup.php:140
+msgid "Insert this quiz"
+msgstr "Εισαγωγή αυτής της εξέτασης"
+
+#: mce/AI_Quiz_button_popup.php:146
+msgid "There are no questions in this quiz."
+msgstr "Δεν υπάρχουν ερωτήσεις σε αυτή την εξέταση"
+
+#: mce/AI_Quiz_button_popup.php:168
+msgid "No questions found in this pot."
+msgstr "Δεν έχουν βρεθεί ερωτήσεις σε αυτόν τον κατάλογο."
+
+#: mce/AI_Quiz_button_popup.php:181
+msgid "Insert this question"
+msgstr "Εισαγωγή αυτής της ερώτησης"
+
+#: quiz-tool-lite.php:101 quiz-tool-lite.php:102
+msgid "Quiz Questions"
+msgstr "Κατάλογος Ερωτήσεων"
+
+#: quiz-tool-lite.php:109 quiz-tool-lite.php:110
+msgid "Quizzes"
+msgstr "Εξετάσεις"
+
+#: quiz-tool-lite.php:116 quiz-tool-lite.php:117
+msgid "Question List"
+msgstr "Λίστα Ερωτήσεων"
+
+#: quiz-tool-lite.php:137 quiz-tool-lite.php:138
+msgid "Results"
+msgstr "Αποτελέσματα"
+
+#: quiz-tool-lite.php:144 quiz-tool-lite.php:145
+msgid "User Results"
+msgstr "Αποτελέσματα Χρηστών"
+
+#: quiz-tool-lite.php:151 quiz-tool-lite.php:152
+msgid "Quiz Breakdown"
+msgstr "Ανάλυση Εξέτασης"
+
+#: quiz-tool-lite.php:158 quiz-tool-lite.php:159
+msgid "Pick Question Type"
+msgstr "Επιλέξτε τύπο Ερώτησης"
+
+#: quiz-tool-lite.php:193 quiz-tool-lite.php:194
+msgid "Edit Grade Boundary"
+msgstr "Επεξεργασία ορίων βαθμολογίας"
+
+#: quizFrontEnd/draw.php:214
+msgid "The quiz is not available until "
+msgstr "Αυτή η εξέταση θα είναι διαθέσιμη από "
+
+#: quizFrontEnd/draw.php:225
+msgid "You need to login before you can take this quiz"
+msgstr "Πρέπει να συνδεθείτε για να μπορέσετε να ξεκινήσετε αυτή την εξέταση"
+
+#: quizFrontEnd/draw.php:236
+msgid "The quiz closed on "
+msgstr "Η εξέταση έκλεισε στις "
+
+#: quizFrontEnd/draw.php:269
+msgid "You can next take this test in "
+msgstr "Μπορείτε να επαναλάβετε αυτή την εξέταση σε "
+
+#: quizFrontEnd/draw.php:294
+msgid "You have exceeded the number of maximum attmempts"
+msgstr "Έχετε υπερβεί τον αριθμό των μέγιστων προσπαθειών"
+
+#: quizFrontEnd/draw.php:302
+msgid "Total number of allowed attempts: "
+msgstr "Συνολικός αριθμός επιτρεπόμενων προσπαθειών : "
+
+#: quizFrontEnd/draw.php:302
+msgid "Number of attempts remaining: "
+msgstr "Αριθμός προσπαθειών που απομένουν : "
+
+#: quizFrontEnd/draw.php:304
+msgid "<b>Please note</b>: Clicking 'refresh' or using the back or forward buttons on your browser after starting the quiz will count as another attempt."
+msgstr "<b>Σημείωση</b>: Κάνοντας κλικ στην επιλογή \"ανανέωση\" ή χρησιμοποιώντας τα κουμπιά \"πίσω\" ή \"εμπρός\" στο πρόγραμμα περιήγησής σας μετά την εκκίνηση της εξέτασης θα μετρηθεί ως μια άλλη προσπάθεια."
+
+#: quizFrontEnd/draw.php:306
+msgid "Click here to start the quiz"
+msgstr "Κάντε κλικ εδώ για να ξεκινήσετε την εξέταση"
+
+#: quizFrontEnd/draw.php:318 quizFrontEnd/draw.php:1814
+msgid "Number of times you have taken this test :"
+msgstr "Αριθμός προσπαθειών σας σε αυτή την εξέταση :"
+
+#: quizFrontEnd/draw.php:318 quizFrontEnd/draw.php:1814
+msgid "Your highest acheaved score: "
+msgstr "Το υψηλότερο σκορ σας : "
+
+#: quizFrontEnd/draw.php:368
+msgid "This quiz will submit in"
+msgstr "Αυτή η εξέταση θα υποβληθεί σε"
+
+#: quizFrontEnd/draw.php:416
+msgid "Submit answers"
+msgstr "Υποβολή απαντήσεων"
+
+#: quizFrontEnd/draw.php:568
+msgid "Sorry! There appears to have been a problem submitting this quiz.<br/>Perhaps you accidently pressed the \"back\" button."
+msgstr "Συγνώμη! Φαίνεται ότι υπήρξε πρόβλημα κατά την υποβολή αυτής της εξέτασης. <br/> Ίσως πατήσατε κατά λάθος το κουμπί \"πίσω\"."
+
+#: quizFrontEnd/draw.php:577
+msgid "Thank you."
+msgstr "Σας ευχαριστούμε."
+
+#: quizFrontEnd/draw.php:577
+msgid "Scroll down to check your answers and final score."
+msgstr "Παρακάτω μπορείτε να δείτε τις απαντήσεις σας και την τελική σας βαθμολογία."
+
+#: quizFrontEnd/draw.php:713
+msgid "Total number of correct anwers:"
+msgstr "Συνολικός αριθμός σωστών απαντήσεων:"
+
+#: quizFrontEnd/draw.php:715
+msgid "Your score on this attempt:"
+msgstr "Η βαθμολογία σας σε αυτή την προσπάθεια:"
+
+#: quizFrontEnd/draw.php:781 quizFrontEnd/draw.php:782
+msgid "A Participant has taken the quiz: "
+msgstr "Ένας εξεταζόμενος ολοκλήρωσε την εξέταση : "
+
+#: quizFrontEnd/draw.php:783 quizFrontEnd/draw.php:819
+msgid "Date Taken: "
+msgstr "Ημερομηνία : "
+
+#: quizFrontEnd/draw.php:785 quizFrontEnd/draw.php:821
+msgid "This message has been generated automatically"
+msgstr "Αυτό το μήνυμα έχει δημιουργηθεί αυτόματα"
+
+#: quizFrontEnd/draw.php:817
+msgid "Quiz name: "
+msgstr "Όνομα εξέτασης : "
+
+#: quizFrontEnd/draw.php:818
+msgid "This e-mail is a receipt of your quiz results for "
+msgstr "Αυτό το email είναι μια σύνοψη των αποτελεσμάτων της εξέτασής σας με τίτλο :  "
+
+#: quizFrontEnd/draw.php:1518
+msgid "Blank "
+msgstr "Κενό "
+
+#: quizFrontEnd/draw.php:1518
+msgid "Possible Correct Answers"
+msgstr "Πιθανές σωστές απαντήσεις"
+
+#: quizFrontEnd/draw.php:1535
+msgid "No answer given"
+msgstr "Δεν έχει δοθεί απάντηση"
+
+#: quizFrontEnd/draw.php:1536
+msgid "Your answer: "
+msgstr "Η απάντησή σας: "
+
+#: quizFrontEnd/draw.php:1648
+msgid "Check Answer"
+msgstr "Έλεγχος Απάντησης"
+
+#: quizFrontEnd/draw.php:1760
+msgid "Finish Date"
+msgstr "Ημερομηνία ολοκλήρωσης"
+
+#: quizFrontEnd/draw.php:1820
+msgid "You have not yet attempted this quiz"
+msgstr "Δεν έχετε καταγεγραμμένες προσπάθειες σε αυτή την εξέταση, προς το παρόν"
+
+#: quizFrontEnd/draw.php:1876
+msgid "Leaderboard"
+msgstr "Πίνακας Βαθμολογίας"
+
+#: quizFrontEnd/draw.php:1898
+msgid "Attempts"
+msgstr "Προσπάθειες"
+
+#: quizFrontEnd/draw.php:1908
+msgid "Anonymous User "
+msgstr "Ανώνυμος Χρήστης "
+
+#: scripts/actions.php:30
+msgid "Question Pot created"
+msgstr "Έχει δημιουργηθεί κατάλογος ερωτήσεων"
+
+#: scripts/actions.php:34 scripts/actions.php:75
+msgid "Question Pot Name cannot be blank"
+msgstr "Το όνομα του καταλόγου ερωτήσεων δεν μπορεί να είναι κενό"
+
+#: scripts/actions.php:70
+msgid "Question Pot Name Edited"
+msgstr "Το όνομα του καταλόγου ερωτήσεων έχει επεξεργαστεί"
+
+#: scripts/draw.php:15
+msgid "Add possible answer"
+msgstr "Προσθήκη πιθανής απάντησης"
+
+#: scripts/draw.php:22
+msgid "Current Possible Answers"
+msgstr "Τρέχουσες πιθανές απαντήσεις"
+
+#: scripts/draw.php:29
+msgid "Answers are NOT case sensitive"
+msgstr "Στις απαντήσεις δεν γίνεται διάκριση πεζών-κεφαλαίων"
+
+#: scripts/draw.php:80
+msgid "Add a new response option"
+msgstr "Προσθέστε μια νέα επιλογή απάντησης"
+
+#: scripts/draw.php:84
+msgid "These responses are shown in a random order"
+msgstr "Αυτές οι απαντήσεις εμφανίζονται με τυχαία σειρά"
+
+#: scripts/draw.php:86
+msgid "Switch to manual ordering"
+msgstr "Μετάβαση σε χειροκίνητη ταξινόμηση"
+
+#: scripts/draw.php:91
+msgid "These responses are displayed in the order shown below"
+msgstr "Αυτές οι απαντήσεις εμφανίζονται με τη σειρά που φαίνεται παρακάτω"
+
+#: scripts/draw.php:93
+msgid "Switch to random ordering"
+msgstr "Μετάβαση σε τυχαία ταξινόμηση"
+
+#: scripts/draw.php:129 scripts/draw.php:279
+msgid "Correct Answer"
+msgstr "Σωστή Απάντηση"
+
+#: scripts/draw.php:137
+msgid "Yes, delete this response"
+msgstr "Ναι, διαγραφή αυτής της απάντησης"
+
+#: scripts/draw.php:196
+msgid "Question Preview"
+msgstr "Προεπισκόπηση ερωτήματος"
+
+#: scripts/draw.php:201
+msgid "Answers are not case sensitive. Separate each valid answer with a comma e.g. \"red, yellow\""
+msgstr "Στις απαντήσεις δεν γίνεται διάκριση πεζών-κεφαλαίων. Διαχωρίστε κάθε έγκυρη απάντηση με κόμμα π.χ. \"κόκκινο κίτρινο\""
+
+#: scripts/draw.php:214
+msgid "answers"
+msgstr "απαντήσεις"
+
+#: scripts/draw.php:215 scripts/draw.php:217
+msgid "correct feedback"
+msgstr "ανατροφοδότηση για σωστή απάντηση"
+
+#: scripts/draw.php:257
+msgid "Possible answer:"
+msgstr "Πιθανή απάντηση:"
+
+#: scripts/draw.php:263
+msgid "The feedback shown next to this response if answered correctly"
+msgstr "Η ανατροφοδότηση που εμφανίζεται δίπλα σε αυτήν την απάντηση αν απαντηθεί σωστά"
+
+#: scripts/draw.php:270
+msgid "The feedback shown next to this response if answered incorrectly"
+msgstr "Η ανατροφοδότηση που εμφανίζεται δίπλα σε αυτήν την απάντηση, αν απαντηθεί λανθασμένα"
+
+#. Plugin Name of the plugin/theme
+msgid "Quiz Tool Lite"
+msgstr "Quiz Tool Lite"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wordpress.org/plugins/quiz-tool-lite/"
+msgstr "https://wordpress.org/plugins/quiz-tool-lite/"
+
+#. Description of the plugin/theme
+msgid "Create questions and quizzes, embed individual questions for formative assessment or deploy entire an quiz"
+msgstr "Δημιουργήστε ερωτήσεις και εξετάσεις, ενσωματώστε μεμονωμένες ερωτήσεις για διαμορφωτική αξιολόγηση ή ολόκληρη εξέταση"
+
+#. Author of the plugin/theme
+msgid "Alex Furr, Lisha Chen Wilson and Simon Ward"
+msgstr "Alex Furr, Lisha Chen Wilson και Simon Ward"
+
+msgid " Optional. Leave blank to return to current page)"
+msgstr " Προαιρετικό. Αφήστε κενό για να επιστρέψετε στην τρέχουσα σελίδα)"
+
+msgid "View results"
+msgstr "Προβολή αποτελεσμάτων"
+
+msgid "Email Settings (optional)"
+msgstr "Ρυθμίσεις Email"
+
+msgid "Score: "
+msgstr "Βαθμολογία : "
+
+msgid "Send Quiz Email Address from this address:"
+msgstr "Αποστολή email εξέτασης από αυτή τη διεύθυνση :"
+
+msgid "Total number of correct anwers: "
+msgstr "Συνολικός αριθμός σωστών απαντήσεων: "
+
+msgid "Your score on this attempt: "
+msgstr "Η βαθμολογία σας σε αυτή τη προσπάθεια: "
+
+msgid "Are you sure you want to delete the question pot"
+msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε την κατάλογος απαντήσεων"
+
+msgid "Options"
+msgstr "Επιλογές"
+
+msgid "Are you sure you want to delete question "
+msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε την ερώτηση "
+
+msgid "Are you sure you want to delete the question pot<br>"
+msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε την κατάλογος ερωτήσεων;<br>"
+
+msgid "This will delete all questions in this pot and cannot be undone!</span><br/><br/>"
+msgstr "Αυτή η ενέργεια θα διαγράψει όλες τις ερωτήσεις σε αυτή την κατάλογος θεμάτων και δεν μπορεί να αναιρεθεί!</span><br/><br/>"
+
+msgid "Quiz Deleted"
+msgstr "Η εξέταση έχει διαγραφεί"
+
+msgid "Are you sure you want to delete quiz: "
+msgstr "Είστε σίγουρος/η πως θέλετε να διαγράψετε την εξέταση : "
+
+msgid "Question Listqtl"
+msgstr "Λίστα ερωτήσεων"
+
+msgid "This quiz will submit in:<br/>"
+msgstr "Αυτή η εξέταση θα υποβληθεί σε:<br/>"
+
+msgid "Pick a different quiz"
+msgstr "Επιλογή διαφορετικής εξέτασης"
+
+msgid "Total Right"
+msgstr "Συνολικά σωστά"
+
+msgid "Return to my quizzes"
+msgstr "Επιστροφή"
+
+msgid "Username : "
+msgstr "Όνομα χρήστη : "
+
+msgid "(advanced)"
+msgstr "(για προχωρημένους)"
+
+msgid "Blank"
+msgstr "Κενό"
+
+msgid "Your Response"
+msgstr "Οι απανήσεις σας"
+
+msgid "None given"
+msgstr "Δεν δώθηκε καμία"
+
+msgid "Export user results as CSV"
+msgstr "Εξαγωγή αποτελεσμάτων χρήστη ως CSV"
+
+msgid "Export exam results as CSV"
+msgstr "Εξαγωγή αποτελεσμάτων εξέτασης ως CSV"
+
+msgid "Student"
+msgstr "Εξεταζόμενος"
+
+msgid "Exam"
+msgstr "Εξέταση"
+
+msgid "Attempt_Num"
+msgstr "Αρ_Προσπάθειας"
+
+msgid "Time"
+msgstr "Χρόνος"
+
+msgid "Result"
+msgstr "Αποτέλεσμα"
+
+msgid "Attempts_Num"
+msgstr "Αρ_Προσπαθειών"
+
+msgid "Last_attemmpt"
+msgstr "Τελευταία_Προσπάθεια"
+
+msgid "Max_score"
+msgstr "Μεγ_Βαθμολογία"
+
+msgid "Are you sure you want to delete this option?"
+msgstr "Είσαστε σίγουρος/η πώς θέλετε να διαγραφεί η επιλογή σας;"

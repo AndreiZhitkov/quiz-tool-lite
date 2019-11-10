@@ -3,13 +3,8 @@
 Contributors: alexfurr, lcw102, simon.ward
 Tags: academic, assessment, formative, quiz, questions
 Requires at least: 3.0.1
-<<<<<<< HEAD
-Tested up to: 4.9.7
-Stable tag: 2.5.2
-=======
-Tested up to: 4.9.x
-Stable tag: 2.5.2
->>>>>>> c383c380cdf57eff794506d189b0e2d92178a1d4
+Tested up to: 5.2.3
+Stable tag: 2.7.
 
 A light weight quiz tool aimed at academics wanting to create interactive learning content. Insert a single question or deploy an entire quiz.
 
@@ -35,6 +30,9 @@ It also handles summative assessment if you wish to deploy an entire quiz.
 - Export / import questions from one WP site to another
 - Can display participants responses to previously submitted reflective questions on different pages
 - Display scoreboards of quizzes on a page using a shortcode
+- Export Quiz results to an i18n CSV file
+- Export USer results to an i18n CSV file
+
 
 **Quiz Options**
 
@@ -94,15 +92,25 @@ Yes, but results won't be stored in the database
 
 == Changelog ==
 
-<<<<<<< HEAD
-= 2.5.2 =
-* divide by zero bug fixed
-=======
+= 2.7.0 = 
+* Addition of user results export functionality
+* Addition of exam results export functionality
+* i18n for file exports
+* el_GR Help system
+
+= 2.6.0 = 
+* Internationalisation of email system (replacement of hardcoded strings with proper i18n strings)
+* Internationalisation of fill in blanks type questions (replacement of hardcoded strings with proper i18n strings)
+* Fixed faulty methods in fill in blanks type questions
+* Fixed bugs in quiz frontend (draw.php)
+* Added Greek Translation
+* Fixed bugs in tinyMCE plugin (AI_Quiz_button_popup.php)
+* Compatibility fixes for PHP 7.3.x and WordPress 5.2.x
+
 = 2.5.1 =
 * Compatibility with WP 4.8.2
-=======
+
 = 2.5.0 =
->>>>>>> c383c380cdf57eff794506d189b0e2d92178a1d4
 * Reorganaized help system for localizations
 * Misc. improvements
 

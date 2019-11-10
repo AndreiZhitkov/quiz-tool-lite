@@ -6,8 +6,7 @@
 <?php _e('Create a new question pot','qtl') ?>
 </a>
 	<div id="newPotDiv" style="display:none; padding-top:5px;">
-	<input type="text" name="potName" id="potName" placeholder="
-	<?php _e('Enter Quiz Name','qtl') ?>"  style="width:250px"/>
+	<input type="text" name="potName" id="potName" placeholder="<?php _e('Enter Quiz Name','qtl') ?>"  style="width:250px"/>
 	<input type="submit" value="<?php _e('Create a new question pot','qtl') ?>" class="button-secondary"/>
 	</div>
 </form>
